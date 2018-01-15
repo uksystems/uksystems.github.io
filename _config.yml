@@ -17,8 +17,6 @@ kramdown:
   hard_wrap: false
   syntax_highlighter: coderay
 
-github: [metadata]
-
 ## my configuration
 exclude: [Makefile, README.md]
 include: [.well-known]
