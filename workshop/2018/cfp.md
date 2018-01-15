@@ -32,8 +32,9 @@ Key Dates
 - Acceptance notification and talk programme: February 28, 2018
 - Workshop dates: arrival evening March 21, closing with lunch March 23, 2018
 
-Costs (tentative), including accommodation and meals
-----------------------------------------------------
+Costs
+-----
+Tentative, including accommodation and meals:
 - Current students: free, thanks to generous donations from Microsoft Research
 - Others: £100, subsidised thanks to generous donations from RedHat
 
