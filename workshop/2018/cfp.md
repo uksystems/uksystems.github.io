@@ -5,6 +5,7 @@ layout: default
 
 #                     Call for Presentations & Participation
 #              Third Annual UK Systems Research Challenges Workshop
+#                              March 21-23, 2018
                ====================================================
 
 We invite you to submit 500 word / 0.5 page abstracts (PDF or plain text) of work for presentation at the next UK Systems Research Challenges workshop. In most cases the main points to include in the abstract are the problem being solved, the new idea or hypothesis being explored in your work, and the current state of the project (e.g., whether you are looking for feedback on an early idea, or presenting finished results that others might want to use).
