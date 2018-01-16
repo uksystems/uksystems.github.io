@@ -3,8 +3,9 @@ title: Workshop CFP, 2018
 layout: default
 ---
 
-CFP: Third Annual UK Systems Research Challenges Workshop
-=========================================================
+#                     Call for Presentations & Participation
+#              Third Annual UK Systems Research Challenges Workshop
+               ====================================================
 
 We invite you to submit 500 word / 0.5 page abstracts (PDF or plain text) of work for presentation at the next UK Systems Research Challenges workshop. In most cases the main points to include in the abstract are the problem being solved, the new idea or hypothesis being explored in your work, and the current state of the project (e.g., whether you are looking for feedback on an early idea, or presenting finished results that others might want to use).
 
@@ -29,14 +30,14 @@ Location
 Key Dates
 ---------
 - Abstract submission deadline: February 7, 2018
-- Acceptance notification and talk programme: February 28, 2018
+- Acceptance notification and presentation programme: February 28, 2018
 - Workshop dates: arrival evening March 21, closing with lunch March 23, 2018
 
 Costs
 -----
 Tentative, including accommodation and meals:
 - Current students: free, thanks to generous donations from Microsoft Research
-- Others: £100, subsidised thanks to generous donations from RedHat
+- Others: £100, subsidised thanks to generous donations from Red Hat
 
 Co-Chairs
 ---------
@@ -51,14 +52,13 @@ Programme Committee
 - Tim Harris, <tim.harris@gmail.com>
 - Heidi Howard, <heidi.howard@cl.cam.ac.uk>, Cambridge University
 - Frédéric Le Mouël, <frederic.le-mouel@insa-lyon.fr>, INSA Lyon
-- Mark Little, <mlittle@redhat.com>, RedHat
+- Mark Little, <mlittle@redhat.com>, Red Hat
 - Julie McCann, <jamm@imperial.ac.uk>, Imperial College
 - Omer Rana, <ranaof@cardiff.ac.uk>, Cardiff University
 - Michele Sevegnani, <michele.sevegnani@glasgow.ac.uk>,  Glasgow University
 - Andy Stanford Clark, <andy@stanford-clark.com>, IBM
 
-Please check back after January 18 for the link to the submission site, or email
-[Dr Richard Mortier](mailto:richard.mortier@cl.cam.ac.uk).
+Please check [our website](https://sys-uk.github.io/workshop/2018/cfp/) after January 18 for the link to the submission site, or else email [Dr Richard Mortier](mailto:richard.mortier@cl.cam.ac.uk).
 
 For any other questions or queries, please contact [Dr Richard Mortier](mailto:richard.mortier@cl.cam.ac.uk).
 
