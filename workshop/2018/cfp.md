@@ -57,7 +57,7 @@ Programme Committee
 - Julie McCann, <jamm@imperial.ac.uk>, Imperial College
 - Omer Rana, <ranaof@cardiff.ac.uk>, Cardiff University
 - Michele Sevegnani, <michele.sevegnani@glasgow.ac.uk>,  Glasgow University
-- Andy Stanford Clark, <andy@stanford-clark.com>, IBM
+- Andy Stanford Clark, <andysc@uk.ibm.com>, IBM
 
 Please check [our website](https://sys-uk.github.io/workshop/2018/cfp/) after January 18 for the link to the submission site, or else email [Dr Richard Mortier](mailto:richard.mortier@cl.cam.ac.uk).
 
