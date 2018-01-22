@@ -58,8 +58,7 @@ Programme Committee
 - Michele Sevegnani, <michele.sevegnani@glasgow.ac.uk>,  Glasgow University
 - Andy Stanford Clark, <andysc@uk.ibm.com>, IBM
 
-Please check [our website](https://sys-uk.github.io/workshop/2018/cfp/) after January 18 for the link to the submission site, or else email [Dr Richard Mortier](mailto:richard.mortier@cl.cam.ac.uk).
-
-For any other questions or queries, please contact [Dr Richard Mortier](mailto:richard.mortier@cl.cam.ac.uk).
+Please submit abstracts to <https://hotcrp.sysws.org.uk>, or contact [Dr
+Richard Mortier](mailto:richard.mortier@cl.cam.ac.uk) with any questions
 
 We look forward to seeing you in March!

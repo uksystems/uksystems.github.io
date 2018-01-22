@@ -13,14 +13,15 @@ edge and mobile computing to datacenter and the cloud. If your work has bearing
 on how we should go about building practical computer systems, it's of interest!
 
 We are now putting together the [third iteration of an informal workshop for the
-community](/workshop/2018), scheduled for March 21---23, 2018, where we can
-discuss work addressing current and future challenges in systems computing. With
-that in mind, we have a [Call for Papers][cfp] up inviting short 0.5pp / 500
-word abstracts for presentation. Submission details will be added soon. Both UK
-and international participants are very welcome, and we particularly hope to
-receive submissions from Ph.D. students and early career researchers.
+community](/workshop/2018), scheduled for March 21---23, 2018 in Northumberland,
+where we can discuss work addressing current and future challenges in systems
+computing. With that in mind, we have a [Call for Papers][cfp] up inviting short
+0.5pp / 500 word abstracts for presentation. Both UK and international
+participants are very welcome, and we particularly hope to receive submissions
+from Ph.D. students and early career researchers.
 
-So-- if you have an interest in systems research please do consider submitting!
+So-- if you have an interest in systems research [please do consider
+submitting](https://hotcrp.sysws.org.uk/)!
 
 Brief details of previous workshops are [available here](/workshop).
 
