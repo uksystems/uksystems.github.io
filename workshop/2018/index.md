@@ -1,5 +1,5 @@
 ---
-title:
+title: Third Annual UK System Research Challenges Workshop, 2018
 layout: default
 ---
 
