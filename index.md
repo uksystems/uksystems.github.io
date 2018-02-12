@@ -20,6 +20,9 @@ computing. With that in mind, we have a [Call for Papers][cfp] up inviting short
 participants are very welcome, and we particularly hope to receive submissions
 from Ph.D. students and early career researchers.
 
+**_DEADLINE EXTENDED!_ By popular request, the submission deadline has been
+extended to 23:59 Saturday February 17th. Please do consider submitting via <https://hotcrp.sysws.org.uk/>!**
+
 So-- if you have an interest in systems research [please do consider
 submitting](https://hotcrp.sysws.org.uk/)!
 

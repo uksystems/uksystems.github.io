@@ -9,9 +9,12 @@ A brief report will be posted here after the workshop.
 
 The full Call for Papers and Participation is [available here](cfp).
 
+**_DEADLINE EXTENDED!_ To Feburary 17, 2018 -- Please do consider submitting via
+<https://hotcrp.sysws.org.uk/>.**
+
 Key Dates
 ---------
-- Abstract submission deadline: February 7, 2018
+- Abstract submission deadline: ~~February 7, 2018~~ **February 17, 2018**
 - Acceptance notification and talk programme: February 28, 2018
 - Workshop dates: arrival evening March 21, closing with lunch March 23, 2018
 

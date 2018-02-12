@@ -7,6 +7,9 @@ layout: default
 #              Third Annual UK Systems Research Challenges Workshop
 #                              March 21-23, 2018
 
+**_DEADLINE EXTENDED!_ To Feburary 17, 2018 -- Please do consider submitting via
+<https://hotcrp.sysws.org.uk/>.**
+
 We invite you to submit 500 word / 0.5 page abstracts (PDF or plain text) of work for presentation at the next UK Systems Research Challenges workshop. In most cases the main points to include in the abstract are the problem being solved, the new idea or hypothesis being explored in your work, and the current state of the project (e.g., whether you are looking for feedback on an early idea, or presenting finished results that others might want to use).
 
 This is the third iteration of a new workshop bringing together systems researchers from across the UK and beyond, to discuss pressing topics affecting the design and implementation of large-scale systems in a friendly and inclusive setting. We're interested in presentations that speak to:
@@ -29,7 +32,7 @@ Location
 
 Key Dates
 ---------
-- Abstract submission deadline: February 7, 2018
+- Abstract submission deadline: ~~February 7, 2018~~ **February 17, 2018**
 - Acceptance notification and presentation programme: February 28, 2018
 - Workshop dates: arrival evening March 21, closing with lunch March 23, 2018
 
