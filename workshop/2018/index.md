@@ -23,6 +23,9 @@ Note that this is not a shuttle service but a single coach in each direction.
 For those travelling on from Newcastle after the workshop by train, we would
 suggest booking a train after 15:30 to allow for delays.
 
+Thanks to generous contributions from our sponsors, accommodation will be
+included in the registration fee (free for students, £100 otherwise).
+
 [venue]: http://www.macdonaldhotels.co.uk/our-hotels/macdonald-linden-hall-golf-country-club/
 [ncl]: https://goo.gl/maps/4wEvgUFHr6L2
 
