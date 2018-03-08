@@ -8,6 +8,10 @@ layout: default
 A brief report will be posted here after the workshop. The full Call for Papers
 and Participation is [available here](cfp).
 
+[Click
+here](https://webstore.ncl.ac.uk/conferences-and-events/-conferences-events/faculty-of-science-agriculture-engineering/digital-institute/third-annual-uk-systems-research-challenges-workshop)
+to register to attend.
+
 ## Location & Transport
 
 The workshop will be held at the [Macdonald Linden Hall Golf & Country Club,
@@ -96,7 +100,7 @@ Short (5 minute) talks on any relevant topic. Contact [Aleksandar Dragojevic][al
 
 [aleks]: mailto:alekd@microsoft.com
 
-### Friday Mar23
+### Friday, March 23
 
 **09:00-10:20** _Formal Methods & IoT_
 - "**Formal Verification of Spacecraft Control Programs Using a Metalanguage for
