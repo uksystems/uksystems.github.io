@@ -37,6 +37,8 @@ included in the registration fee (free for students, £100 otherwise).
 
 ### Wednesday, March 21
 
+**17:00** Coach leaves the [Urban Sciences Building, Newcastle][ncl]
+
 **18:00** Check-in at [Linden Hall][venue]
 
 **18:30 for 19:00** Dinner
@@ -133,7 +135,7 @@ Short (5 minute) talks on any relevant topic. Contact [Aleksandar Dragojevic][al
 
 **12:20-13:20** Lunch
 
-**13:45** Coach departs for [Newcastle][ncl]
+**13:45** Coach departs for the [Urban Sciences Building, Newcastle][ncl]
 
 ## Sponsors
 
