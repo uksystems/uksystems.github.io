@@ -83,11 +83,11 @@ included in the registration fee (free for students, £100 otherwise).
 
 **15:20-15:50** Coffee
 
-**15:50-17:30** _Unikernels & Containers_
+**15:50-17:10** _Unikernels & Containers_
 - "**Towards Tiny Trustworthy Enclaves for Unikernels**", Zahra Tarkhani, Anil
   Madhavapeddy (University of Cambridge)
-- "**Building systems with Rust: Lessons learned**", Marco Caballero (University
-  of Cambridge)
+- (_withdrawn_) ~~_"**Building systems with Rust: Lessons learned**", Marco
+  Caballero (University of Cambridge)_~~
 - "**Unikernel support for the deployment of light-weight, self-contained, and
   latency avoiding services**", Ward Jaradat, Alan Dearle, Jonathan Lewis
   (University of St Andrews)
