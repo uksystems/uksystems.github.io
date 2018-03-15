@@ -37,6 +37,9 @@ included in the registration fee (free for students, £100 otherwise).
 
 ### Wednesday, March 21
 
+**16:45** Please report to the ground floor reception of the [Urban Sciences
+Building, Newcastle][ncl]
+
 **17:00** Coach leaves the [Urban Sciences Building, Newcastle][ncl]
 
 **18:00** Check-in at [Linden Hall][venue]
