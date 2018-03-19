@@ -130,9 +130,9 @@ Short (5 minute) talks on any relevant topic. Contact [Aleksandar Dragojevic][al
   Al-Bassam, Bano Shehar, George Danezis (University College London)
 - "**Towards Efficient Scheduling for Long Running Applications**", Panagiotis
   Garefalakis, Jana Giceva, Peter Pietzuch (Imperial College London)
-- "**Resource Management in Large Scale Data Centres Using Machine Learning and
-  Distributed Optimisation**", Javad Zarrin, Evangelia Kalyvianaki (University
-  of Cambridge)
+- (_withdrawn_) ~~"**Resource Management in Large Scale Data Centres Using
+  Machine Learning and Distributed Optimisation**", Javad Zarrin, Evangelia
+  Kalyvianaki (University of Cambridge)~~
 
 **12:10-12:20** Wrap-up
 
