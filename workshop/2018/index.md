@@ -48,9 +48,9 @@ Building, Newcastle][ncl]
 
 ### Thursday, March 22
 
-**09:00-09:20** Welcome & Intro
+09:00-09:20 **Welcome & Intro** (_Paul Watson_, _Richard Mortier_)
 
-**09:20-11:00** _Networking & Cloud_
+09:20-11:00 **Networking & Cloud** (_Derek McAuley_)
 - "**P4Debug: A Framework for Debugging Programmable Data Planes**", Pietro
   Bressana (Universita' della Svizzera italiana), Robert Soulé (Universita'
   della Svizzera italiana, Barefoot Networks), Noa Zilberman (University of
@@ -63,9 +63,9 @@ Building, Newcastle][ncl]
 - "**ABC: Adaptive Brokerage for the Cloud**", Abdessalam Elhabbash, Yehia
   Elkhatib, Gordon Blair (Lancaster University)
 
-**11:00-11:30** Coffee
+11:00-11:30 Coffee
 
-**11:30-12:30** _Applications & Data Science_
+11:30-12:30 **Applications & Data Science** (_Mark Little_)
 - "**Visualizing Urban IoT Using Cloud Supercomputing**", Nicolas Holliman, Manu
   Antony, Stephen Dowsland, Mark Turner (Newcastle University)
 - "**Intelligent applications on OpenShift from prototype to production**",
@@ -73,9 +73,9 @@ Building, Newcastle][ncl]
 - "**And what would you do with ten thousand Raspberry Pis?**", Jeremy Singer,
   Anna Lito, Michala Herry Herry (University of Glasgow)
 
-**12:30-14:00** Lunch
+12:30-14:00 Lunch
 
-**14:00-15:20** _Hardware_
+14:00-15:20 **Hardware** (_Andy Stanford Clark_)
 - "**Efficient Cross-architecture Hardware Virtualisation**", Tom Spink
   (University of Edinburgh)
 - "**Systems in an Era of Custom Hardware**", Aleksandar Dragojevic, Junyi Liu
@@ -84,9 +84,9 @@ Building, Newcastle][ncl]
   University of Edinburgh)
 - "**Can you trust your I/O?**", A. Theodore Markettos (University of Cambridge)
 
-**15:20-15:50** Coffee
+15:20-15:50 Coffee
 
-**15:50-17:10** _Unikernels & Containers_
+15:50-17:10 **Unikernels & Containers**
 - "**Towards Tiny Trustworthy Enclaves for Unikernels**", Zahra Tarkhani, Anil
   Madhavapeddy (University of Cambridge)
 - (_withdrawn_) ~~_"**Building systems with Rust: Lessons learned**", Marco
@@ -97,9 +97,9 @@ Building, Newcastle][ncl]
 - "**Containerizing Middleware Applications**", Jonathan Dowland (Red Hat)
 - "**There and back again: a microservices tale**", Mark Little (Red Hat)
 
-**19:00-21:00** Dinner
+19:00-21:00 Dinner
 
-**21:00-22:00** _Lightning Talks_
+21:00-22:00 **Lightning Talks** (_Aleksandar Dragojevic_)
 
 Short (5 minute) talks on any relevant topic. Contact [Aleksandar Dragojevic][aleks] to offer a title.
 
@@ -107,7 +107,7 @@ Short (5 minute) talks on any relevant topic. Contact [Aleksandar Dragojevic][al
 
 ### Friday, March 23
 
-**09:00-10:20** _Formal Methods & IoT_
+09:00-10:20 **Formal Methods & IoT**
 - "**Formal Verification of Spacecraft Control Programs Using a Metalanguage for
   State Transformers**", Andrey Mokhov, Georgy Lukyanov (Newcastle University),
   Jakob Lechner (RUAG Space Austria GmbH)
@@ -119,9 +119,9 @@ Short (5 minute) talks on any relevant topic. Contact [Aleksandar Dragojevic][al
 - "**Holistic, Distributed Stream Processing in IoT Environments**", Peter
   Michalák, Sarah Heaps, Michael Trenell, Paul Watson (Newcastle University)
 
-**10:20-10:50** Coffee
+10:20-10:50 Coffee
 
-**10:50-12:10** _Blockchain & Edge_
+10:50-12:10 **Blockchain & Edge**
 - "**Modern key distribution with ClaimChain**", Bogdan Kulynych (École
   polytechnique fédérale de Lausanne), Marios Isaakidis (University College
   London), Carmela Troncoso (École polytechnique fédérale de Lausanne), George
@@ -134,11 +134,11 @@ Short (5 minute) talks on any relevant topic. Contact [Aleksandar Dragojevic][al
   Machine Learning and Distributed Optimisation**", Javad Zarrin, Evangelia
   Kalyvianaki (University of Cambridge)~~
 
-**12:10-12:20** Wrap-up
+12:10-12:20 **Wrap-up**
 
-**12:20-13:20** Lunch
+12:20-13:20 Lunch
 
-**13:45** Coach departs for the [Urban Sciences Building, Newcastle][ncl]
+13:45 **Coach departs** for the [Urban Sciences Building, Newcastle][ncl]
 
 ## Sponsors
 
