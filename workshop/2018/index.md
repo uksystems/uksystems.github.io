@@ -86,7 +86,7 @@ Building, Newcastle][ncl]
 
 15:20-15:50 Coffee
 
-15:50-17:10 **Unikernels & Containers**
+15:50-17:10 **Unikernels & Containers** (_Paul Watson_)
 - "**Towards Tiny Trustworthy Enclaves for Unikernels**", Zahra Tarkhani, Anil
   Madhavapeddy (University of Cambridge)
 - (_withdrawn_) ~~_"**Building systems with Rust: Lessons learned**", Marco
