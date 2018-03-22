@@ -121,7 +121,7 @@ Short (5 minute) talks on any relevant topic. Contact [Aleksandar Dragojevic][al
 
 10:20-10:50 Coffee
 
-10:50-12:10 **Blockchain & Edge**
+10:50-12:10 **Blockchain & Edge** (_Julie McCann_)
 - "**Modern key distribution with ClaimChain**", Bogdan Kulynych (École
   polytechnique fédérale de Lausanne), Marios Isaakidis (University College
   London), Carmela Troncoso (École polytechnique fédérale de Lausanne), George
