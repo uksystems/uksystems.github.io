@@ -55,8 +55,12 @@ Building, Newcastle][ncl]
   Bressana (Universita' della Svizzera italiana), Robert Soulé (Universita'
   della Svizzera italiana, Barefoot Networks), Noa Zilberman (University of
   Cambridge)
+  [[abstract](11-bressana-p4debug.txt)]
+  [[pdf](11-bressana-p4debug.pdf)]
 - "**Another heavy hitter detection problem**", Salvator Galea, Gianni Antichi
   (University of Cambridge)
+  [[abstract](12-galea-heavyhitters.txt)]
+  [[pdf](12-galea-heavyhitters.pdf)]
 - "**Load Balancing Real-Time Physics for Cloud Based Video Game Delivery**",
   Alexander Brown, Graham Morgan (Newcastle University)
 - "**FaRM and MVCC**", Alex Shamis (Microsoft Research)
@@ -70,6 +74,8 @@ Building, Newcastle][ncl]
   Antony, Stephen Dowsland, Mark Turner (Newcastle University)
 - "**Intelligent applications on OpenShift from prototype to production**",
   Rebecca Simmonds, Mike McCune (Red Hat)
+  [[abstract](22-simmonds-openshift.txt)]
+  [[pdf](22-simmonds-openshift.pdf)]
 - "**And what would you do with ten thousand Raspberry Pis?**", Jeremy Singer,
   Anna Lito, Michala Herry Herry (University of Glasgow)
 
@@ -95,6 +101,9 @@ Building, Newcastle][ncl]
   latency avoiding services**", Ward Jaradat, Alan Dearle, Jonathan Lewis
   (University of St Andrews)
 - "**Containerizing Middleware Applications**", Jonathan Dowland (Red Hat)
+  [[abstract](43-dowland-middleware.txt)]
+  [[pdf](43-dowland-middleware.pdf)]
+  [[ascii](43-dowland-middleware-ascii.txt)]
 - "**There and back again: a microservices tale**", Mark Little (Red Hat)
 
 19:00-21:00 Dinner

@@ -1,0 +1,43 @@
+Submission #25: Another heavy hitter detection problem
+======================================================
+
+Authors
+-------
+1. Salvator Galea <salvator.galea@cl.cam.ac.uk> (University of Cambridge)
+2. Gianni Antichi (University of Cambridge)
+
+Abstract
+--------
+
+Monitoring network traffic based on flows can be beneficial for many network
+management applications. By identifying the amount of traffic, these flows
+contribute to the link, we can define them as heavy hitters. Consequently, by
+monitoring them we can apply traffic engineering to relief the network from
+congestion or detect network attacks (DoS).
+
+The two common technics that they have been applied to this problem, is packet
+sampling and counter-based/sketching algorithms. This preliminary work aims to
+diagnose if the size of time window, used in the counter-based/sketching
+algorithms, has an impact on the results of identifying the heavy hitters. A
+technique, which is configured to monitor time windows for detecting heavy
+hitters, may report different results based on the window’s size. This arise
+from the fact that counter-based/sketching algorithms have limited number of
+memory resources to use and store all the flows identifiers. In addition to
+that, they have to periodically flush this information from the counters in
+order to continue detecting new flows and heavy hitters.
+
+A new approach would be to apply the existing time decaying models for
+streaming. In this case, there will be a sliding time window, instead of
+predefined fixed size window, which will be able to keep historical data for the
+heavy hitters without the need of flushing them periodically. The main idea is
+not to maintain counters (number of packets) for every top-k flow (heavy hitter)
+but to focus on the relevant frequency of each packet of them. This introduces
+the feature to increment or decay the importance of a specific flow based on its
+frequency instead of its number of packet for a specific time window.
+
+The current state of this work is to analyze network traces from three of the
+data centers studied in the IMC 2010 paper titled “Network Traffic
+Characteristics of Data Centers in the Wild “. This analysis will prove that
+selecting a size for the time window is crucial for the results of identifying
+heavy hitters. Therefore, it would be very useful to have some feedback for this
+early idea.

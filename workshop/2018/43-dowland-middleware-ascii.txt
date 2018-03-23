@@ -1,0 +1,237 @@
+┌──────────────────────────────────────────┐
+│                                          │
+│                                          │
+│                                          │
+│    Containerizing Middleware             │
+│    Applications                          │  I am a senior software engineering at
+│                                          │  Red Hat. For the last three years I have
+│                                          │  been working as part of a team called Cloud
+│                                          │  Enablement. Our goal has been to prepare
+│    Jonathan Dowland                      │  "containerized" versions of our existing
+│    Red Hat                               │  middleware products, such as RH JB EAP,
+│    2018-03-22                            │  for use on Red Hat OpenShift, our container
+│                                          │  orchestration platform.
+│                                          │
+└──────────────────────────────────────────┘
+
+┌──────────────────────────────────────────┐  To make sure everyone is on the same page,
+│                                          │  I'll go through some definitions. Containers
+│                                          │  are extremely popular at the moment, but the
+│   Definitions & technologies             │  term "container" is a little ambiguous and
+│                                          │  under-specified. For our purposes, a container
+│   . Container                            │  is a "package" of software, much like a ZIP or
+│     . Docker                             │  an RPM file, combined with some metadata that
+│   . Orchestration                        │  defines an execution context. For example: how
+│     . Kubernetes                         │  do you start the program? Should the execution
+│   . OpenShift                            │  engine expose the running application to the
+│                                          │  network? etc.
+│                                          │
+│                                          │  Docker is an extremely popular engine for managing
+│                                          │  individual containers, and deserves recognition 
+└──────────────────────────────────────────┘  for popularizing containers by making it quite easy
+to build, share and run "images". (we refer to a static copy of a container as
+an Image, and a running instance of an image as a Container).
+
+Running a single container on its own is not that exciting, and for real world work loads
+we need to consider managing many containers at once, perhaps a great deal of them. This
+has become known as "container orchestration", and the most well-known software for that
+is Kubernetes, originally from Google. Kubernetes actually predates Docker, and was written
+as a re-write of another, earlier, internal Google system called Borg. Kubernetes has thrived
+as an open source project with dozens of companies contributing to it, not least Red Hat (2nd
+biggest contributor behing Google)
+
+Finally OpenShift is Red Hat's enterprise container management platform, based on Kubernetes,
+but adding a lot of other features, such as
+
+    * Projects for grouping and security, allowing multi-tenant
+    * Routing (public service addresses and routing rules into a cluster)
+    * Source To Image (S2I) for build automation
+
+┌──────────────────────────────────────────┐  I'm going to stick to EAP for examples as I go
+│ First Steps                              │  through the talk. Docker images are built in
+│ -----------                              │  layers. Each layer inherits from the layer below
+│                                          │  meaning we some re-use by single inheritance. The
+│ Inheritance heirarchy                    │  original design of our inheritance heirarchy was
+│                                          │  as follows. We start with the base RH Enterprise
+│   RHEL → "base"                          │  Linux image (of course). We then pushed some of
+│        → "base jdk"                      │  the most common configuration steps for all our
+│        → Standalone                      │  products down in the next layer, which we called
+│        → OpenShift                       │  "base". At this time, not all of the products we
+│                                          │  looked after were built on top of Java. Thus, we
+│                                          │  separated Java-specific stuff (including installing)
+│                                          │  the JDK) into the next layer, "base-JDK". Finally,
+│                                          │  we split the packaging of each product into a top
+└──────────────────────────────────────────┘  and bottom half: the bottom "standalone" layer did
+the minimum amount of reconfiguration necessary so that the product could be started up in a
+Docker container.
+
+The top "openshift" layer adds a lot of scripts that customize the container for use with
+OpenShift. These are split into those scripts that are executed at image Build time and
+those that are run at container run-time, essentially as wrapper scripts that perform set
+up prior to launching the actual product.
+
+All of our container image source files (Dockerfiles and related) began life co-located in a single
+git repository.
+
+┌──────────────────────────────────────────┐  The design of docker promotes the use of image layers
+│ Dockerfile example                       │  to such an extent that each line in a Dockerfile actually
+│ ------------------                       │  creates a completely separate image, that can be pulled,
+│                                          │  pushed or executed independently.
+│ FROM jboss-base-7/jdk8:1.2               │
+│ ENV JBOSS_IMAGE_VERSION=1.2              │  however in practice, having too many layers exposes a lot
+│ …                                        │  of problems with using images. There are a variety of 
+│ ADD some-script.sh /tmp                  │  different storage back-ends that you can use with Docker,
+│ USER 0                                   │  but many suffer performance issues (or worse) with lots
+│ RUN chmod +x /tmp/some-script.sh \       │  of layers. In the short term, people try to work around 
+│  && /tmp/some-script.sh          \       │  this by using constructions like this ← at the expense of
+│  && rm /tmp/some-script.sh       \       │  legibility.
+│ USER jboss                               │
+│ …                                        │  The RUN command is essentially a shell script, and lots of
+└──────────────────────────────────────────┘  configuration in practise began life as a single or series
+of RUN instructions, before becoming too big and unwieldy and being moved out into an external shell script.
+One then has to copy that into the image and run it, then finally remove it again. We ended up having a
+string of such scripts, that needed to be executed in a certain sequence, with interleaved USER instructions
+to switch to and from the superuser as appropriate.
+
+┌──────────────────────────────────────────┐  Many real-world problems with deploying resilient or distributed
+│ Enterprise software in a                 │  systems are addressed at the container or orchestration layer in
+│     microservices world                  │  the microservices architecture. However, many of them have been
+│                                          │  addressed already in the enterprise middleware we are trying to
+│                                          │  package. When integrating them,we generally have two approaches.
+│  • turning features off                  │
+│  • integrating features                  │  The first is disable the feature in the middleware product. For
+│  • runtime configuration                 │  example, JBoss EAP has a "domain mode" feature, for integrated
+│                                          │  management of multiple EAP nodes from a single management point.
+│                                          │  For the OpenShift containers, that central management point is OS,
+│                                          │  so we do not configure the feature in EAP.
+│                                          │
+│                                          │  The second is to integrate the two. Kubernetes has a notion of
+│                                          │  "liveness" and "readiness" probes; entrypoints into containers
+└──────────────────────────────────────────┘  to query the status and see if the container is still alive, or
+ready to accept work. These are natural places to integrate similar features in the products we are packaging.
+
+We perform a substantial amount of container configuration at run time. This is achieved via shell scripts
+that are invoked when the container starts, perform configuration steps, and then launch the product in turn.
+OpenShift users configure containers by defining environment variables. This is all nicely done in the OpenShift
+UI: you select an image from the container catalogue, and then specify parameters in a web form. These are turned
+into environment variables that are accessible to the container once it has started.
+
+In turn, our configuration shell scripts typically inspect the environment then generate large snippets of
+configuration file, normally XML, before injecting those into the product's configuration files, prior to
+launching the product.
+
+This is a bit icky to write and maintain. In the case of some products, there are nicer approaches available.
+For example, with EAP 7 and up, it is possible to invoke the JBOSS CLI to perform configuration steps via
+command-line switches. This is capable of making hte necessary configuration alterations. However, this approach
+is not available for earlier verisons of EAP nor necessarily applicable to the other products we look after,
+so we still have the shell script approach for those, and we opted to keep it for all products for the sake
+of consistency and maintenance.
+
+┌──────────────────────────────────────────┐
+│ Sharing scripts via inheritance          │  Here's a diagram showing the image heirarchy we ended up with.
+│ -------------------------------          │  As I said, our original design was to have a common base image,
+│        0                                 │  and each product had a standalone layer and then the openshift
+│       /                                  │  layer. An unintended consequence of this decision was that we
+│    O-O    <tree diagram of images>       │  don't have a common base layer just for our openshift images:
+│  O<    O                                 │  and so, there's no common place to share openshift specific
+│    O-O<                                  │  scripts between images, without them also being present in the
+│        O                                 │  standalone layers.
+│                                          │
+│                                          │  We also did not anticipate quite how many images we would end
+│                                          │  up with. You can also see that we started to have images that
+│                                          │  based themselves on EAP OpenShift, a "special case" that could
+│                                          │  sometimes catch us out.
+└──────────────────────────────────────────┘
+
+┌──────────────────────────────────────────┐
+│ Artefacts and private URIs               │
+│ --------                                 │  Our Dockerfiles tended to have an ADD instruction that copied
+│                                          │  a distribution of the relevant product (e.g. EAP in a ZIP)
+│                                          │  into the image. However, the URI to that distribution was for
+│                                          │  our internal build systems, and our IT security policy forbid
+│                                          │  us from publishing references to internal hostnames. And even
+│ Non-public sources                       │  if we did, it would mean the image sources were not immediately
+│                                          │  usable by anyone, because they could not fetch those URIs. So
+│                                          │  an unintended consequence of this was our container image 
+│                                          │  sources weren't originally public, which did not sit comfortably
+│                                          │  with our company's Open-by-default ethos.
+│                                          │
+│                                          │
+└──────────────────────────────────────────┘
+
+┌──────────────────────────────────────────┐  Our eventual solution (not arrived in one go!) is a public tool 
+│ Cekit                                    │  called "cekit". Cekit is a pre-processor that generates a collection
+│ -----                                    │  of files, including a Dockerfile, for building a container image.
+│                                          │
+│ Image source pre-processor               │  in CeKit the primary input is a declarative description of the
+│                                          │  image, within a YAML-formatted file. This is processed by the tool
+│ Declarative source                       │  and used to fill-out a Dockerfile template to generate the Dockerfile.
+│ Artefacts referenced by checksum         │  
+│ External script "modules"                │  The Image YAML can contain a list of artefacts to insert into the
+│                                          │  image. They are referenced by an optional filename, a cryptographic
+│                                          │  checksum, an optional URI and an optional description. For the problem
+│                                          │  we had above, we provide a name, checksum and description but not a URI.
+│                                          │  The description field explains to humans where to find the artefact on
+│ http://github.com/cekit/cekit            │  the Red Hat customer portal. The checksum gives a means for one to verify
+└──────────────────────────────────────────┘  your download, but also means our internal build system can automatically
+fetch the artefact from an internal cache we maintain.
+
+CEKit introduces the concept of "modules", which began life as bundles of scripts. The scripts (or modules) generally
+live in a separate git repository from the image source. These are the external shell scripts that began life as RUN
+commands in Dockerfiles right back at the beginning, but separated out into logical collections. We can now pull the
+scripts into separate image sources and achieve re-use outside of the single-inheritance model from Docker.
+
+We call them Modules rather than scripts because they have evolved to allow us to put anything else that we might have
+put into the image YAML together with the scripts. So, we can move artefact definitions, environment variable definitions
+to be co-located with the scripts that make use of them.
+
+┌──────────────────────────────────────────┐
+│ Cekit YAML example                       │
+│ ------------------                       │
+│  name: "jboss-eap-7/eap71-openshift      │
+│  description: "Red Hat JBoss Enterp      │
+│  version: "1.2"                          │
+│  from: "jboss-eap-7/eap71:latest"        │
+│  labels:                                 │
+│      - name: "com.redhat.component"      │
+│        value: "jboss-eap-7-eap71-op      │
+│      - name: "io.k8s.description"        │
+│        value: "Platform for buildin      │
+│                                          │
+│ http://github.com/jboss-container-images/jboss-eap-7-openshift-image
+└──────────────────────────────────────────┘
+
+┌──────────────────────────────────────────┐
+│ Alternatives                             │  There are a lot of other tools that one could use
+│ ------------                             │  to achieve what we achieve with CeKit, some of which
+│                                          │  were also written by Red Hat engineers in other teams.
+│ Ansible Container                        │
+│                                          │  Our requirements are to still have a Dockerfile which
+│                                          │  is why we have gone down the pre-processor route; but
+│                                          │  if you don't have that requirement you could look at
+│                                          │  a solution that avoided Dockerfiles altogether.
+│                                          │
+│                                          │  "Ansible Container" For example. Presuming that you or
+│                                          │  your users are already using configuration management
+│                                          │  for non-container configuration management, why not apply
+│ http://docs.ansible.com/ansible-container/  it to containers, too?
+└──────────────────────────────────────────┘
+This applies to the container Build phase. I'm not that familiar with it so I'm not sure to what extent
+it can usefully be applied to run time configuration. To some extent runtime configuration is frowned
+upon in the containers/microservices model.
+
+┌──────────────────────────────────────────┐
+│ Thank you & Questions                    │
+│ ---------------------                    │
+│                                          │
+│                                          │
+│                                          │
+│                                          │
+│                                          │
+│                                          │
+│                                          │
+│                                          │
+│                                          │
+│                                          │
+│                                          │
+└──────────────────────────────────────────┘

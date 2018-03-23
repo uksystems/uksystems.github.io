@@ -1,0 +1,43 @@
+Submission #28: Containerizing Middleware Applications
+======================================================
+
+Author
+------
+Jonathan Dowland <jdowland@redhat.com> (Red Hat)
+
+Abstract
+--------
+
+The Cloud Enablement team within Red Hat have been developing tools and
+techniques for "containerizing" Red Hat's portfolio of Middleware products for
+operation in conjunction with OpenShift, Red Hat's container application
+platform.
+
+This talk aims to give a broad overview of the various technical challenges that
+we have faced on this journey, the solutions we have employed and future
+opportunities for improvement of tools and techniques.
+
+I will begin by briefly describing both OpenShift and the technologies upstream
+of it, notably Docker and Kubernetes. This is a rapidly developing area and
+there are a number of new tools and specifications on the horizon that are
+emerging as possible replacements for established tools such as Docker. I will
+outline some of the more promising ones.
+
+Presently we have been using Docker for the creation of container images. Docker
+provides a language for describing the build steps for creating a container
+image (Dockerfile). Docker images are built as a series of layers, offering
+re-use via single-inheritance.
+
+The complexity of Middleware applications, as well as the degree of required
+configuration (both at image build-time and at container run-time) to achieve
+the desired level of integration into the OpenShift platform has exposed
+limitations in the Dockerfile configuration language; the single-inheritance
+model and the performance of many-layered images. I will describe the tools and
+techniques we have developed to respond to these challenges as well as
+alternatives and opportunities for future work.
+
+Container security is a primary concern for users as many off-the-shelf images
+can be based on out-of-date base images containing well known security
+vulnerabilities. We have been exploring techniques for deep inspection of
+container images to determine whether they contain components with known
+security flaws.

@@ -1,0 +1,46 @@
+Submission #2: P4Debug: A Framework for Debugging Programmable Data Planes
+==========================================================================
+
+Authors
+-------
+
+1. Pietro Bressana <pietro.bressana@usi.ch> (Universita' della Svizzera
+   italiana)
+2. Robert Soulé <robert.soule@usi.ch> (Universita' della Svizzera italiana,
+   Barefoot Networks)
+3. Noa Zilberman <noa.zilberman@cl.cam.ac.uk> (University of Cambridge)
+
+Abstract
+--------
+
+Computer networks are a pervasive infrastructure, which is essential for a
+number of applications that touch all walks of life. However, although networks
+are complex, unpredictable and fault-prone, engineers lack the tools and support
+necessary for debugging network hardware. This appears to be changing. A new
+breed of switches that can be programmed with high-level languages such as P4
+match the speed of fixed function devices. This trend raises an important
+question: Can we leverage this new programmability for debugging network
+hardware?
+
+Previous approaches for debugging programmable network hardware suffer from two
+main limitations: they only allow passive debugging in response to externally
+generated packets and they are deployed in the same data plane that a user is
+trying to debug. Moreover, they do not isolate the programmable pipeline from
+the other layers of hardware, (e.g., SerDes, PCS, MAC, etc.).
+
+To address these challenges, we propose a new debugging infrastructure for
+network devices that leverages recent advances in network programmability and
+hardware design, by providing unprecedented visibility into the internal state
+and operations of network devices. Our debugging framework, named P4Debug,
+includes three major components: (i) an extension to the target architecture to
+allow for packet generation for active debugging, (ii) a debug module that is
+parallel to the packet-processing pipeline, and (iii) debug-specific language
+extensions to P4.
+
+P4Debug will be evaluated through a prototype, implemented using several
+existing technologies, including the NetFPGA SUME framework and Xilinx SDNet
+P4-to-FPGA compiler. We expect that, thanks to our innovative debug
+infrastructure, network operators would improve their ability to understand and
+debug their networks. P4Debug is a work-in-progress. We look forward to sharing
+our initial results, and to getting feedback from the community regarding use
+cases for the tool.

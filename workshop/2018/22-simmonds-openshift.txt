@@ -1,0 +1,28 @@
+Submission #16: Intelligent applications on OpenShift from prototype to production
+==================================================================================
+
+Authors
+-------
+1. Rebecca Simmonds <rsimmond@redhat.com> (Red Hat)
+2. Mike McCune <msm@redhat.com> (Red Hat)
+
+Abstract
+--------
+
+Users demand tailored, dynamic, and constantly refined experiences: they expect
+intelligent applications that will learn from data and improve with longevity
+and popularity. Application intelligence can take many forms, including anomaly
+detection, recommendations, natural-language understanding, and speech and image
+recognition. All of these capabilities need to be put into production and
+managed alongside conventional application components.
+
+In this session you will learn how OpenShift enables cross-functional teams to
+develop intelligent applications. We’ll cover microservice architectures for
+creating, sharing, deploying, and reusing intelligent application components as
+containerized microservices. We’ll discuss how development teams can add
+intelligence to applications without dedicated AI developers. The talk will
+conclude with an extended case study showing just how OpenShift enabled a senior
+engineer to go from prototype to production with an intelligent application. You
+will leave with a solid inspiration for how to take your applications to the
+next level with intelligent features and concrete suggestions for getting
+started with OpenShift.
