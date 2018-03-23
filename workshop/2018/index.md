@@ -107,7 +107,7 @@ Short (5 minute) talks on any relevant topic. Contact [Aleksandar Dragojevic][al
 
 ### Friday, March 23
 
-09:00-10:20 **Formal Methods & IoT**
+09:00-10:20 **Formal Methods & IoT** (_Richard Mortier_)
 - "**Formal Verification of Spacecraft Control Programs Using a Metalanguage for
   State Transformers**", Andrey Mokhov, Georgy Lukyanov (Newcastle University),
   Jakob Lechner (RUAG Space Austria GmbH)
@@ -126,7 +126,7 @@ Short (5 minute) talks on any relevant topic. Contact [Aleksandar Dragojevic][al
   polytechnique fédérale de Lausanne), Marios Isaakidis (University College
   London), Carmela Troncoso (École polytechnique fédérale de Lausanne), George
   Danezis (University College London)
-- "**Roadmap for future research on Chainspace**",Alberto Sonnino, Mustafa
+- "**Roadmap for future research on Chainspace**", Alberto Sonnino, Mustafa
   Al-Bassam, Bano Shehar, George Danezis (University College London)
 - "**Towards Efficient Scheduling for Long Running Applications**", Panagiotis
   Garefalakis, Jana Giceva, Peter Pietzuch (Imperial College London)
