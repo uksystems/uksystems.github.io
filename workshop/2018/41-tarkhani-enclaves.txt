@@ -1,0 +1,17 @@
+Submission #11: Towards Tiny Trustworthy Enclaves for Unikernels
+================================================================
+
+Authors
+-------
+1. Zahra Tarkhani <zt233@cam.ac.uk> (University of Cambridge Computer Laboratory)
+2. Anil Madhavapeddy <avsm2@cam.ac.uk> (University of Cambridge Computer Laboratory)
+
+Abstract
+--------
+The wide range of security and privacy threats in the world of Internet of Things (IoT) and cloud computing is a growing concern. For example, an adversary can remotely take the full control of autonomous vehicles only because the system code contains lots of untrusted control units. Similarly, sensitive personal data and multimedia streams can be leaked when IoT or Augmented Reality (AR) devices are processing the data on the untrusted cloud or an edge device.
+We believe the key to IoT security is simplicity and verifiable lightweight mechanisms. Our research goal is to build a trustworthy library operating system designed to protect the confidentiality and integrity of users code and private data while being processed on an untrusted platform. The system should consider strict requirements of IoT applications, have a small Trusted Computing Base (TCB) and be resilient to a wide range of attacks even from the host system code (e.g., OS, VMM). We should also be able to attest and verify the libraryOS at runtime to discriminate legit from tampered instances. This system empowers us to run single purpose tasks (or microservices) in a protected environment to support a variety of IoT and cloud services. It can be used in distributed models to support novel service scenarios such as smart cities infrastructure, AR, and autonomous vehicles.
+Most IoT applications require low latency or real-time response time. Unikernels have a better performance and much faster boot time compared to a traditional OS. They also provide a more secure environment using lightweight hypervisor-based isolation, small TCB, modularity, and memory safety (e.g., MirageOS). Although unikernels follow the perfect path of security by design, they can not guarantee the strong runtime security requirements we need. As an example, the malicious host hypervisor or OS could steal sensitive data.
+The hardware-based Trusted Execution Environment (TEE) approach provides an interesting direction to resolve the problem. Secure processors–such as ARM TrustZone, CHERI and Intel SGX–introduce the concept of a secure enclave which is a protected address space to isolate sensitive data and code from the host environment. Using secure enclaves, we can design more secure and trustworthy unikernels. Such unikernels can be used as a variety of secure microservices such as secure edge/ local computations for privacy-aware data analysis and machine learning applications. As another example, we can build secure intermediate control units across the communication between IoT and Cloud.
+This research is in the early stages and there are many challenging design decisions we should take into consideration. Just to name a few: (1) none of the existing hardware- based TEE is perfect, and each of them has potential security, performance, scalability issues that should be considered; (2) Combination of lightweight virtualization and secure enclaves introduce new system challenges; and (3) the system requires secure hardware- based attestation mechanisms and policies.
+
+

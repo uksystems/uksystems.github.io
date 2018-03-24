@@ -97,6 +97,8 @@ Building, Newcastle][ncl]
 15:50-17:10 **Unikernels & Containers** (_Paul Watson_)
 - "**Towards Tiny Trustworthy Enclaves for Unikernels**", Zahra Tarkhani, Anil
   Madhavapeddy (University of Cambridge)
+  [[abstract](41-tarkhani-enclaves.txt)]
+  [[pdf](41-tarkhani-enclaves.pdf)]
 - (_withdrawn_) ~~_"**Building systems with Rust: Lessons learned**", Marco
   Caballero (University of Cambridge)_~~
 - "**Unikernel support for the deployment of light-weight, self-contained, and
