@@ -1,0 +1,22 @@
+Submission #26: Can you trust your I/O?
+=======================================
+
+Author
+------
+A. Theodore Markettos <theo.markettos@cl.cam.ac.uk> (University of Cambridge)
+
+Abstract
+--------
+Computers are really rather complicated things.  Much work has gone on to tame the complexity of software, to impose structure and order, and all this helps to make software systems (somewhat) more secure.
+
+In hardware, things are a bit different.  For a long time, hardware designers have not had to consider malicious actors, threat models or security economics.  And we're just starting to discover the consequences.
+
+We will highlight a number of challenges.  The first is that modern systems are full of processors - everything we call a 'peripheral' is now a programmable component with one or many processors.  Where there is a processor, can it be 'turned' by an attacker?
+
+Next, what can the malicious peripheral achieve? Until recently, systems have been largely unprepared.  We will draw some parallels with existing techniques that can help understand attacks from malicious devices, but also where they fall down.
+
+Finally, we come against the nasty problem of economics.  Will this undermine our efforts?
+
+Along the way we will discuss case studies of published attacks, and how this gathering storm surrounds some hard problems.
+
+

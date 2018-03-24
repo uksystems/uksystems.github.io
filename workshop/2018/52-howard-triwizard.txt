@@ -1,0 +1,18 @@
+Submission #17: Escaping the Triwizard Maze: Reflections on how we reason about Distributed
+Systems
+================================================================================================
+
+Author
+------
+Heidi Howard <hh360@cam.ac.uk> (Cambridge University)
+
+Abstract
+--------
+In recent years, I have regularly struggled to reason about the behaviour of the distributed systems I’m working with. From scribbled message sequence diagrams to functional programming and from decoding pseudo code to model checking formal specifications, I tried and tested many approaches to help reason about systems with varying degrees of success.
+
+In this talk, I will review the de facto approaches to systematic reasoning about distributed systems and go on to share the lessons learned from my own (sometimes painful) experiences with some popular tools. Overall, I will pose the two questions: 
+
+Firstly, as we increasingly depend on ever more complex distributed systems, how should we reason about correctness and behaviour of our systems? 
+Secondly, perhaps more importantly, how can we as a systems community effectively communicate and share this understanding with each other?
+
+

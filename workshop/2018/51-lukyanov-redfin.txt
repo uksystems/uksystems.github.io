@@ -1,0 +1,32 @@
+Submission #5: Formal Verification of Spacecraft Control Programs Using a Metalanguage for State
+Transformers
+================================================================================================
+
+Authors
+-------
+1. Andrey Mokhov (Newcastle University, UK)
+2. Georgy Lukyanov <G.Lukyanov2@newcastle.ac.uk> (Newcastle University, UK)
+3. Jakob Lechner (RUAG Space Austria GmbH)
+
+Abstract
+--------
+Verification of functional correctness of control programs is
+an essential task for the development of space electronics; it is difficult
+and time-consuming and typically outweighs design and programming
+tasks in terms of development hours. We present a verification approach
+designed to help spacecraft engineers reduce the effort required for formal
+verification of low-level control programs executed on custom hardware.
+The approach uses a metalanguage to describe the semantics of a program
+as a state transformer, which can be compiled to multiple targets
+for testing, formal verification, and code generation. The metalanguage
+itself is embedded in a strongly-typed host language (Haskell), providing
+a way to prove program properties at the type level, which can shorten
+the feedback loop and further increase the productivity of engineers.
+The verification approach is demonstrated on an industrial case study.
+We present REDFIN, a processing core used in space missions, and its
+formal semantics expressed using the proposed metalanguage, followed
+by a detailed example of verification of a simple control program.
+Keywords: formal verification, instruction set architecture, functional
+programming, domain-specific languages.
+
+

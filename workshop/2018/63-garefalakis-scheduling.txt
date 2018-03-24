@@ -1,0 +1,22 @@
+Submission #24: Towards Efficient Scheduling for Long Running Applications
+==========================================================================
+
+Authors
+-------
+1. Panagiotis Garefalakis <pg1712@imperial.ac.uk> (Imperial College London)
+2. Jana Giceva <j.giceva@imperial.ac.uk> (Imperial College London)
+3. Peter Pietzuch <prp@imperial.ac.uk> (Imperial College London)
+
+Abstract
+--------
+The rise in popularity of interactive, machine learning, streaming and latency-sensitive online applications in shared production clusters has raised new challenges in terms of efficient scheduling. To optimize their performance and resilience, these applications require precise control of their placements, by means of complex constraints, e.g., to collocate or separate their long-running containers across groups of nodes. To avoid objective violations (e.g., latency and throughput) induced by the complex and dynamic nature of their resource demands, a more fine-grained scheduling is required, e.g., dynamically allocate resources between competing tasks based on their priority.
+
+Unlike batch jobs that typically use short-lived containers (in the order of seconds), these applications benefit from long-lived containers. These containers are allocated and used for durations ranging from hours to months, thus avoiding repeated container initialization costs and reducing scheduling load. We refer to this class of applications as long-running applications (LRAs). LRAs consist of individual tasks utilizing resources, such as CPU and memory, that are usually packaged in the form of containers.
+
+In the presence of LRAs, the cluster scheduler must attain global optimization objectives, such as maximizing the number of deployed applications or minimizing the violated constraints and the resource fragmentation but without affecting the scheduling latency of short-running containers. Towards that goal, we implemented MEDEA, a new cluster scheduler designed for the placement of long- and short-running containers. MEDEA introduces powerful placement constraints with formal semantics to capture interactions among containers within and across applications. It follows a novel two-level scheduler design: (i) for long-running containers, it applies an optimization-based approach that accounts for constraints and global objectives; (ii) for short-running containers, it uses a traditional task-based scheduler for low placement latency.
+
+While MEDEA, our cluster scheduler, achieves high- quality placement for long-running containers, it is ap- plication agnostic and thus unable to address additional application-specific objectives such as latency or throughput requirements. On the other hand, an application-level scheduler which is responsible for assigning tasks to containers has access to this additional information and it can therefore prioritise tasks based on higher level application objectives. We describe an initial design of an application-level scheduler built on top of Apache Spark with fine-grained control over resources such as CPU time. Our scheduler can cooperatively schedule diverse tasks respecting their goals while increasing the total cluster resource efficiency.
+
+The primary focus of this work is the increasingly popular long-running applications. Our vision is to combine effective coarse-grained container placement with efficient fine-grained task scheduling to optimize their resilience, performance and high-level objectives. We consider this an interesting topic for discussion at the Annual UK Systems Research Challenges Workshop.
+
+

@@ -86,9 +86,11 @@ Building, Newcastle][ncl]
   (University of Edinburgh)
 - "**Systems in an Era of Custom Hardware**", Aleksandar Dragojevic, Junyi Liu
   (Microsoft (Microsoft)
+  [[abstract](32-dragojevic-customhw.txt)]
 - "**Challenges in Scaling Up Graph Analytics**", Priyank Faldu, Boris Grot (The
   University of Edinburgh)
 - "**Can you trust your I/O?**", A. Theodore Markettos (University of Cambridge)
+  [[abstract](34-markettos-trustio.txt)]
 
 15:20-15:50 Coffee
 
@@ -120,8 +122,11 @@ Short (5 minute) talks on any relevant topic. Contact [Aleksandar Dragojevic][al
 - "**Formal Verification of Spacecraft Control Programs Using a Metalanguage for
   State Transformers**", Andrey Mokhov, Georgy Lukyanov (Newcastle University),
   Jakob Lechner (RUAG Space Austria GmbH)
+  [[abstract](51-lukyanov-redfin.txt)]
+  [[pdf](51-lukyanov-redfin.pdf)]
 - "**Escaping the Triwizard Maze: Reflections on how we reason about
   Distributed Systems**", Heidi Howard (Cambridge University)
+  [[abstract](52-howard-triwizard.txt)]
 - "**Verifying Application Requirements in Multi-Tenancy Sensor Networks**",
   Milan Kabáč, Michele Sevegnani, Muffy Calder (University of Glasgow), Julie A.
   McCann (Imperial College London)
@@ -139,6 +144,7 @@ Short (5 minute) talks on any relevant topic. Contact [Aleksandar Dragojevic][al
   Al-Bassam, Bano Shehar, George Danezis (University College London)
 - "**Towards Efficient Scheduling for Long Running Applications**", Panagiotis
   Garefalakis, Jana Giceva, Peter Pietzuch (Imperial College London)
+  [[abstract](63-garefalakis-scheduling.txt)]
 - (_withdrawn_) ~~"**Resource Management in Large Scale Data Centres Using
   Machine Learning and Distributed Optimisation**", Javad Zarrin, Evangelia
   Kalyvianaki (University of Cambridge)~~

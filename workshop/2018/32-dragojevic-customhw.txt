@@ -1,0 +1,17 @@
+Submission #9: Systems in an Era of Custom Hardware
+===================================================
+
+Authors
+-------
+1. Aleksandar Dragojevic <alekd@microsof.com> (Microsoft)
+2. Junyi Liu (Microsoft)
+
+Abstract
+--------
+Traditional computer systems built with CPU, memory, and disks are not well suited to modern data centre workloads. They have already been largely replaced with GPU clusters and custom hardware (e.g. TPU, FGPA) for machine learning. The traditional CPU is the bottleneck in low-latency, random access applications such as key-value and graph stores. Even with user-mode networks and RDMA, which eliminate the network stack processing overheads, the CPUs cannot keep up with increasing network speeds. Processing needs to be moved closer to the network and specialized. Several recent proposals that implement entire systems in hardware (e.g. key-value stores in FPGA) demonstrate this. It has also been shown that FPGAs are better suited to tasks in the search engine pipeline and cost-effective to deploy at large scale. With significant commitment to hardware customization from large companies, such as Microsoft, Google, and Amazon, and widespread availability of FPGAs, the list of workloads running on custom hardware is becoming longer every day. The ability to customize hardware to the workloads creates endless possibilities and as many challenges. How to manage, protect, and share hardware and data without the traditional operating system? How to develop, debug, and model the new customized systems? What and how should be accelerated? These and many more questions still do not have satisfactory answers. 
+
+In this talk, we are going to give an overview of Catapult, the FPGA accelerator that is installed in all new servers deployed in Microsoft data centres. The Catapult FPGA sits between the network card on the machine and the top-of-the-rack switch. It is connected to the rest of the system with PCIe links. The Catapult can modify the network packets going through it, but it can also send and receive messages using the data centre network. This architecture makes Catapult very versatile: it can be used as the local accelerator by the host system, it can be pooled for large-scale remote acceleration, and it can be used to accelerate data centre infrastructure. We are going to provide several examples of Catapult use in production workloads. We are also going to talk about our early work on using Catapult to improve performance and security of FaRM, our in-memory, transactional, distributed computing platform. 
+
+The goal of this work is to start the discussion on systems for customized hardware. Hardware customization is a major change in the way computer systems are built and will have significant impact on the systems software. The systems community is in a good position to tackle these challenges and we would like to see more thinking, discussion, and work in this area. We would also like to get feedback on some of the early work in the context of customizing hardware for distributed systems done at Microsoft Research Cambridge.
+
+
