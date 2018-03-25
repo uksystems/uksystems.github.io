@@ -1,0 +1,31 @@
+Submission #14: Visualizing Urban IoT Using Cloud Supercomputing
+================================================================
+
+Authors
+-------
+1. Nicolas Holliman <nickholliman@gmail.com> (Newcastle University)
+2. Manu Antony (Newcastle University)
+3. Stephen Dowsland (Newcastle University)
+4. Mark Turner (Newcastle University)
+
+Abstract
+--------
+In the last year the commercial cloud has begun to be able to provide access to high 
+performance visual computing on demand. This allows research groups to plan and use 
+supercomputing scale resources in visualization projects where previously it would have been unaffordable to do so. We have previously argued that this opens a new path to explore a range of novel, impactful visualization techniques.
+
+Our initial set of experiments with cloud technology were embodied in the Urban Insight Cloud Engine (UICE) a cloud visualization architecture designed to support live rendering of big data from the Newcastle Urban Observatory. This uses cinema quality rendering to generate live 3D images of the city showing current values of environmental metrics such as temperature and air quality. We previously reported on the design and implementation of this system where we developed and tested a cloud visualization architecture that used a mixture of commercial and private cloud computing.
+
+Our second-generation cloud visualization architecture is embodied in the #Terascope 
+project, a feasibility study in scalable cloud-based visual supercomputing. We are currently using Microsoft Azure cloud systems to build an architecture capable of rendering and storing tera-pixel images of IoT measurements from the city of Newcastle. This scale of image will allow users to interactively zoom continuously into one image from the whole city to an area the size of a desktop, zooming into sensed data about the city as they zoom into the image. The aim is to be able to render at least one #Terascope image of live city IoT data everyday. To render a tera-pixel image we need to create on-demand in the cloud a visual super-computer of the order of 200 TFlops. 
+
+The visualization systems we can forsee being created in the cloud provide a number of 
+benefits and open new research directions for us including:
+
+Accessibility of results to stakeholders without high-performance computers.
+Personalisation of visual results to specific groups of stakeholders (audiencisation).
+Optimisation of visual results for human cognition without human input.
+
+It is difficult to see how we might address these goals at scale without access to commodity cloud-computing.
+
+

@@ -72,6 +72,7 @@ Building, Newcastle][ncl]
 11:30-12:30 **Applications & Data Science** (_Mark Little_)
 - "**Visualizing Urban IoT Using Cloud Supercomputing**", Nicolas Holliman, Manu
   Antony, Stephen Dowsland, Mark Turner (Newcastle University)
+  [[abstract](21-holliman-visualising.txt)]
 - "**Intelligent applications on OpenShift from prototype to production**",
   Rebecca Simmonds, Mike McCune (Red Hat)
   [[abstract](22-simmonds-openshift.txt)]
