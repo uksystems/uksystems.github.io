@@ -1,0 +1,20 @@
+Submission #3: Efficient Cross-architecture Hardware Virtualisation
+===================================================================
+
+Author
+------
+Tom Spink <tspink@inf.ed.ac.uk> (University of Edinburgh)
+
+Abstract
+--------
+Virtualisation is a powerful tool used for the isolation, partitioning, and sharing of physical computing resources. Employed heavily in data centres, becoming increasingly popular in industrial settings, and used by home-users for running alternative operating systems, hardware virtualisation has seen a lot of attention from hardware and software developers over the last ten–fifteen years.
+
+From the hardware side, this takes the form of so-called hardware assisted virtualisation, and appears in technologies such as Intel-VT, AMD-V and ARM Virtualization Extensions.  However, most forms of hardware virtualisation are typically same-architecture virtualisation, where virtual versions of the host physical machine are created, providing very fast isolated instances of the physical machine, in which entire operating systems can be booted. But, there is a distinct lack of hardware support for cross-architecture virtualisation, where the guest machine architecture is different to the host.
+
+I propose to discuss my research in this area, and describe the cross-architecture virtualisation hyper-visor Captive that can boot unmodified guest operating systems, compiled for one architecture in the virtual machine of another.
+
+I will talk about the challenges of full system simulation (such as instruction and device emulation), our approaches to this, and how we can efficiently map guest behaviour to host behaviour.
+
+Finally, I will discuss our plans for open-sourcing the hypervisor, the work we are currently doing and what future work we have planned.
+
+

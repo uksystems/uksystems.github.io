@@ -85,6 +85,8 @@ Building, Newcastle][ncl]
 14:00-15:20 **Hardware** (_Andy Stanford Clark_)
 - "**Efficient Cross-architecture Hardware Virtualisation**", Tom Spink
   (University of Edinburgh)
+  [[abstract](31-spink-crossvirt.txt)]
+  [[pdf](31-spink-crossvirt.pdf)]
 - "**Systems in an Era of Custom Hardware**", Aleksandar Dragojevic, Junyi Liu
   (Microsoft (Microsoft)
   [[abstract](32-dragojevic-customhw.txt)]
