@@ -69,6 +69,8 @@ Building, Newcastle][ncl]
 - "**FaRM and MVCC**", Alex Shamis (Microsoft Research)
 - "**ABC: Adaptive Brokerage for the Cloud**", Abdessalam Elhabbash, Yehia
   Elkhatib, Gordon Blair (Lancaster University)
+  [[abstract](15-elhabbash-abc.txt)]
+  [[pdf](15-elhabbash-abc.pdf)]
 
 11:00-11:30 Coffee
 

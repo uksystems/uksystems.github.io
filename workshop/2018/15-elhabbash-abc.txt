@@ -1,0 +1,27 @@
+Submission #7: ABC: Adaptive Brokerage for the Cloud
+====================================================
+
+Authors
+-------
+1. Abdessalam Elhabbash <a.elhabbash@lancaster.ac.uk> (School of Computing and Communications -
+   Lancaster University)
+2. Yehia Elkhatib <y.elkhatib@lancaster.ac.uk> (School of Computing and Communications -
+   Lancaster University)
+3. Gordon Blair <g.blair@lancaster.ac.uk> (School of Computing and Communications - Lancaster
+   University)
+
+Abstract
+--------
+Cloud computing has quickly become the de facto means of deploying large-scale systems in a robust and cost-effective manner. In the public cloud computing market there is a large number of cloud service providers offering services that appears very similar to the cloud user. In reality, a wide spectrum of different configuration options and pricing models are adopted by the providers. Such differences make the decision of selecting the provider and the services a complex task. In addition, the performance of the services is hidden from the cloud users at the design time. The variation of the services' performance exhibited at runtime can result in lack of the ability to fulfil the users' requirements and lessening the cost:performance ratio. 
+
+Recent efforts addressed this problem bringing out a number of cloud brokering frameworks to intermediate between cloud users and providers. Such intermediation can be a form of comparing the providers' offers based on the requirements given by the users to assist them to select the provider and the service at the design time. In some frameworks, such as STRATOS, the intermediation can include deciding on a provider automatically at runtime, which enables flexible and portable deployment, unburdening the users to make the selection at design time. However, such brokerage capabilities are still limited to provide reasonable support to the uses. The limitations include: 
+(1)	The requirement from the cloud users to provide precise information about their applications' performance requirements, which might not be attainable at design time and can only be determined at runtime. 
+(2)	The assumptions about the availability of comparable cross-vendor metrics and seamlessly interchangeable cloud resources. In fact, the cloud market is quite far from adopting common standards as they allow customers to freely move between competitors.
+(3)	The lack of intelligent and adaptive decision making approach to deal with the dynamicity of the cloud environment in terms of predicting the providers' performance and the cross-providers adaptation of the applications' deployment.
+
+Our research proposes an adaptive cloud brokerage framework that will act as an intermediary between end users and cloud service providers, in order to enhance service delivery and service value. Users will uniquely be able to specify simple, high-level expectations called Service Level Objectives (SLOs), such as end-to-end latency, throughput, or budget. Our framework will then deploy and continually maintain a matching infrastructure for the user-defined SLOs across the most appropriate cloud operators, and resource types. The framework will manage, abstract and unify heterogeneous cloud offerings including public, private or hybrid environments. The expected contributions are summarised as follows:
+(1)	We will address the problem of how to define, schedule and enforce user-defined SLOs: high-level intentions, which specify the desired end goal of a deployment for applications that span multiple cloud providers.
+(2)	We will develop novel lightweight container-based benchmarking techniques, which can gather cloud-level performance metrics in near real-time in a multi-cloud environment.
+(3)	We will develop adaptive machine learning strategies for the autonomic and pro-active management of cloud-based applications.
+
+
