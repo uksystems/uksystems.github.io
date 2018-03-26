@@ -113,6 +113,8 @@ Building, Newcastle][ncl]
   [[pdf](43-dowland-middleware.pdf)]
   [[ascii](43-dowland-middleware-ascii.txt)]
 - "**There and back again: a microservices tale**", Mark Little (Red Hat)
+  [[abstract](44-little-microservices.txt)]
+  [[pdf](44-little-microservices.pdf)]
 
 19:00-21:00 Dinner
 
