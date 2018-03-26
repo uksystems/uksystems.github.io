@@ -147,6 +147,8 @@ Short (5 minute) talks on any relevant topic. Contact [Aleksandar Dragojevic][al
   Danezis (University College London)
 - "**Roadmap for future research on Chainspace**", Alberto Sonnino, Mustafa
   Al-Bassam, Bano Shehar, George Danezis (University College London)
+  [[abstract](62-sonnino-chainspace.txt)]
+  [[pdf](62-sonnino-chainspace.pdf)]
 - "**Towards Efficient Scheduling for Long Running Applications**", Panagiotis
   Garefalakis, Jana Giceva, Peter Pietzuch (Imperial College London)
   [[abstract](63-garefalakis-scheduling.txt)]

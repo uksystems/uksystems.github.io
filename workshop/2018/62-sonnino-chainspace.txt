@@ -1,0 +1,35 @@
+Submission #23: Roadmap for future research on Chainspace
+=========================================================
+
+Authors
+-------
+1. Alberto Sonnino <alberto.sonnino@ucl.ac.uk> (University College London)
+2. Mustafa Al-Bassam <mustafa.al-bassam.16@ucl.ac.uk> (University College London)
+3. Bano Shehar <s.bano@ucl.ac.uk> (University College London)
+4. George Danezis <g.danezis@ucl.ac.uk> (University College London)
+
+Abstract
+--------
+Roadmap for future research on Chainspace
+
+
+Current state of our work
+
+Chainspace is a decentralised infrastructure, known as a distributed ledger, that supports user defined smart contracts; it can scale arbitrarily as the number of nodes increase, tolerates byzantine failures, and can be fully and publicly audited. It presents a novel distributed atomic commit protocol, called S-BAC, for sharding generic smart contract transactions across multiple byzantine nodes, and correctly coordinating those nodes to ensure safety, liveness and security properties. Our modest testbed of 60 cores achieves 350 transactions per second, as compared with a peak rate of less than 7 transactions per second for Bitcoin over 6K full nodes. 
+
+The security model of Chainspace, is different from traditional unpermissioned blockchains, that rely on proof-of-work and global replication of state, such as Ethereum. In Chainspace smart contract authors designate the parts of the infrastructure that are trusted to maintain the integrity of their contract. Furthermore, Chainspace introduces a distinction between parts of the smart contract that execute a computation, and those that check the computation (called checker) and discusses how that distinction is key to supporting privacy-friendly smart-contracts.
+
+
+Work in progress & research questions
+
+We are currently woking on how to efficiently audit distributed ledgers in a scalable manner.  All current auditing solutions (e.g., Bitcoin, Ethereum) require auditors to replay the full chain of transactions — which becomes prohibitives. An associated issue is how to deal with forks and corrupt shards in a sharded system. Current solutions (e.g., Chainspace, Omniledger) simply assume those will never occur, but this is not representative of a real system. 
+
+A second research question relates to how to compose shards, and how should contract authors choose which shards will be responsible of managing their smart contract. An open research problem is also how to dynamically reconfigure the system and elastically allocate shards.
+
+On the engineering side, we are looking for an efficient architecture handling the cores of Chainspace; currently each shard can process about 30 transactions per second. We have identified the bottlenecks and are now trying to allow for more asynchrony within the cores, without jeopardising safety – a delicate operation.
+
+Next, we would like to bring more flexible inter-contract calls into Chainspace, as well as  events, and indexing of objects. In particular we would like to have “callbacks” from one contract to another – for example to allow for service contracts to provide identity, payments, etc. We are also researching a mechanism to allow the “reading” operations out of the distributed ledger, ensuring that the reader always gets the latest active state of the contracts.
+
+Finally, on the privacy perspective, we are aiming to integrate a zk-SNARK based checker that can support any privacy-preserving contract. This would be a major feature since it means we could avoid to write checkers in custom code, and simply have to provide a “circuit description” of the SNARK to be proved. So this would be the most generic privacy-friendly contracts platform.
+
+
