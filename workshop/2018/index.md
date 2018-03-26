@@ -63,6 +63,9 @@ Building, Newcastle][ncl]
   [[pdf](12-galea-heavyhitters.pdf)]
 - "**Load Balancing Real-Time Physics for Cloud Based Video Game Delivery**",
   Alexander Brown, Graham Morgan (Newcastle University)
+  [[abstract](13-brown-physics.txt)]
+  [[pdf](13-brown-physics.pdf)]
+  [[video (mp4)](13-brown-physics.mp4)]
 - "**FaRM and MVCC**", Alex Shamis (Microsoft Research)
 - "**ABC: Adaptive Brokerage for the Cloud**", Abdessalam Elhabbash, Yehia
   Elkhatib, Gordon Blair (Lancaster University)
