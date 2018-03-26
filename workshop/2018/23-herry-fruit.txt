@@ -1,0 +1,70 @@
+Submission #18: And what would you do with ten thousand Raspberry Pis?
+======================================================================
+
+Authors
+-------
+1. Jeremy Singer <jeremy.singer@glasgow.ac.uk> (University of Glasgow)
+2. Anna Lito Michala <annalito.michala@glasgow.ac.uk> (University of Glasgow)
+3. Herry Herry <herry.herry@glasgow.ac.uk> (University of Glasgow)
+
+Abstract
+--------
+The introduction of ubiquitous low-cost, low-power compute devices,
+e.g.  in the Internet of Things (IoT,) is fundamentally changing the
+computational landscape. Although we already see some benefits
+provided by special purpose IoT devices, the true capability is only
+realised when we can integrate large numbers of distributed devices as
+part of a much larger federated service. Our research is currently
+focusing on lightweight management infrastructures for IoT devices
+that are not necessary co-located. Developments in the Smart City and
+Smart Campus domains pose interesting research challenges in the way
+we maintain, manage, and use the expected cyber-physical systems that
+emerge.
+
+In the Anyscale Applications project [1] we have examined ways of
+incorporating reusable infrastructure to enable research in the smart
+campus environment.  In the FRŒºIT project [2] the focus is shifted
+towards a management framework that allows users to maintain and
+manage devices that do not reside within the same physical network. In
+both projects we utilise single board computers (Raspberry Pi) to
+extend the capabilities of conventional IoT devices and increase edge
+computing potential. We envisage a testbed comprising tens of
+thousands of nodes, geographically distributed and capable of
+challenging remote off-grid scenarios.
+
+We aim to popularise the concept of a micro-datacenter, a minimal
+footprint, low-power and low-cost compute cluster that can be pushed
+to the edge of distributed networks, fundamentally changing the
+current model of the centralised datacenter. We have already built
+prototype micro-datacenters at multiple sites, for example a mini-HPC
+cluster (Southampton University), a scale model cloud datacenter
+(Glasgow and Loughborough University), and a decentralized sensing and
+communication platform for ultra-remote internet blackspots (Cambridge
+University). This project is about connecting together our isolated
+micro-datacenters to produce a federated, geo-distributed testbed.
+
+Further, to continue from our Anyscale Applications project work we
+are building a scalable smart campus testbed [3], using reconfigurable
+supersensor nodes. Currently available commercial IoT alternatives
+(e.g. Nokia/Siemens) have ongoing issues with security, scalability of
+remote management, application retargetability, and data
+availability. We propose disposable compute nodes, small-scale
+embedded programmable devices with significant compute power
+(e.g. Raspberry Pi), along with commodity sensors
+(light/temperature/CO2/sound/motion) and wireless comms (e.g LoRA,
+5G).  Our framework will become the enabling technology for different
+applications as system and user requirements evolve. For example, it
+can facilitate student interaction with the physical campus via
+smartphones, indoor location and navigation, room occupancy
+monitoring, campus heat maps for data measures, emergency management,
+on the spot satisfaction surveys, and ubicomp research.
+
+In summary, our research aims to address some of the emerging
+challenges in fragmented aggregations of micro-clusters, alongside the
+development of exemplar use cases for such systems.
+
+[1] anyscale.org
+[2] fruit-testbed.org
+[3] https://doi.org/10.1109/FiCloud.2016.16
+
+

@@ -85,6 +85,8 @@ Building, Newcastle][ncl]
   [[pdf](22-simmonds-openshift.pdf)]
 - "**And what would you do with ten thousand Raspberry Pis?**", Jeremy Singer,
   Anna Lito, Michala Herry Herry (University of Glasgow)
+  [[abstract](23-herry-fruit.txt)]
+  [[pdf](23-herry-fruit.pdf)]
 
 12:30-14:00 Lunch
 
