@@ -100,6 +100,8 @@ Building, Newcastle][ncl]
   [[abstract](32-dragojevic-customhw.txt)]
 - "**Challenges in Scaling Up Graph Analytics**", Priyank Faldu, Boris Grot (The
   University of Edinburgh)
+  [[abstract](33-faldu-graphanal.txt)]
+  [[pdf](33-faldu-graphanal.pdf)]
 - "**Can you trust your I/O?**", A. Theodore Markettos (University of Cambridge)
   [[abstract](34-markettos-trustio.txt)]
 
@@ -147,6 +149,8 @@ Short (5 minute) talks on any relevant topic. Contact [Aleksandar Dragojevic][al
   McCann (Imperial College London)
 - "**Holistic, Distributed Stream Processing in IoT Environments**", Peter
   Michalák, Sarah Heaps, Michael Trenell, Paul Watson (Newcastle University)
+  [[abstract](54-michalak-streams.txt)]
+  [[pdf](54-michalak-streams.pdf)]
 
 10:20-10:50 Coffee
 

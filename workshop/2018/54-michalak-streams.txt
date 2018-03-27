@@ -1,0 +1,15 @@
+Submission #13: A Holistic, Distributed Stream Processing in IoT Environments
+=============================================================================
+
+Authors
+-------
+1. Peter Michalák <P.Michalak1@newcastle.ac.uk> (Newcastle University)
+2. Sarah Heaps <Sarah.Heaps@newcastle.ac.uk> (Newcastle University)
+3. Michael Trenell <Michael.Trenell@newcastle.ac.uk> (Newcastle University)
+4. Paul Watson <Paul.Watson@newcastle.ac.uk> (Newcastle University)
+
+Abstract
+--------
+The growth in the number of Internet of Things (IoT) devices and applications, and an increase in the capabilities of sensors creates an opportunity to optimise IoT applications by partitioning the computation across all components in the processing chain: sensors, field gateways and clouds. This can be done to optimise a range of factors including performance, energy and cost. We present the PATH2iot open-source platform - a new approach to stream processing for Internet of Things applications by automatically partitioning and deploying the computation over the available infrastructure in order to meet these non-functional requirements. The user gives a high-level declarative description of computation in the form of Event Processing Language queries. These are compiled, optimised, and partitioned to meet the non-functional requirements using database system techniques and cost models extended to meet the needs of IoT analytics. This energy cost model includes impact of computation and networking on the battery life of the sensor device. The system also estimates battery life of the device with appropriate confidence intervals, derived from a set of empirical experiments. In this talk we will describe the PATH2iot system, illustrated by a real-world digital healthcare analytics example monitoring activity and glucose data streams of type II diabetes patients, with sensor battery life as the main non-functional requirement to be optimised. It shows that the tool can automatically partition and distribute the computation across a healthcare wearable, a mobile phone and the cloud - increasing the battery life of the smart watch dramatically. A holistic deployment strategy will also be presented during the talk, describing the PoC system architecture built from industry proven open-source technologies. The PATH2iot system can therefore automatically bring the benefits of fog/edge computing to IoT applications.
+
+

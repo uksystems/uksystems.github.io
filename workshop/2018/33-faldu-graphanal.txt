@@ -1,0 +1,13 @@
+Submission #12: Challenges in Scaling Up Graph Analytics
+========================================================
+
+Authors
+-------
+1. Priyank Faldu <priyank.faldu@ed.ac.uk> (The University of Edinburgh)
+2. Boris Grot <boris.grot@ed.ac.uk> (The University of Edinburgh)
+
+Abstract
+--------
+Introduction of storage-class memory (SCM) in tomorrow's memory systems has the potential to enable affordable large-scale graph analytics on a single machine. However, to make sure that SCM-based scale-up graph processing achieves its full performance potential, various aspects of software and hardware must be rethought in light of combined constraints of SCM and graph applications.
+
+
