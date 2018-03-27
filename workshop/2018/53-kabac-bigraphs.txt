@@ -1,0 +1,19 @@
+Submission #8: Verifying Application Requirements in Multi-Tenancy Sensor Networks
+==================================================================================
+
+Authors
+-------
+1. Milan Kabáč <m.kabac@imperial.ac.uk> (Imperial College London)
+2. Michele Sevegnani <michele.sevegnani@glasgow.ac.uk> (University of Glasgow)
+3. Muffy Calder <muffy.calder@glasgow.ac.uk> (University of Glasgow)
+4. Julie A. McCann <j.mccann@imperial.ac.uk> (Imperial College London)
+
+Abstract
+--------
+Over the last years, there has been a significant increase in the adoption of Wireless Sensor Network (WSN) technology fueled by the ever-growing need for smart services at the scale of homes, offices, building campuses and even entire cities. Due to the growing demand placed on large-scale WSN and high costs that accrue due to deployment and maintenance, a movement has been instigated by the research community to support shared sensing infrastructures allowing multiple tenants to operate over the WSN and share its resources. Compared to the traditional single-purpose model of WSN, shared sensing infrastructures have the distinct advantage of increasing the return on investment for the owner of the infrastructure, while lowering deployment and maintenance costs. Furthermore, the shared WSN model contributes to a more efficient usage of resources.
+
+However, a major challenge in shifting from single-purpose to shared WSN is to guarantee that infrastructure has enough resources to satisfy the requirements of the applications sharing the network. Specifically, it is crucial to ensure that the requirements of competing applications sharing the network can be satisfied by the WSN prior to application deployment and at runtime where the operational conditions of the WSN may change as a result of introducing new nodes, node/network failure, the deployment of a new application, etc. This verification process has to determine the availability of the required sensors, processing power, delivery models (e.g., periodic, query-driven, event-driven), node density per area of interest, etc. and determine whether the shared sensing infrastructure has enough resources to sustain those application requirements over time. In addition, the infrastructure owner has requirements that need to be considered to avoid the depletion of battery power, network congestion or high maintenance costs. Disregarding the resource requirements of applications sharing a WSN can lead to deterioration of the quality of service of coexisting applications or drastically reduce the lifetime of the WSN as a result of resource-greedy application usage.
+
+To enable this new paradigm in the context of large-scale WSN, we propose a systematic approach that ensures the requirements of resource-competing applications are satisfied by a target sensor network prior to their deployment. At runtime, the approach continuously reassesses application requirements and explores the likelihood of issues potentially arising in the WSN before their occurrence. Verification of requirements is carried out by means of rigorous formal methods and analysis. Reasoning about the shared sensing infrastructure and deployed applications is facilitated by means of bigraphs, an abstraction that provides both a straightforward graphical representation of the system and a computational model that integrates with established techniques in formal methods. Our approach has been implemented using BigraphER, an engine for rewriting and analysis of bigraphs, which provides support for exhaustive state space exploration using probabilistic model checking tools. A domain-specific language is proposed for defining models of shared sensing infrastructures used to generate a formal bigraphical representation. We are currently carrying out an evaluation of our approach using the Cooja network simulator.
+
+

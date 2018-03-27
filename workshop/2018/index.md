@@ -147,6 +147,7 @@ Short (5 minute) talks on any relevant topic. Contact [Aleksandar Dragojevic][al
 - "**Verifying Application Requirements in Multi-Tenancy Sensor Networks**",
   Milan Kabáč, Michele Sevegnani, Muffy Calder (University of Glasgow), Julie A.
   McCann (Imperial College London)
+  [[abstract](53-kabac-bigraphs.txt)]
 - "**Holistic, Distributed Stream Processing in IoT Environments**", Peter
   Michalák, Sarah Heaps, Michael Trenell, Paul Watson (Newcastle University)
   [[abstract](54-michalak-streams.txt)]
