@@ -1,0 +1,17 @@
+Submission #20: Modern key distribution with ClaimChain
+=======================================================
+
+Authors
+-------
+1. Bogdan Kulynych <bogdan.kulynych@epfl.ch> (École polytechnique fédérale de Lausanne)
+2. Marios Isaakidis <m.isaakidis@cs.ucl.ac.uk> (University College London)
+3. Carmela Troncoso <carmela.troncoso@epfl.ch> (École polytechnique fédérale de Lausanne)
+4. George Danezis <g.danezis@ucl.ac.uk> (University College London)
+
+Abstract
+--------
+ClaimChain is a Public Key Infrastructure unique in that it can operate in fully decentralized settings with no trusted parties. A vouching mechanism among users, similar to the Web of Trust, assists with social authentication but without revealing the users' social graph. High-integrity data structures prevent equivocation and help detect compromises; the protocol can support generic claims (conventional PGP, modern OTR/Signal etc.); and a prototype evaluation indicates that ClaimChain can scale.
+
+https://claimchain.github.io/
+
+

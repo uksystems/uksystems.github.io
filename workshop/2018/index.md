@@ -160,6 +160,8 @@ Short (5 minute) talks on any relevant topic. Contact [Aleksandar Dragojevic][al
   polytechnique fédérale de Lausanne), Marios Isaakidis (University College
   London), Carmela Troncoso (École polytechnique fédérale de Lausanne), George
   Danezis (University College London)
+  [[abstract](61-isaakidis-claimchain.txt)]
+  [[pdf](61-isaakidis-claimchain.pdf)]
 - "**Roadmap for future research on Chainspace**", Alberto Sonnino, Mustafa
   Al-Bassam, Bano Shehar, George Danezis (University College London)
   [[abstract](62-sonnino-chainspace.txt)]
