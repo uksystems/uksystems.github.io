@@ -117,6 +117,8 @@ Building, Newcastle][ncl]
 - "**Unikernel support for the deployment of light-weight, self-contained, and
   latency avoiding services**", Ward Jaradat, Alan Dearle, Jonathan Lewis
   (University of St Andrews)
+  [[abstract](42-jaradat-services.txt)]
+  [[pdf](42-jaradat-services.pdf)]
 - "**Containerizing Middleware Applications**", Jonathan Dowland (Red Hat)
   [[abstract](43-dowland-middleware.txt)]
   [[pdf](43-dowland-middleware.pdf)]
