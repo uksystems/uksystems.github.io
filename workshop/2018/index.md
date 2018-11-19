@@ -5,12 +5,7 @@ layout: default
 
 # Third Annual UK System Research Challenges Workshop, March 21--23, 2018
 
-A brief report will be posted here after the workshop. The full Call for Papers
-and Participation is [available here](cfp).
-
-[Click
-here](https://webstore.ncl.ac.uk/conferences-and-events/-conferences-events/faculty-of-science-agriculture-engineering/digital-institute/third-annual-uk-systems-research-challenges-workshop)
-to register to attend.
+Many thanks to all those who attended! Programme with abstracts and slides where available are posted below. The full Call for Papers and Participation is [available here](cfp).
 
 ## Location & Transport
 
