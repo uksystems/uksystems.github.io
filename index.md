@@ -12,14 +12,14 @@ and networking, as well as more current challenges and approaches at scales from
 edge and mobile computing to datacenter and the cloud. If your work has bearing
 on how we should go about building practical computer systems, it's of interest!
 
-**_PROGRAMME AVAILABLE_** The programme for the [third iteration of the
-Community's informal workshop](/workshop/2018) (March 21---23, 2018 in beautiful
-Northumberland) is now available along with venue and transport details!
+**_EARLY NOTICE_** We are now starting to organise the [fourth iteration of the
+Community's informal workshop](/workshop/2019) (March 27---29, 2019 in beautiful
+Northumberland). Details will be posted as they unfold!
 
 General registration will open once we've given accepted authors a chance to
 register. Watch this space!
 
-Brief details of previous workshops are [available here](/workshop).
+Details of previous workshops are [available here](/workshop).
 
 Contact [Richard Mortier][mort] (<mailto:richard.mortier@cl.cam.ac.uk>) for more
 details or any questions.
