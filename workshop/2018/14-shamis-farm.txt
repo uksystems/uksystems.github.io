@@ -1,0 +1,10 @@
+Submission #6: FaRM and MVCC
+============================
+
+Author
+------
+Alex Shamis <alexsha@microsoft.com> (Microsoft Research)
+
+Abstract
+--------
+FaRM is a main memory distributed computing platform that provides distributed transactions with strict serializability, high performance, durability, and high availability. Prior work has shown that it is able to achieve peak throughput of 140 million TATP transactions per second on 90 machines with a 4.9 TB database, and that it recovers from a failure in less than 50ms[4, 5]. FaRM’s transactional reads however, do not provide opacity[6]. Transactions sometimes operate on inconsistent state before aborting, which can result in program crashes.  Programmers using FaRM are required to introduce consistency checks, similar to the checks used in lock-free algorithms to prevent this. This is a major issue as it significantly complicates the programming model, even for the experience programmers that use FaRM to build production systems. To fix this problems, we have changed FaRM protocols to provide opacity using Multiversion Concurrency Control (MVCC)[2]. The changes to the FaRM transaction protocol and other supporting features required for MVCC will be described in this talk.
