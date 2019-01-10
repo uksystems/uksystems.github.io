@@ -9,6 +9,7 @@ layout: default
 
 The fourth UK Systems Research workshop brings together researchers from across the UK to discuss pressing topics affecting the design and implementation of large-scale systems. The workshop aims to blend together ideas and projects from both industry and academia in a friendly and inclusive manner. The fourth iteration builds on three years of successful workshops hosted in beautiful locations across Northumberland. 
 
+**We invite you to [submit](https://hotcrp.uksystems.org/) 500 word / 0.5 page abstracts (PDF or plain text) of work for presentation at the next UK Systems Research Challenges workshop. In most cases the main points to include in the abstract are the problem being solved, the new idea or hypothesis being explored in your work, and the current state of the project (e.g., whether you are looking for feedback on an early idea, or presenting finished results that others might want to use).**
 
 We are interested in anything that addresses the topic of how we design, build, operate and use large-scale computing systems, but presentations might include: 
 
@@ -21,7 +22,6 @@ We are interested in anything that addresses the topic of how we design, build, 
 
 Past presentations have included both well-established topics such as system security, architecture, consensus algorithms, hardware, cloud computing and formal methods to new and emerging topics such as edge computing, blockchain and IoT. Details of previous workshops are [available here](/workshop).
 
-**We invite you to [submit](https://hotcrp.uksystems.org/) 500 word / 0.5 page abstracts (PDF or plain text) of work for presentation at the next UK Systems Research Challenges workshop. In most cases the main points to include in the abstract are the problem being solved, the new idea or hypothesis being explored in your work, and the current state of the project (e.g., whether you are looking for feedback on an early idea, or presenting finished results that others might want to use).**
 
 This is an informal workshop without published proceedings. Work is not subject to detailed peer review; we are requesting abstracts only to help us put together the programme and confirm that work is on-topic. In the event of an excess of submissions, preference for presentation slots will be given to Ph.D. students and early career researchers. A programme committee meeting will take place before acceptance in order to ensure the diversity of both subjects and participants.
 
@@ -34,7 +34,7 @@ Key Dates
 ---------
 
 - Abstract submission deadline: February 8 2019.
-- Acceptance notification and presentation programme: February 27, 2019
+- Acceptance notification: February 27, 2019
 - Workshop dates: arrival evening March 27, closing with lunch March 29, 2019
 
 Submission
