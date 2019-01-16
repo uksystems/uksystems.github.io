@@ -76,3 +76,10 @@ Contact [Richard Mortier][mort] (<mailto:richard.mortier@cl.cam.ac.uk>) or [Adam
 
 [mort]: http://mort.io/
 [barker]: http://www.adambarker.org
+
+Sponsors
+--------
+
+Many thanks to our generous sponsors for their support of this event.
+
+![Red Hat](/images/redhat.png)
