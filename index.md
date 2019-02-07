@@ -45,9 +45,14 @@ Submission
 Costs
 -----
 
-Tentative, including accommodation and meals:
+Including accommodation and meals:
 - Current students: £60
 - Others: £125, subsidised thanks to generous donations from Red Hat
+
+Registration
+------------
+
+Please use [this link to register] (https://webstore.ncl.ac.uk/conferences-and-events/faculty-of-science-agriculture-engineering/school-of-computing/4th-annual-uk-systems-research-challenges-workshop)
 
 Co-Chairs
 ---------
