@@ -52,7 +52,7 @@ Including accommodation and meals:
 Registration
 ------------
 
-Please use [this link to register] (https://webstore.ncl.ac.uk/conferences-and-events/faculty-of-science-agriculture-engineering/school-of-computing/4th-annual-uk-systems-research-challenges-workshop)
+Please use [this link to register](https://webstore.ncl.ac.uk/conferences-and-events/faculty-of-science-agriculture-engineering/school-of-computing/4th-annual-uk-systems-research-challenges-workshop)
 
 Co-Chairs
 ---------
