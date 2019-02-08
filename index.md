@@ -33,7 +33,7 @@ Location
 Key Dates
 ---------
 
-- Abstract submission deadline: February 8 2019.
+- **EXTENDED - Abstract submission deadline: February 15 2019.**
 - Acceptance notification: February 27, 2019
 - Workshop dates: arrival evening March 27, closing with lunch March 29, 2019
 
