@@ -1,90 +1,113 @@
 ---
-title: home
+title: Fourth Annual UK System Research Challenges Workshop, 2019
 layout: default
 ---
 
-#                     Call for Presentations & Participation
-#              Fourth Annual UK Systems Research Challenges Workshop
-#                              March 27-29, 2019
+# Fourth Annual UK System Research Challenges Workshop, March 27--29, 2019
 
-The fourth UK Systems Research workshop brings together researchers from across the UK to discuss pressing topics affecting the design and implementation of large-scale systems. The workshop aims to blend together ideas and projects from both industry and academia in a friendly and inclusive manner. The fourth iteration builds on three years of successful workshops hosted in beautiful locations across Northumberland. 
+## Location & Transport
+The workshop will be held at the [Redworth Hall][venue], Northumberland. We are providing coach transport between the venue and Newcastle city centre ([Urban Sciences Building, 1 Science Square, Science Central, NE4 5TG][ncl]) as follows:
+  - **March 27, 17:00**: A coach will depart the [Urban Sciences Building][ncl]
+    to [Linden Hall][venue].
+  - **March 29, 14:00**: A coach will depart [Redworth Hall][venue] to the [Urban
+    Sciences Building][ncl]. Expected arrival is 15:00.
 
-**We invite you to [submit](https://hotcrp.uksystems.org/) 500 word / 0.5 page abstracts (PDF or plain text) of work for presentation at the next UK Systems Research Challenges workshop. In most cases the main points to include in the abstract are the problem being solved, the new idea or hypothesis being explored in your work, and the current state of the project (e.g., whether you are looking for feedback on an early idea, or presenting finished results that others might want to use).**
-
-We are interested in anything that addresses the topic of how we design, build, operate and use large-scale computing systems, but presentations might include: 
-
-- innovative mechanisms or techniques
-- lessons learned: experience with large or unusual systems
-- a viewpoint on a controversial systems topic
-- insights from large-scale systems in industry
-- solving old problems in new ways
-- a big problem coming over the horizon
-
-Past presentations have included both well-established topics such as system security, architecture, consensus algorithms, hardware, cloud computing and formal methods to new and emerging topics such as edge computing, blockchain and IoT. Details of previous workshops are [available here](/workshop).
+Note that this is not a shuttle service but a single coach in each direction.
+For those travelling on from Newcastle after the workshop by train, we would
+suggest booking a train after 15:30 to allow for delays.
 
 
-This is an informal workshop without published proceedings. Work is not subject to detailed peer review; we are requesting abstracts only to help us put together the programme and confirm that work is on-topic. In the event of an excess of submissions, preference for presentation slots will be given to Ph.D. students and early career researchers. A programme committee meeting will take place before acceptance in order to ensure the diversity of both subjects and participants.
+[venue]: https://www.thecairncollection.co.uk/hotels/the-redworth-hall/
+[ncl]: https://goo.gl/maps/4wEvgUFHr6L2
 
-Location
---------
-- [Redworth Hall](https://www.thecairncollection.co.uk/hotels/the-redworth-hall/), Northumberland
-- Coach transport will be provided between the venue and Newcastle city centre
+## Registration
 
-Key Dates
----------
-
-- **EXTENDED - Abstract submission deadline: February 15 2019.**
-- Acceptance notification: February 27, 2019
-- Workshop dates: arrival evening March 27, closing with lunch March 29, 2019
-
-Submission
-----------
-
-- Please submit your abstract to our [HotCRP site](https://hotcrp.uksystems.org/)
-
-Costs
------
-
-Including accommodation and meals:
-- Current students: £60
-- Others: £125, subsidised thanks to generous donations from Red Hat
-
-Registration
-------------
+Thanks to generous contributions from our sponsors, accommodation will be
+included in the registration fee (£60 for students, £125 otherwise).
 
 Please use [this link to register](https://webstore.ncl.ac.uk/conferences-and-events/faculty-of-science-agriculture-engineering/school-of-computing/4th-annual-uk-systems-research-challenges-workshop)
 
-Co-Chairs
----------
-
-- Richard Mortier, <richard.mortier@cl.cam.ac.uk>, Cambridge University
-- Adam Barker, <adam.barker@st-andrews.ac.uk>, University of St Andrews
-- Derek McAuley, <derek.mcauley@nottingham.ac.uk>, Nottingham University
-- Paul Watson, <paul.watson@newcastle.ac.uk>, Newcastle University
-
-Programme Committee
--------------------
-
-- Adam Barker (Chair) <adam.barker@st-andrews.ac.uk>, University of St Andrews
-- Sara Fernstadt, <sara.fernstad@ncl.ac.uk>, Newcastle University
-- Heidi Howard, <heidi.howard@cl.cam.ac.uk>, Cambridge University
-- Frédéric Le Mouël, <frederic.le-mouel@insa-lyon.fr>, INSA Lyon
-- Mark Little, <mlittle@redhat.com>, Red Hat
-- Omer Rana, <ranaof@cardiff.ac.uk>, Cardiff University
-- Blesson Varghese <B.Varghese@qub.ac.uk>, Queens University Belfast
 
 
-Contacts
---------
+## Programme
+### Wednesday, March 27 March
+**16:45** Please report to the ground floor reception of the [Urban Sciences
+Building, Newcastle][ncl]
 
-Contact [Richard Mortier][mort] (<mailto:richard.mortier@cl.cam.ac.uk>) or [Adam Barker][barker] (<mailto:adam.barker@st-andrews.ac.uk>) for more details or any questions.
+**17:00** Coach leaves the [Urban Sciences Building, Newcastle][ncl]
 
-[mort]: http://mort.io/
-[barker]: http://www.adambarker.org
+**18:00** Check-in at [Redworth Hall][venue]
 
-Sponsors
---------
+**18:30-19:00** Dinner
 
-Many thanks to our generous sponsors for their support of this event.
+### Thursday, March 28 March
+09:00-09:20  **Welcome & Intro**
 
-![Red Hat](/images/redhat.png)
+09:20-11:00 **Graph / Stream Processing: 100 minutes (5 talks)**
+- "**Scalable Isolation Guarantees for Distributed Graph Databases**", Jack	Waudby (Newcastle University), Paul Ezhilchelvan (Newcastle University).
+- "**An In-memory Graph System for Scalable and Consistent Data Integration**", Bilal Arshad (University of Derby).
+- "**Raphtory : Streaming Analysis Of Distributed Temporal Graphs**", Ben Steer (Queen Mary University London), Felix Cuadrado (Queen Mary University London), Richard clegg (Queen Mary University London).
+- "**Model driven scaling for distributed steam processing systems and micro-services**", Thomas Cooper (Newcastle University), Paul Ezhilchelvan (Newcastle University).
+- "**Stream-processing with purely-functional programming**", Jonathan Dowland (Newcastle University & Red Hat).
+
+11:00-11:30 Coffee
+
+11:30-12:30	 **Cloud / Edge: 60 minutes (3 talks)**
+- "**Building Cloud Native Event Driven applications with Knative and CloudEvents**", Hugo Hiden (Red Hat), Simon Woodman (Red Hat).
+- "**All Weather Programming: Programming for the Edge, Fog and Cloud**", Nnamdi Ekwe-Ekwe (University of St Andrews).
+- "**Profitable cloud broker with two phases optimisation**", Chalee Boonprasop (University of St Andrews).
+
+12:30-14:00	Lunch
+
+14:00-15:20	**Programming Models: 80 minutes (4 talks)**
+- "**The Sea of Stuff: a step towards the grand unified theory of data**", 
+Simone Ivan Conte (Adobe), Alan Dearle (University of St Andrews), Graham Kirby (University of St Andrews).
+- "**A Language for Multi-Perspective Design and Runtime Monitoring**", Blair Archibald (University of Glasgow).
+- "**Accelerating Python on Heterogeneous Architectures using Staged Parallelisation**", Dejice Jacob (University of Glasgow), Jeremy Singer (University of Glasgow), Phil Trinder (University of Glasgow).
+- "**Fine-grained Stateful Computations**", Georgy Lukyanov (Newcastle University), Andrey Mokhov (Newcastle University).
+
+15:20-15:50	Coffee
+
+15:50-17:30	**IoT / Sensor Systems: 100 minutes (5 talks)**
+- "**The science of systems with sensors**", Simon Dobson (University of St Andrews).
+- "**Participatory Design Fiction as Inspiration for End-to-End Wearable IoT Device Design**", Helen Oliver (The Alan Turing Institute/University of Cambridge).
+- "**Helen	Oliver	The Alan Turing Institute/University of Cambridge**", Nick Holliman (Newcastle University).
+- "**Crowdsourcery: Defence Against Dark Artefacts in Smart Homes**", Vadim	Safronov (University of Cambridge).
+- "**Systems Engineering Research Challenges Related to Embedded Real-Time Systems**", Iain Bate (University of York).
+
+19:00-21:00 Dinner
+
+21:00-22:00 **Lightning talks run by Al Dearle**
+
+Short (5 minute) talks on any relevant topic. 
+
+### Friday, March 29 March
+09:00-10:20	***Networked Systems / Distributed Algorithms: 80 minutes (4 talks)***
+- "**Measuring QUIC Reachability**", Mihail Yanev (University of Glasgow), Colin (Perkins	University of Glasgow).
+- "**Hermes: Fault-tolerant Replication with Strong Consistency and High Performance**", Antonios Katsarakis (University of Edinburgh), Vasilis Gavrielatos	(University of Edinburgh), Siavash Katebzadeh (University of Edinburgh), Arpit Joshi (University of Edinburgh), Boris Grot (University of Edinburgh), Vijay Nagarajan (University of Edinburgh), Aleksandar Dragojevic (Microsoft Research).
+- "**Coordinating Stable Crash Tolerance for Stream Processing Systems**", Georgios Stamatiadis (Newcastle University), Paul Ezhilchelvan (Newcastle University).
+- "**Radical automation of infrastructure and software for data science**", Diego Arenas (University of St Andrews).
+
+10:20-10:50	Coffee
+
+10:50-12:10	**Programming / Privacy: 80 minutes (4 talks)**
+- "**Databox: Privacy aware personal data processing**", Anthony Brown (University of Nottingham), Derek McAuley (University of Nottingham), Richard Mortier (University of Cambridge).
+- "**Observations of a shared memory Java program on NUMA**", Alan Dearle (University of St Andrews), Graham Kirby (University of St Andrews), Richard Connor (Stirling University).
+- "**Challenges in System Security Evaluation**", Brett	Gutstein (University of Cambridge).
+- "**Fast, Unmodified, Full-system Mobile CPU/GPU Simulation**", Tom Spink (University of Edinburgh).
+
+12:10-12:20 **Wrap-up**
+
+12:20-13:20	Lunch
+
+13:45 **Coach departs** for the [Urban Sciences Building, Newcastle][ncl]
+
+
+## Sponsors
+Many thanks to our generous sponsors for their support of this event!
+
+
+[![Red Hat](/images/redhat.png)][redhat]
+
+[redhat]: https://www.redhat.com/en
+
