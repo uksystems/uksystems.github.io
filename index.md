@@ -8,7 +8,7 @@ layout: default
 ## Location & Transport
 The workshop will be held at the [Redworth Hall][venue], Northumberland. We are providing coach transport between the venue and Newcastle city centre ([Urban Sciences Building, 1 Science Square, Science Central, NE4 5TG][ncl]) as follows:
   - **March 27, 17:00**: A coach will depart the [Urban Sciences Building][ncl]
-    to [Linden Hall][venue].
+    to [Redworth Hall][venue].
   - **March 29, 14:00**: A coach will depart [Redworth Hall][venue] to the [Urban
     Sciences Building][ncl]. Expected arrival is 15:00.
 
@@ -71,7 +71,7 @@ Simone Ivan Conte (Adobe), Alan Dearle (University of St Andrews), Graham Kirby 
 15:50-17:30	**IoT / Sensor Systems: 100 minutes (5 talks)**
 - "**The science of systems with sensors**", Simon Dobson (University of St Andrews).
 - "**Participatory Design Fiction as Inspiration for End-to-End Wearable IoT Device Design**", Helen Oliver (The Alan Turing Institute/University of Cambridge).
-- "**Helen	Oliver	The Alan Turing Institute/University of Cambridge**", Nick Holliman (Newcastle University).
+- "**Simulating and measuring latency in Interactive Remote Rendering systems**", Richard Cloete (Newcastle University), Nick Holliman (Newcastle University).
 - "**Crowdsourcery: Defence Against Dark Artefacts in Smart Homes**", Vadim	Safronov (University of Cambridge).
 - "**Systems Engineering Research Challenges Related to Embedded Real-Time Systems**", Iain Bate (University of York).
 
