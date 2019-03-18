@@ -83,7 +83,7 @@ Short (5 minute) talks on any relevant topic.
 
 ### Friday, March 29 March
 09:00-10:20	***Networked Systems / Distributed Algorithms: 80 minutes (4 talks)***
-- "**Measuring QUIC Reachability**", Mihail Yanev (University of Glasgow), Colin (Perkins	University of Glasgow).
+- "**Measuring QUIC Reachability**", Mihail Yanev (University of Glasgow), Colin Perkins (University of Glasgow).
 - "**Hermes: Fault-tolerant Replication with Strong Consistency and High Performance**", Antonios Katsarakis (University of Edinburgh), Vasilis Gavrielatos	(University of Edinburgh), Siavash Katebzadeh (University of Edinburgh), Arpit Joshi (University of Edinburgh), Boris Grot (University of Edinburgh), Vijay Nagarajan (University of Edinburgh), Aleksandar Dragojevic (Microsoft Research).
 - "**Coordinating Stable Crash Tolerance for Stream Processing Systems**", Georgios Stamatiadis (Newcastle University), Paul Ezhilchelvan (Newcastle University).
 - "**Radical automation of infrastructure and software for data science**", Diego Arenas (University of St Andrews).
