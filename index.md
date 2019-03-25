@@ -44,7 +44,7 @@ Building, Newcastle][ncl]
 09:00-09:20  **Welcome & Intro**
 
 09:20-11:00 **Graph / Stream Processing: 100 minutes (5 talks)**
-- **Chair: Derek McAuley**
+- <span style="color:red">**Chair: Derek McAuley**</span>
 - "**Scalable Isolation Guarantees for Distributed Graph Databases**", Jack	Waudby (Newcastle University), Paul Ezhilchelvan (Newcastle University).
 - "**An In-memory Graph System for Scalable and Consistent Data Integration**", Bilal Arshad (University of Derby).
 - "**Raphtory : Streaming Analysis Of Distributed Temporal Graphs**", Ben Steer (Queen Mary University London), Felix Cuadrado (Queen Mary University London), Richard clegg (Queen Mary University London).
@@ -54,7 +54,7 @@ Building, Newcastle][ncl]
 11:00-11:30 Coffee
 
 11:30-12:30	 **Cloud / Edge: 60 minutes (3 talks)**
-- **Chair: Paul Watson**
+- <span style="color:red">**Chair: Paul Watson**</span>
 - "**Building Cloud Native Event Driven applications with Knative and CloudEvents**", Hugo Hiden (Red Hat), Simon Woodman (Red Hat).
 - "**All Weather Programming: Programming for the Edge, Fog and Cloud**", Nnamdi Ekwe-Ekwe (University of St Andrews).
 - "**Profitable cloud broker with two phases optimisation**", Chalee Boonprasop (University of St Andrews).
@@ -62,7 +62,7 @@ Building, Newcastle][ncl]
 12:30-14:00	Lunch
 
 14:00-15:20	**Programming Models: 80 minutes (4 talks)**
-- **Chair: Simon Dobson**
+- <span style="color:red">**Chair: Simon Dobson**</span>
 - "**The Sea of Stuff: a step towards the grand unified theory of data**", 
 Simone Ivan Conte (Adobe), Alan Dearle (University of St Andrews), Graham Kirby (University of St Andrews).
 - "**A Language for Multi-Perspective Design and Runtime Monitoring**", Blair Archibald (University of Glasgow).
@@ -72,7 +72,7 @@ Simone Ivan Conte (Adobe), Alan Dearle (University of St Andrews), Graham Kirby 
 15:20-15:50	Coffee
 
 15:50-17:30	**IoT / Sensor Systems: 100 minutes (5 talks)**
-- **Chair: Adam Barker**
+- <span style="color:red">**Chair: Adam Barker**</span>
 - "**The science of systems with sensors**", Simon Dobson (University of St Andrews).
 - "**Participatory Design Fiction as Inspiration for End-to-End Wearable IoT Device Design**", Helen Oliver (The Alan Turing Institute/University of Cambridge).
 - "**Simulating and measuring latency in Interactive Remote Rendering systems**", Richard Cloete (Newcastle University), Nick Holliman (Newcastle University).
@@ -87,7 +87,7 @@ Short (5 minute) talks on any relevant topic.
 
 ### Friday, March 29 March
 09:00-10:20	***Networked Systems / Distributed Algorithms: 80 minutes (4 talks)***
-- **Chair: Richard Mortier**
+- <span style="color:red">**Chair: Richard Mortier**</span>
 - "**Measuring QUIC Reachability**", Mihail Yanev (University of Glasgow), Colin Perkins (University of Glasgow).
 - "**Hermes: Fault-tolerant Replication with Strong Consistency and High Performance**", Antonios Katsarakis (University of Edinburgh), Vasilis Gavrielatos	(University of Edinburgh), Siavash Katebzadeh (University of Edinburgh), Arpit Joshi (University of Edinburgh), Boris Grot (University of Edinburgh), Vijay Nagarajan (University of Edinburgh), Aleksandar Dragojevic (Microsoft Research).
 - "**Coordinating Stable Crash Tolerance for Stream Processing Systems**", Georgios Stamatiadis (Newcastle University), Paul Ezhilchelvan (Newcastle University).
@@ -96,7 +96,7 @@ Short (5 minute) talks on any relevant topic.
 10:20-10:50	Coffee
 
 10:50-12:10	**Programming / Privacy: 80 minutes (4 talks)**
-- **Chair: Mark Little**
+- <span style="color:red">**Chair: Mark Little**</span>
 - "**Databox: Privacy aware personal data processing**", Anthony Brown (University of Nottingham), Derek McAuley (University of Nottingham), Richard Mortier (University of Cambridge).
 - "**Observations of a shared memory Java program on NUMA**", Alan Dearle (University of St Andrews), Graham Kirby (University of St Andrews), Richard Connor (Stirling University).
 - "**Challenges in System Security Evaluation**", Brett	Gutstein (University of Cambridge).
