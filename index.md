@@ -107,7 +107,7 @@ Short (5 minute) talks on any relevant topic.
 
 10:50-12:10	**Programming / Privacy: 80 minutes (4 talks)**
 
-**Chair: Mark Little**
+**Chair: Matthew Forshaw**
 
 - "**Databox: Privacy aware personal data processing**", Anthony Brown (University of Nottingham), Derek McAuley (University of Nottingham), Richard Mortier (University of Cambridge).
 - "**Observations of a shared memory Java program on NUMA**", Alan Dearle (University of St Andrews), Graham Kirby (University of St Andrews), Richard Connor (Stirling University).
