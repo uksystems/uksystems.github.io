@@ -47,7 +47,7 @@ Building, Newcastle][ncl]
 
 09:20-11:00 **Graph / Stream Processing: 100 minutes (5 talks)**
 
-**Chair: Derek McAuley**
+**Chair: Adam Barker**
 
 - "**Scalable Isolation Guarantees for Distributed Graph Databases**", Jack	Waudby (Newcastle University), Paul Ezhilchelvan (Newcastle University).
 - "**An In-memory Graph System for Scalable and Consistent Data Integration**", Bilal Arshad (University of Derby).
@@ -81,7 +81,7 @@ Simone Ivan Conte (Adobe), Alan Dearle (University of St Andrews), Graham Kirby 
 
 15:50-17:30	**IoT / Sensor Systems: 100 minutes (5 talks)**
 
-**Chair: Adam Barker**
+**Chair: Derek McAuley**
 
 - "**The science of systems with sensors**", Simon Dobson (University of St Andrews).
 - "**Participatory Design Fiction as Inspiration for End-to-End Wearable IoT Device Design**", Helen Oliver (The Alan Turing Institute/University of Cambridge).
