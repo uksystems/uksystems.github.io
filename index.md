@@ -38,7 +38,9 @@ Building, Newcastle][ncl]
 
 **18:00** Check-in at [Redworth Hall][venue]
 
-**18:30-19:00** Dinner
+**18:30-19:30** Drinks reception
+
+**19:30** Dinner
 
 ### Thursday, March 28 March
 09:00-09:20  **Welcome & Intro**
