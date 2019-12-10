@@ -11,7 +11,7 @@ Details to follow shortly!
 Many thanks to our generous sponsors for their support of this event!
 
 
-[![Red Hat](/images/redhat-new.png)][redhat]
+[![Red Hat](/images/redhat-new.jpg)][redhat]
 
 [redhat]: https://www.redhat.com/en
 
