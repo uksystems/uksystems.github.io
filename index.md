@@ -81,7 +81,7 @@ Chair
 
 ---------
 
-Diana Andreea Popescu, diana.popescu@cl.cam.ac.uk,  University of Cambridge
+- Diana Andreea Popescu, diana.popescu@cl.cam.ac.uk,  University of Cambridge
 
  
 
@@ -89,11 +89,11 @@ Co-Chairs
 
 ---------
 
-Richard Mortier, richard.mortier@cl.cam.ac.uk, Cambridge University
+- Richard Mortier, richard.mortier@cl.cam.ac.uk, Cambridge University
 
-Derek McAuley, derek.mcauley@nottingham.ac.uk, Nottingham University
+- Derek McAuley, derek.mcauley@nottingham.ac.uk, Nottingham University
 
-Paul Watson, paul.watson@newcastle.ac.uk, Newcastle University
+- Paul Watson, paul.watson@newcastle.ac.uk, Newcastle University
 
  
 
@@ -102,25 +102,25 @@ Paul Watson, paul.watson@newcastle.ac.uk, Newcastle University
 
 ---------
 
-Diana Andreea Popescu, University of Cambridge		
+- Diana Andreea Popescu, University of Cambridge		
 
-Dimitrios Pezaros, University of Glasgow		
+- Dimitrios Pezaros, University of Glasgow		
 
-Gianni Antichi, Queen Mary University of London				
+- Gianni Antichi, Queen Mary University of London				
 
-Heidi Howard, University of Cambridge				
+- Heidi Howard, University of Cambridge				
 
-Omer Rana, Cardiff University		
+- Omer Rana, Cardiff University		
 
-Paolo Costa, Microsoft Research				
+- Paolo Costa, Microsoft Research				
 
-Paul Patras, University of Edinburgh		
+- Paul Patras, University of Edinburgh		
 
-Poonam Yadav, University of York
+- Poonam Yadav, University of York
 
-Rebecca Whitworth, RedHat		
+- Rebecca Whitworth, RedHat		
 
-Tim Harris, Amazon	
+- Tim Harris, Amazon	
 
 For any other questions or queries, please contact Dr Richard Mortier.
 
