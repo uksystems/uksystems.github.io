@@ -75,6 +75,7 @@ Including accommodation and meals:
 - Standard: £125
 
  
+## Organising Committee
 
 Chair
 
@@ -96,7 +97,8 @@ Co-Chairs
 
  
 
-## Programme Committee
+
+## Technical Programme Committee
 
 ---------
 
