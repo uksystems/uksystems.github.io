@@ -5,10 +5,7 @@ layout: default
 
 # Fifth Annual UK System Research Challenges Workshop, March 17--19, 2020
 
-##Call for Presentations & Participation
-
-====================================================
- 
+## Call for Presentations & Participation
 
 We invite you to submit 500 word / 0.5 page abstracts (PDF or plain text) of work for presentation at the next UK Systems Research Challenges workshop. In most cases the main points to include in the abstract are the problem being solved, the new idea or hypothesis being explored in your work, and the current state of the project (e.g., whether you are looking for feedback on an early idea or presenting finished results that others might want to use).
 
@@ -36,7 +33,7 @@ This is an informal workshop without published proceedings. Work is not subject 
 
  
 
-##Location
+## Location
 
 --------
 
@@ -48,7 +45,7 @@ This is an informal workshop without published proceedings. Work is not subject 
 
  
 
-##Key Dates
+## Key Dates
 
 ---------
 
@@ -60,14 +57,14 @@ This is an informal workshop without published proceedings. Work is not subject 
 
  
 
-##Submission
+## Submission
 
 ---------
 
-Coming soon.
+Submissions via this link. https://hotcrp.uksystems.org/
 
 
-##Registration and Costs
+## Registration and Costs
 
 -----
 
@@ -99,19 +96,28 @@ Co-Chairs
 
  
 
-##Programme Committee
+## Programme Committee
 
 ---------
 
 Diana Andreea Popescu, University of Cambridge		
+
 Dimitrios Pezaros, University of Glasgow		
+
 Gianni Antichi, Queen Mary University of London				
+
 Heidi Howard, University of Cambridge				
+
 Omer Rana, Cardiff University		
+
 Paolo Costa, Microsoft Research				
+
 Paul Patras, University of Edinburgh		
+
 Poonam Yadav, University of York
+
 Rebecca Whitworth, RedHat		
+
 Tim Harris, Amazon	
 
 For any other questions or queries, please contact Dr Richard Mortier.
