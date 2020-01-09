@@ -61,7 +61,7 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 ---------
 
-Submissions via this link. https://hotcrp.uksystems.org/
+Submissions via this [link.](https://hotcrp.uksystems.org/)
 
 
 ## Registration and Costs
@@ -89,11 +89,11 @@ Co-Chairs
 
 ---------
 
-- Richard Mortier, richard.mortier@cl.cam.ac.uk, Cambridge University
+Richard Mortier, richard.mortier@cl.cam.ac.uk, Cambridge University
 
-- Derek McAuley, derek.mcauley@nottingham.ac.uk, Nottingham University
+Derek McAuley, derek.mcauley@nottingham.ac.uk, Nottingham University
 
-- Paul Watson, paul.watson@newcastle.ac.uk, Newcastle University
+Paul Watson, paul.watson@newcastle.ac.uk, Newcastle University
 
  
 
