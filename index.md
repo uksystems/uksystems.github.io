@@ -134,6 +134,6 @@ Many thanks to our generous sponsors for their support of this event!
 
 [redhat]: https://www.redhat.com/en
 
-[![MaRIONet Project](/images/marionet_logo.jpg)][marionet]
+[![MaRIONet Project](/images/marionet_logo.png)][marionet]
 
 [marionet]: https://manycore.org.uk/
