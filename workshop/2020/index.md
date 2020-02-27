@@ -61,7 +61,7 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 ---------
 
-Submissions via this link. https://hotcrp.uksystems.org/
+Submissions via this [link.](https://hotcrp.uksystems.org/)
 
 
 ## Registration and Costs
@@ -75,12 +75,13 @@ Including accommodation and meals:
 - Standard: £125
 
  
+## Organising Committee
 
 Chair
 
 ---------
 
-Diana Andreea Popescu, diana.popescu@cl.cam.ac.uk,  University of Cambridge
+- Diana Andreea Popescu, diana.popescu@cl.cam.ac.uk,  University of Cambridge
 
  
 
@@ -96,29 +97,30 @@ Co-Chairs
 
  
 
+
 ## Technical Programme Committee
 
 ---------
 
-Diana Andreea Popescu, University of Cambridge		
+- Diana Andreea Popescu, University of Cambridge		
 
-Dimitrios Pezaros, University of Glasgow		
+- Dimitrios Pezaros, University of Glasgow		
 
-Gianni Antichi, Queen Mary University of London				
+- Gianni Antichi, Queen Mary University of London				
 
-Heidi Howard, University of Cambridge				
+- Heidi Howard, University of Cambridge				
 
-Omer Rana, Cardiff University		
+- Omer Rana, Cardiff University		
 
-Paolo Costa, Microsoft Research				
+- Paolo Costa, Microsoft Research				
 
-Paul Patras, University of Edinburgh		
+- Paul Patras, University of Edinburgh		
 
-Poonam Yadav, University of York
+- Poonam Yadav, University of York
 
-Rebecca Whitworth, RedHat		
+- Rebecca Whitworth, RedHat		
 
-Tim Harris, Amazon	
+- Tim Harris, Amazon	
 
 For any other questions or queries, please contact Dr Richard Mortier.
 

@@ -32,17 +32,6 @@ DOCKER = docker run -ti -v $$(pwd -P):/cwd -w /cwd $$DOCKER_FLAGS
 JEKYLL = $(DOCKER) mor1/jekyll
 JEKYLLS = $(DOCKER) -p $(PORT):$(PORT) mor1/jekyll
 
-# .PHONY: clean
-# clean: # remove build artefacts
-#	$(RM) -r _mirage/_build
-#	$(MIRAGE) clean || true
-#	$(MIRAGE) destroy || true
-
-# .PHONY: distclean
-# distclean: | clean # also remove built assets
-#	$(RM) -r _site
-#	$(RM) -r _coffee/*.js js/*.js $(PAPERS)
-
 .PHONY: site
 site: # build site
 	$(JEKYLL) build --trace

@@ -9,7 +9,7 @@ layout: default
 
 We invite you to submit 500 word / 0.5 page abstracts (PDF or plain text) of work for presentation at the next UK Systems Research Challenges workshop. In most cases the main points to include in the abstract are the problem being solved, the new idea or hypothesis being explored in your work, and the current state of the project (e.g., whether you are looking for feedback on an early idea or presenting finished results that others might want to use).
 
- 
+
 
 This is the fifth iteration of a workshop bringing together systems researchers from across the UK and beyond, to discuss pressing topics affecting the design and implementation of large-scale systems in a friendly and inclusive setting. We're interested in presentations that speak to:
 
@@ -23,15 +23,15 @@ This is the fifth iteration of a workshop bringing together systems researchers 
 
 ·         and really, anything that would be of interest to the builders of computer systems
 
- 
+
 
 Past topics have included everything from system security and architecture, to consensus and engineering, to data visualisation, data centres and the Internet of Things. We aim to be broad and inclusive-- if it's a matter that has bearing on how we design, build, operate and use large-scale computing systems, it's in scope.
 
- 
+
 
 This is an informal workshop without published proceedings. Work is not subject to detailed peer review; we are requesting abstracts only to help us put together the programme and confirm that work is on-topic. In the event of an excess of submissions, preference for presentation slots will be given to Ph.D. students and early career researchers.
 
- 
+
 
 ## Location
 
@@ -43,7 +43,7 @@ This is an informal workshop without published proceedings. Work is not subject 
 
    (Urban Sciences Building, 1 Science Square, Science Central, NE4 5TG)
 
- 
+
 
 ## Key Dates
 
@@ -55,7 +55,7 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 - Workshop dates: arrival evening March 17, closing with lunch March 19, 2019
 
- 
+
 
 ## Submission
 
@@ -74,7 +74,7 @@ Including accommodation and meals:
 
 - Standard: £125
 
- 
+
 ## Organising Committee
 
 Chair
@@ -83,7 +83,7 @@ Chair
 
 - Diana Andreea Popescu, diana.popescu@cl.cam.ac.uk,  University of Cambridge
 
- 
+
 
 Co-Chairs
 
@@ -95,26 +95,26 @@ Co-Chairs
 
 - Paul Watson, paul.watson@newcastle.ac.uk, Newcastle University
 
- 
+
 
 
 ## Technical Programme Committee
 
 ---------
 
-- Diana Andreea Popescu, University of Cambridge		
+- Diana Andreea Popescu, University of Cambridge
 
-- Dimitrios Pezaros, University of Glasgow		
+- Dimitrios Pezaros, University of Glasgow
 
-- Gianni Antichi, Queen Mary University of London				
+- Gianni Antichi, Queen Mary University of London
 
-- Heidi Howard, University of Cambridge				
+- Heidi Howard, University of Cambridge
 
 - Paul Watson, Newcastle University		
 
-- Paolo Costa, Microsoft Research				
+- Paolo Costa, Microsoft Research
 
-- Paul Patras, University of Edinburgh		
+- Paul Patras, University of Edinburgh
 
 - Poonam Yadav, University of York
 
@@ -122,7 +122,7 @@ Co-Chairs
 
 - Richard Mortier, University of Cambridge	
 
-- Tim Harris, Amazon	
+- Tim Harris, Amazon
 
 For any other questions or queries, please contact Dr Richard Mortier.
 
@@ -137,5 +137,3 @@ Many thanks to our generous sponsors for their support of this event!
 [![MaRIONet Project](/images/marionet_logo.jpg)][marionet]
 
 [marionet]: https://manycore.org.uk/
-
-
