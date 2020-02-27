@@ -110,7 +110,7 @@ Co-Chairs
 
 - Heidi Howard, University of Cambridge				
 
-- Omer Rana, Cardiff University		
+- Paul Watson, Newcastle University		
 
 - Paolo Costa, Microsoft Research				
 
@@ -118,7 +118,9 @@ Co-Chairs
 
 - Poonam Yadav, University of York
 
-- Rebecca Whitworth, RedHat		
+- Rebecca Whitworth, RedHat	
+
+- Richard Mortier, University of Cambridge	
 
 - Tim Harris, Amazon	
 
@@ -131,4 +133,9 @@ Many thanks to our generous sponsors for their support of this event!
 [![Red Hat](/images/redhat-new.jpg)][redhat]
 
 [redhat]: https://www.redhat.com/en
+
+[![MaRIONet Project](/images/marionet_logo.jpg)][marionet]
+
+[marionet]: https://manycore.org.uk/
+
 
