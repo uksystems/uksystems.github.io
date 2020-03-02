@@ -5,313 +5,309 @@ layout: default
 
 # Fifth Annual UK System Research Challenges Workshop, March 17--19, 2020
 
-## Call for Presentations & Participation
+This is the fifth iteration of a workshop bringing together systems researchers
+from across the UK and beyond, to discuss pressing topics affecting the design
+and implementation of large-scale systems in a friendly and inclusive setting.
 
-We invite you to submit 500 word / 0.5 page abstracts (PDF or plain text) of work for presentation at the next UK Systems Research Challenges workshop. In most cases the main points to include in the abstract are the problem being solved, the new idea or hypothesis being explored in your work, and the current state of the project (e.g., whether you are looking for feedback on an early idea or presenting finished results that others might want to use).
+Past topics have included everything from system security and architecture, to
+consensus and engineering, to data visualisation, data centres and the Internet
+of Things. We aim to be broad and inclusive -- if it's a matter that has bearing
+on how we design, build, operate and use large-scale computing systems, it's in
+scope.
 
-
-
-This is the fifth iteration of a workshop bringing together systems researchers from across the UK and beyond, to discuss pressing topics affecting the design and implementation of large-scale systems in a friendly and inclusive setting. We're interested in presentations that speak to:
-
-·         innovative mechanisms
-
-·         lessons learned: experience with large or unusual systems
-
-·         a viewpoint on a controversial systems topic
-
-·         a big problem coming over the horizon
-
-·         and really, anything that would be of interest to the builders of computer systems
-
-
-
-Past topics have included everything from system security and architecture, to consensus and engineering, to data visualisation, data centres and the Internet of Things. We aim to be broad and inclusive-- if it's a matter that has bearing on how we design, build, operate and use large-scale computing systems, it's in scope.
-
-
-
-This is an informal workshop without published proceedings. Work is not subject to detailed peer review; we are requesting abstracts only to help us put together the programme and confirm that work is on-topic. In the event of an excess of submissions, preference for presentation slots will be given to Ph.D. students and early career researchers.
-
-
+**[Click here](https://webstore.ncl.ac.uk/conferences-and-events/faculty-of-science-agriculture-engineering/school-of-computing/systems-research-challenges-workshop-2020) to register to attend!**
 
 ## Location
 
---------
-
 - Redworth Hall Hotel, Surtees Rd, Newton Aycliffe DL5 6NL
-
 - Coach transport will be provided between the venue and Newcastle city centre
-
-   (Urban Sciences Building, 1 Science Square, Science Central, NE4 5TG)
-
-
+  (Urban Sciences Building, 1 Science Square, Science Central, NE4 5TG)
 
 ## Key Dates
 
----------
-
-- Abstract submission deadline: January 31, 2020
-
-- Acceptance notification and presentation programme: February 19, 2020
-
-- Workshop dates: arrival evening March 17, closing with lunch March 19, 2019
-
-
-
-## Submission
-
----------
-
-#Submissions via this [link.](https://hotcrp.uksystems.org/)
-Submissions are now closed.
-
+- ~~Abstract submission deadline: January 31, 2020~~
+- ~~Acceptance notification and presentation programme: February 19, 2020~~
+- Workshop dates: arrival evening March 17, closing with lunch March 19, 2020
 
 ## Registration and Costs
 
------
-
-Including accommodation and meals:
+Registration includes accommodation and all meals:
 
 - Current students: £60
-
 - Standard: £125
 
+## ~~Call for Presentations~~
 
-## Organising Committee
+**Submissions are now closed -- see the list of [accepted talks](#accepted-talks) below.**
 
-Chair
+We invite you to submit 500 word / 0.5 page abstracts (PDF or plain text) of
+work for presentation at the next UK Systems Research Challenges workshop. In
+most cases the main points to include in the abstract are the problem being
+solved, the new idea or hypothesis being explored in your work, and the current
+state of the project (e.g., whether you are looking for feedback on an early
+idea or presenting finished results that others might want to use).
 
----------
+We're interested in presentations that speak to:
 
-- Diana Andreea Popescu, diana.popescu@cl.cam.ac.uk,  University of Cambridge
+  * innovative mechanisms
+  * lessons learned: experience with large or unusual systems
+  * a viewpoint on a controversial systems topic
+  * a big problem coming over the horizon
 
+and really, anything that would be of interest to the builders of computer
+systems.
 
+This is an informal workshop without published proceedings. Work is not subject
+to detailed peer review; we are requesting abstracts only to help us put
+together the programme and confirm that work is on-topic. In the event of an
+excess of submissions, preference for presentation slots will be given to Ph.D.
+students and early career researchers.
 
-Co-Chairs
+## Committees
 
----------
+### Chair
 
-- Richard Mortier, richard.mortier@cl.cam.ac.uk, Cambridge University
+- Diana Andreea Popescu, diana.popescu at cl.cam.ac.uk,  University of Cambridge
 
-- Derek McAuley, derek.mcauley@nottingham.ac.uk, Nottingham University
+### Technical Programme Committee
 
-- Paul Watson, paul.watson@newcastle.ac.uk, Newcastle University
+- Diana Andreea Popescu, University of Cambridge
+- Dimitrios Pezaros, University of Glasgow
+- Gianni Antichi, Queen Mary University of London
+- Heidi Howard, University of Cambridge
+- Paul Watson, Newcastle University
+- Paolo Costa, Microsoft Research
+- Paul Patras, University of Edinburgh
+- Poonam Yadav, University of York
+- Rebecca Whitworth, RedHat
+- Richard Mortier, University of Cambridge
+- Tim Harris, Amazon
 
+For any questions or queries, please contact Dr Diana Andreea Popescu.
+
+### Steering Committee
+
+- Richard Mortier, richard.mortier at cl.cam.ac.uk, Cambridge University
+- Derek McAuley, derek.mcauley at nottingham.ac.uk, Nottingham University
+- Paul Watson, paul.watson at newcastle.ac.uk, Newcastle University
 
 ## Accepted Talks
 
-Pricing Python Parallelism : Guided JIT compilation for Heterogeneous Architectures
 
-Dejice Jacob (University of Glasgow)
+  * Pricing Python Parallelism : Guided JIT compilation for Heterogeneous Architectures
 
-Data-Centric Parallelisation
+    Dejice Jacob (University of Glasgow)
 
-Magnus Morton (University of Edinburgh)
-Björn Franke (University of Edinburgh)
+  * Data-Centric Parallelisation
 
-JIT-as-a-Service
+    Magnus Morton (University of Edinburgh)
+    Björn Franke (University of Edinburgh)
 
-Tom Spink (University of Edinburgh)
+  * JIT-as-a-Service
 
-MOCHA: Modelling and Optimising Complex Heterogeneous Architectures
+    Tom Spink (University of Edinburgh)
 
-Shuai Zhao (University of York)
-Xiaotian Dai (University of York)
-Wanli Chang (University of York)
-Iain Bate (University of York)
+  * MOCHA: Modelling and Optimising Complex Heterogeneous Architectures
 
-Novel visualisation method for summarising and exploring complex networks
+    Shuai Zhao (University of York)
+    Xiaotian Dai (University of York)
+    Wanli Chang (University of York)
+    Iain Bate (University of York)
 
-Osman Akbulut (Newcastle University)
-Matthew Forshaw (Newcastle University) 
-Nick Holliman (Newcastle University)
 
-What am I waiting for? Energy and Performance Optimization on big.LITTLE Architectures: A Memory-latency Aware Approach
+  * Novel visualisation method for summarising and exploring complex networks
 
-Willy Wolff (Lancaster University)
-Barry Porter (Lancaster University)
+    Osman Akbulut (Newcastle University)
+    Matthew Forshaw (Newcastle University)
+    Nick Holliman (Newcastle University)
 
-Towards Emergent Scheduling for Distributed Execution Frameworks
 
-Paul Allan Dean (Lancaster University)
-Barry Porter (Lancaster University)
+  * What am I waiting for? Energy and Performance Optimization on big.LITTLE Architectures: A Memory-latency Aware Approach
 
-Popcorn Linux OS and Compiler Framework: lessons from 7 years of research, development, and deployments
+    Willy Wolff (Lancaster University)
+    Barry Porter (Lancaster University)
 
-Antonio Barbalace (University of Edinburgh)
-Pierre Olivier (The University of Manchester)
-Binoy Ravindran (Virginia Tech) 
 
-Exposing parallelism in sequential code using a modern commutativity analysis
+  * Towards Emergent Scheduling for Distributed Execution Frameworks
 
-Christos Vasiladiotis (University of Edinburgh)
+    Paul Allan Dean (Lancaster University)
+    Barry Porter (Lancaster University)
 
-Decentralised Identity Enabled Inferences for Friction-Reduced Mortgage Processing
 
-Edward Curran (Newcastle University)
-Paul Ezhilchelvan (Newcastle University)
-Aad van Moorsel (Newcastle University)
-Simon Brown (Atom Bank)
+  * Popcorn Linux OS and Compiler Framework: lessons from 7 years of research, development, and deployments
 
-The Efficiency Death-March: The Unintended Consequences of Large-scale Systems Research upon Climate Change
+    Antonio Barbalace (University of Edinburgh)
+    Pierre Olivier (The University of Manchester)
+    Binoy Ravindran (Virginia Tech)
 
-Peter Garraghan (Lancaster University)
 
-Optimizing Generic Taint Analysis
+  * Exposing parallelism in sequential code using a modern commutativity analysis
 
-John Galea (University of Oxford)
-Daniel Kroening (University of Oxford)
+    Christos Vasiladiotis (University of Edinburgh)
 
-Unikernel Support for Lambda Functions
 
-Ward Jaradat (Adobe Inc.)
-Alan Dearle (University of St Andrews)
-Jonathan Lewis (University of St Andrews)
+  * Decentralised Identity Enabled Inferences for Friction-Reduced Mortgage Processing
 
-Dyninka: a framework for distributed FaaS dataflow
+    Edward Curran (Newcastle University)
+    Paul Ezhilchelvan (Newcastle University)
+    Aad van Moorsel (Newcastle University)
+    Simon Brown (Atom Bank)
 
-Patrik Fortier (INSA Lyon - CITI)
-Julien Ponge (Red Hat)
-Frédéric le Mouël (INSA Lyon - CITI)
 
-Participatory Design Fiction for Wearables II: The Sequel
+  * The Efficiency Death-March: The Unintended Consequences of Large-scale Systems Research upon Climate Change
 
-Helen Oliver (The Alan Turing Institute/University of Cambridge)
+    Peter Garraghan (Lancaster University)
 
-HoneyPlant: A Distributed Hybrid Honeypot System for ICS Security
 
-Sam Maesschalck (Lancaster University)
-Vasileios Giotsas (Lancaster University)
+  * Optimizing Generic Taint Analysis
 
-Parsing Protocol Standards
+    John Galea (University of Oxford)
+    Daniel Kroening (University of Oxford)
 
-Stephen McQuistin (University of Glasgow)
-Vivian Band (University of Glasgow)
-Colin Perkins (University of Glasgow)
 
-The role of Reactive and Event-Driven Applications in Microservice Architectures
+  * Unikernel Support for Lambda Functions
 
-Clement Escoffier (Red Hat)
+    Ward Jaradat (Adobe Inc.)
+    Alan Dearle (University of St Andrews)
+    Jonathan Lewis (University of St Andrews)
 
-An In-memory Graph System for Scalable and Consistent Data Integration
 
-Bilal Arshad (University of Derby)
+  * Dyninka: a framework for distributed FaaS dataflow
 
-Liberating Consensus: benchmarking consensus systems
+    Patrik Fortier (INSA Lyon - CITI)
+    Julien Ponge (Red Hat)
+    Frédéric le Mouël (INSA Lyon - CITI)
 
-Chris Jensen (University of Cambridge)
-Daniel Saaw (University of Cambridge) 
-Heidi Howard (University of Cambridge)
-Richard Mortier (University of Cambridge) 
 
-Towards In-Switch Reinforcement Learning
+  * Participatory Design Fiction for Wearables II: The Sequel
 
-Kyle A. Simpson (University of Glasgow)
+    Helen Oliver (The Alan Turing Institute/University of Cambridge)
 
-Confidential Consortium Framework
 
-Alex Shamis (Microsoft Research)
-Amaury Chamayou (Microsoft Research)
-Cedric Fournet (Microsoft Research)
-Christoph M Wintersteiger (Microsoft Research)
-Eddy Ashton (Microsoft Research)
-Julien Maffre (Microsoft Research)
-Manuel Costa (Microsoft Research)
-Miguel Castro (Microsoft Research)
-Olga Vrousgou (Microsoft Research)
-Sylvan Clebsch (Microsoft Research)
+  * HoneyPlant: A Distributed Hybrid Honeypot System for ICS Security
 
-Orpheus: An Efficient Deep Learning Inference Framework for Easy Prototyping at the Edge
+    Sam Maesschalck (Lancaster University)
+    Vasileios Giotsas (Lancaster University)
 
-Perry Gibson (University of Glasgow)
-José Cano (University of Glasgow)
 
-SDBO: A cost-efficient multi-cloud orchestrator for benchmarking containerized web-applications
+  * Parsing Protocol Standards
 
-Devki Nandan Jha (Newcastle University)
-Zhenyu Wen (Newcastle University)
-Yinhao Li (Newcastle University)
-Michael Nee (Newcastle University)
-Maciej Koutny (Newcastle University) 
-Rajiv Ranjan (Newcastle University)
+    Stephen McQuistin (University of Glasgow)
+    Vivian Band (University of Glasgow)
+    Colin Perkins (University of Glasgow)
 
-Neural Adaptive Edge Video Analytics with OsmoticGate
 
-Bin Qian (Newcastle University, UK)
-Zhenyu wen (Newcastle University, UK)
-Ye Yuan (Beijing Institute of Technology, China)
-Rajiv Ranjan (Newcastle University, UK)
+  * The role of Reactive and Event-Driven Applications in Microservice Architectures
 
-Towards a distributed privacy-preserving IoT management model for smart buildings
+    Clement Escoffier (Red Hat)
 
-Vadim Safronov (University of Cambridge)
-Ian Lewis (University of Cambridge)
-Richard Mortier (University of Cambridge)
 
-PASTE: Network-Storage Stack Co-Design for Persistent Memory
+  * An In-memory Graph System for Scalable and Consistent Data Integration
 
-Michio Honda (University of Edinburgh)
+    Bilal Arshad (University of Derby)
 
-POETS - Partial Ordered Event Triggered Systems
 
-Jordan Morris (Newcastle University)
+  * Liberating Consensus: benchmarking consensus systems
 
-Debugging Unikernel Operating Systems
+    Chris Jensen (University of Cambridge)
+    Daniel Saaw (University of Cambridge)
+    Heidi Howard (University of Cambridge)
+    Richard Mortier (University of Cambridge)
 
-Kareem Ahmad (University of St Andrews)
-Alan Dearle (University of St Andrews)
-Jon Lewis (University of St Andrews) 
-Ward Jaradat (University of St Andrews) 
 
-Beyond compute as a service, what OS structure?
+  * Towards In-Switch Reinforcement Learning
 
-Jon Larrea (The University of Edinburgh)
-Antonio Barbalance (The University of Edinburgh)
+    Kyle A. Simpson (University of Glasgow)
 
-Managing confidentiality leaks through private algorithms on Software Guard eXtensions (SGX) enclaves: Minimised TCB on secret-code execution with Early Private Mode (EPM)
 
-Kubilay Ahmet Küçük (University of Oxford)
-Andrew Martin (University of Oxford)
+  * Confidential Consortium Framework
 
-Performance in the age of cloud and edge computing
+    Alex Shamis (Microsoft Research)
+    Amaury Chamayou (Microsoft Research)
+    Cedric Fournet (Microsoft Research)
+    Christoph M Wintersteiger (Microsoft Research)
+    Eddy Ashton (Microsoft Research)
+    Julien Maffre (Microsoft Research)
+    Manuel Costa (Microsoft Research)
+    Miguel Castro (Microsoft Research)
+    Olga Vrousgou (Microsoft Research)
+    Sylvan Clebsch (Microsoft Research)
 
-Diana Andreea Popescu (University of Cambridge)
 
-AutoAI and Machine Learning Systems Design
+  * Orpheus: An Efficient Deep Learning Inference Framework for Easy Prototyping at the Edge
 
-Neil D. Lawrence (University of Cambridge)
+    Perry Gibson (University of Glasgow)
+    José Cano (University of Glasgow)
 
 
-## Technical Programme Committee
+  * SDBO: A cost-efficient multi-cloud orchestrator for benchmarking containerized web-applications
 
----------
+    Devki Nandan Jha (Newcastle University)
+    Zhenyu Wen (Newcastle University)
+    Yinhao Li (Newcastle University)
+    Michael Nee (Newcastle University)
+    Maciej Koutny (Newcastle University)
+    Rajiv Ranjan (Newcastle University)
 
-- Diana Andreea Popescu, University of Cambridge
 
-- Dimitrios Pezaros, University of Glasgow
+  * Neural Adaptive Edge Video Analytics with OsmoticGate
 
-- Gianni Antichi, Queen Mary University of London
+    Bin Qian (Newcastle University, UK)
+    Zhenyu wen (Newcastle University, UK)
+    Ye Yuan (Beijing Institute of Technology, China)
+    Rajiv Ranjan (Newcastle University, UK)
 
-- Heidi Howard, University of Cambridge
 
-- Paul Watson, Newcastle University		
+  * Towards a distributed privacy-preserving IoT management model for smart buildings
 
-- Paolo Costa, Microsoft Research
+    Vadim Safronov (University of Cambridge)
+    Ian Lewis (University of Cambridge)
+    Richard Mortier (University of Cambridge)
 
-- Paul Patras, University of Edinburgh
 
-- Poonam Yadav, University of York
+  * PASTE: Network-Storage Stack Co-Design for Persistent Memory
 
-- Rebecca Whitworth, RedHat	
+    Michio Honda (University of Edinburgh)
 
-- Richard Mortier, University of Cambridge	
 
-- Tim Harris, Amazon
+  * POETS - Partial Ordered Event Triggered Systems
 
-For any other questions or queries, please contact Dr Richard Mortier.
+    Jordan Morris (Newcastle University)
+
+
+  * Debugging Unikernel Operating Systems
+
+    Kareem Ahmad (University of St Andrews)
+    Alan Dearle (University of St Andrews)
+    Jon Lewis (University of St Andrews)
+    Ward Jaradat (University of St Andrews)
+
+
+  * Beyond compute as a service, what OS structure?
+
+    Jon Larrea (The University of Edinburgh)
+    Antonio Barbalance (The University of Edinburgh)
+
+
+  * Managing confidentiality leaks through private algorithms on Software Guard eXtensions (SGX) enclaves: Minimised TCB on secret-code execution with Early Private Mode (EPM)
+
+    Kubilay Ahmet Küçük (University of Oxford)
+    Andrew Martin (University of Oxford)
+
+
+  * Performance in the age of cloud and edge computing
+
+    Diana Andreea Popescu (University of Cambridge)
+
+
+  * AutoAI and Machine Learning Systems Design
+
+    Neil D. Lawrence (University of Cambridge)
+
 
 ## Sponsors
-Many thanks to our generous sponsors for their support of this event!
 
+Many thanks to our generous sponsors for their support of this event!
 
 [![Red Hat](/images/redhat-new.jpg)][redhat]
 
