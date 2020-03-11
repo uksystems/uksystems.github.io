@@ -18,11 +18,9 @@ scope.
 **We have been monitoring PHE, WHO, and Government advice closely and with deep regret we have taken the decision to postpone the UK Systems Workshop until later in the year due to the impact of the Corvid-19 outbreak.
 
  
-
 This was a difficult decision in a rapidly changing and complex situation. Some of the considerations for this outcome have been based on:
 
  
-
 -Speakers and participants restricted by organisational travel bans, which may lead to an increased number of last minute talk cancellations
 
 -The situation is unlikely to improve over the coming weeks, and the unpredictable nature risks putting attendees in a difficult position where they must take a personal decision over whether to attend
@@ -37,14 +35,11 @@ This has made it likely that, even if we went ahead, we would only be able to ru
 Rather than do this, or impact the community building nature of the workshop by turning the event into an online conference, we feel that it is better to postpone the workshop until we can run a full programme later in the year.
 
  
-
 We know that all of you who were planning to give papers, or participate in other ways, will be as disappointed as we are. However, we hope you’ll understand; once the current problems have diminished we’ll be back in touch about setting another date to run a full workshop.
 
- 
 
 Your registration fees will be refunded, however we would appreciate your patience as we work through the administration of this.
 
- 
 
 We are all tremendously disappointed, and thank you for your understanding.**
 
