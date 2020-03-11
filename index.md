@@ -15,50 +15,47 @@ of Things. We aim to be broad and inclusive -- if it's a matter that has bearing
 on how we design, build, operate and use large-scale computing systems, it's in
 scope.
 
-**We have been monitoring PHE, WHO, and Government advice closely and with deep regret we have taken the decision to postpone the UK Systems Workshop until later in the year due to the impact of the Corvid-19 outbreak.
+<b>
+We have been monitoring PHE, WHO, and Government advice closely and with deep regret we have taken the decision to postpone the UK Systems Workshop until later in the year due to the impact of the Corvid-19 outbreak.
 
- 
+<b>
 This was a difficult decision in a rapidly changing and complex situation. Some of the considerations for this outcome have been based on:
 
- 
--Speakers and participants restricted by organisational travel bans, which may lead to an increased number of last minute talk cancellations
+- <b>Speakers and participants restricted by organisational travel bans, which may lead to an increased number of last minute talk cancellations
 
--The situation is unlikely to improve over the coming weeks, and the unpredictable nature risks putting attendees in a difficult position where they must take a personal decision over whether to attend
+- <b>The situation is unlikely to improve over the coming weeks, and the unpredictable nature risks putting attendees in a difficult position where they must take a personal decision over whether to attend
 
--Recommendations and precautionary measures are changing everyday which is impacting our ability to coordinate a successful event
- 
+- <b>Recommendations and precautionary measures are changing everyday which is impacting our ability to coordinate a successful event
 
+<b>
 This has made it likely that, even if we went ahead, we would only be able to run a much reduced programme.
 
- 
-
+<b>
 Rather than do this, or impact the community building nature of the workshop by turning the event into an online conference, we feel that it is better to postpone the workshop until we can run a full programme later in the year.
 
- 
+<b>
 We know that all of you who were planning to give papers, or participate in other ways, will be as disappointed as we are. However, we hope you’ll understand; once the current problems have diminished we’ll be back in touch about setting another date to run a full workshop.
 
-
+<b>
 Your registration fees will be refunded, however we would appreciate your patience as we work through the administration of this.
 
+<b>
+We are all tremendously disappointed, and thank you for your understanding.
+</b>
 
-We are all tremendously disappointed, and thank you for your understanding.**
-
-
-**[Click here](https://webstore.ncl.ac.uk/conferences-and-events/faculty-of-science-agriculture-engineering/school-of-computing/systems-research-challenges-workshop-2020) to register to attend!**
-
-## Location
+## ~~Location~~
 
 - Redworth Hall Hotel, Surtees Rd, Newton Aycliffe DL5 6NL
 - Coach transport will be provided between the venue and Newcastle city centre
   (Urban Sciences Building, 1 Science Square, Science Central, NE4 5TG)
 
-## Key Dates
+## ~~Key Dates~~
 
 - ~~Abstract submission deadline: January 31, 2020~~
 - ~~Acceptance notification and presentation programme: February 19, 2020~~
 - Workshop dates: arrival evening March 17, closing with lunch March 19, 2020
 
-## Registration and Costs
+## ~~Registration and Costs~~
 
 Registration includes accommodation and all meals:
 
