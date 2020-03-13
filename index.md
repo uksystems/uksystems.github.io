@@ -16,7 +16,7 @@ on how we design, build, operate and use large-scale computing systems, it's in
 scope.
 
 <b>
-We have been monitoring PHE, WHO, and Government advice closely and with deep regret we have taken the decision to postpone the UK Systems Workshop until later in the year due to the impact of the Corvid-19 outbreak.
+We have been monitoring PHE, WHO, and Government advice closely and with deep regret we have taken the decision to postpone the UK Systems Workshop until later in the year due to the impact of the CORVID-19 outbreak.
 
 <b>
 This was a difficult decision in a rapidly changing and complex situation. Some of the considerations for this outcome have been based on:
@@ -119,102 +119,7 @@ For any questions or queries, please contact Dr Diana Andreea Popescu.
 
 ## Accepted Talks
 
-  * Pricing Python Parallelism : Guided JIT compilation for Heterogeneous Architectures
-
-    Dejice Jacob (University of Glasgow)
-
-  * Data-Centric Parallelisation
-
-    Magnus Morton (University of Edinburgh),
-    Björn Franke (University of Edinburgh)
-
-  * JIT-as-a-Service
-
-    Tom Spink (University of Edinburgh)
-
-  * MOCHA: Modelling and Optimising Complex Heterogeneous Architectures
-
-    Shuai Zhao (University of York),
-    Xiaotian Dai (University of York),
-    Wanli Chang (University of York),
-    Iain Bate (University of York)
-
-  * Novel visualisation method for summarising and exploring complex networks
-
-    Osman Akbulut (Newcastle University),
-    Matthew Forshaw (Newcastle University),
-    Nick Holliman (Newcastle University)
-
-  * What am I waiting for? Energy and Performance Optimization on big.LITTLE Architectures: A Memory-latency Aware Approach
-
-    Willy Wolff (Lancaster University),
-    Barry Porter (Lancaster University)
-
-  * Towards Emergent Scheduling for Distributed Execution Frameworks
-
-    Paul Allan Dean (Lancaster University),
-    Barry Porter (Lancaster University)
-
-  * Popcorn Linux OS and Compiler Framework: lessons from 7 years of research, development, and deployments
-
-    Antonio Barbalace (University of Edinburgh),
-    Pierre Olivier (The University of Manchester),
-    Binoy Ravindran (Virginia Tech)
-
-  * Exposing parallelism in sequential code using a modern commutativity analysis
-
-    Christos Vasiladiotis (University of Edinburgh)
-
-  * Decentralised Identity Enabled Inferences for Friction-Reduced Mortgage Processing
-
-    Edward Curran (Newcastle University),
-    Paul Ezhilchelvan (Newcastle University),
-    Aad van Moorsel (Newcastle University),
-    Simon Brown (Atom Bank)
-
-  * The Efficiency Death-March: The Unintended Consequences of Large-scale Systems Research upon Climate Change
-
-    Peter Garraghan (Lancaster University)
-
-  * Optimizing Generic Taint Analysis
-
-    John Galea (University of Oxford),
-    Daniel Kroening (University of Oxford)
-
-  * Unikernel Support for Lambda Functions
-
-    Ward Jaradat (Adobe Inc.),
-    Alan Dearle (University of St Andrews),
-    Jonathan Lewis (University of St Andrews)
-
-  * Dyninka: a framework for distributed FaaS dataflow
-
-    Patrik Fortier (INSA Lyon - CITI),
-    Julien Ponge (Red Hat),
-    Frédéric le Mouël (INSA Lyon - CITI)
-
-  * Participatory Design Fiction for Wearables II: The Sequel
-
-    Helen Oliver (The Alan Turing Institute/University of Cambridge)
-
-  * HoneyPlant: A Distributed Hybrid Honeypot System for ICS Security
-
-    Sam Maesschalck (Lancaster University),
-    Vasileios Giotsas (Lancaster University)
-
-  * Parsing Protocol Standards
-
-    Stephen McQuistin (University of Glasgow),
-    Vivian Band (University of Glasgow),
-    Colin Perkins (University of Glasgow)
-
-  * The role of Reactive and Event-Driven Applications in Microservice Architectures
-
-    Clement Escoffier (Red Hat)
-
-  * An In-memory Graph System for Scalable and Consistent Data Integration
-
-    Bilal Arshad (University of Derby)
+### Distributed Systems/Cloud Computing (5)
 
   * Liberating Consensus: benchmarking consensus systems
 
@@ -223,9 +128,70 @@ For any questions or queries, please contact Dr Diana Andreea Popescu.
     Heidi Howard (University of Cambridge),
     Richard Mortier (University of Cambridge)
 
+  * SDBO: A cost-efficient multi-cloud orchestrator for benchmarking containerized web-applications
+
+    Devki Nandan Jha (Newcastle University),
+    Zhenyu Wen (Newcastle University),
+    Yinhao Li (Newcastle University),
+    Michael Nee (Newcastle University),
+    Maciej Koutny (Newcastle University),
+    Rajiv Ranjan (Newcastle University)
+
+  * Performance in the age of cloud and edge computing
+
+    Diana Andreea Popescu (University of Cambridge)
+
+  * Towards Emergent Scheduling for Distributed Execution Frameworks
+
+    Paul Allan Dean (Lancaster University),
+    Barry Porter (Lancaster University)
+
+  * An In-memory Graph System for Scalable and Consistent Data Integration
+
+    Bilal Arshad (University of Derby)
+
+### Networking (6)
+
+  * Parsing Protocol Standards
+
+    Stephen McQuistin (University of Glasgow),
+    Vivian Band (University of Glasgow),
+    Colin Perkins (University of Glasgow)
+
   * Towards In-Switch Reinforcement Learning
 
     Kyle A. Simpson (University of Glasgow)
+
+  * Novel visualisation method for summarising and exploring complex networks
+
+    Osman Akbulut (Newcastle University),
+    Matthew Forshaw (Newcastle University),
+    Nick Holliman (Newcastle University)
+
+  * PASTE: Network-Storage Stack Co-Design for Persistent Memory
+
+    Michio Honda (University of Edinburgh)
+
+  * Dyninka: a framework for distributed FaaS dataflow
+
+    Patrik Fortier (INSA Lyon - CITI),
+    Julien Ponge (Red Hat),
+    Frédéric le Mouël (INSA Lyon - CITI)
+
+  * POETS - Partial Ordered Event Triggered Systems
+
+    Jordan Morris (Newcastle University)
+
+### Security (5)
+
+  * AutoAI and Machine Learning Systems Design
+
+    Neil D. Lawrence (University of Cambridge)
+
+  * HoneyPlant: A Distributed Hybrid Honeypot System for ICS Security
+
+    Sam Maesschalck (Lancaster University),
+    Vasileios Giotsas (Lancaster University)
 
   * Confidential Consortium Framework
 
@@ -240,19 +206,22 @@ For any questions or queries, please contact Dr Diana Andreea Popescu.
     Olga Vrousgou (Microsoft Research),
     Sylvan Clebsch (Microsoft Research)
 
+  * Managing confidentiality leaks through private algorithms on Software Guard eXtensions (SGX) enclaves: Minimised TCB on secret-code execution with Early Private Mode (EPM)
+
+    Kubilay Ahmet Küçük (University of Oxford),
+    Andrew Martin (University of Oxford)
+
+  * Optimizing Generic Taint Analysis
+
+    John Galea (University of Oxford),
+    Daniel Kroening (University of Oxford)
+
+### IoT/Edge Computing (6)
+
   * Orpheus: An Efficient Deep Learning Inference Framework for Easy Prototyping at the Edge
 
     Perry Gibson (University of Glasgow),
     José Cano (University of Glasgow)
-
-  * SDBO: A cost-efficient multi-cloud orchestrator for benchmarking containerized web-applications
-
-    Devki Nandan Jha (Newcastle University),
-    Zhenyu Wen (Newcastle University),
-    Yinhao Li (Newcastle University),
-    Michael Nee (Newcastle University),
-    Maciej Koutny (Newcastle University),
-    Rajiv Ranjan (Newcastle University)
 
   * Neural Adaptive Edge Video Analytics with OsmoticGate
 
@@ -267,13 +236,40 @@ For any questions or queries, please contact Dr Diana Andreea Popescu.
     Ian Lewis (University of Cambridge),
     Richard Mortier (University of Cambridge)
 
-  * PASTE: Network-Storage Stack Co-Design for Persistent Memory
+  * JIT-as-a-Service
 
-    Michio Honda (University of Edinburgh)
+    Tom Spink (University of Edinburgh)
 
-  * POETS - Partial Ordered Event Triggered Systems
+  * Beyond compute as a service, what OS structure?
 
-    Jordan Morris (Newcastle University)
+    Jon Larrea (The University of Edinburgh),
+    Antonio Barbalance (The University of Edinburgh)
+
+  * What am I waiting for? Energy and Performance Optimization on big.LITTLE Architectures: A Memory-latency Aware Approach
+
+    Willy Wolff (Lancaster University),
+    Barry Porter (Lancaster University)
+
+### Applications (5)
+
+  * The Efficiency Death-March: The Unintended Consequences of Large-scale Systems Research upon Climate Change
+
+    Peter Garraghan (Lancaster University)
+
+  * Decentralised Identity Enabled Inferences for Friction-Reduced Mortgage Processing
+
+    Edward Curran (Newcastle University),
+    Paul Ezhilchelvan (Newcastle University),
+    Aad van Moorsel (Newcastle University),
+    Simon Brown (Atom Bank)
+
+  * Participatory Design Fiction for Wearables II: The Sequel
+
+    Helen Oliver (The Alan Turing Institute/University of Cambridge)
+
+  * The role of Reactive and Event-Driven Applications in Microservice Architectures
+
+    Clement Escoffier (Red Hat)
 
   * Debugging Unikernel Operating Systems
 
@@ -282,23 +278,39 @@ For any questions or queries, please contact Dr Diana Andreea Popescu.
     Jon Lewis (University of St Andrews),
     Ward Jaradat (University of St Andrews)
 
-  * Beyond compute as a service, what OS structure?
+### OS & Comp Arch & Parallel Computing (6)
 
-    Jon Larrea (The University of Edinburgh),
-    Antonio Barbalance (The University of Edinburgh)
+  * Popcorn Linux OS and Compiler Framework: lessons from 7 years of research, development, and deployments
 
-  * Managing confidentiality leaks through private algorithms on Software Guard eXtensions (SGX) enclaves: Minimised TCB on secret-code execution with Early Private Mode (EPM)
+    Antonio Barbalace (University of Edinburgh),
+    Pierre Olivier (The University of Manchester),
+    Binoy Ravindran (Virginia Tech)
 
-    Kubilay Ahmet Küçük (University of Oxford),
-    Andrew Martin (University of Oxford)
+  * Unikernel Support for Lambda Functions
 
-  * Performance in the age of cloud and edge computing
+    Ward Jaradat (Adobe Inc.),
+    Alan Dearle (University of St Andrews),
+    Jonathan Lewis (University of St Andrews)
 
-    Diana Andreea Popescu (University of Cambridge)
+  * Pricing Python Parallelism : Guided JIT compilation for Heterogeneous Architectures
 
-  * AutoAI and Machine Learning Systems Design
+    Dejice Jacob (University of Glasgow)
 
-    Neil D. Lawrence (University of Cambridge)
+  * Data-Centric Parallelisation
+
+    Magnus Morton (University of Edinburgh),
+    Björn Franke (University of Edinburgh)
+
+  * Exposing parallelism in sequential code using a modern commutativity analysis
+
+    Christos Vasiladiotis (University of Edinburgh)
+
+  * MOCHA: Modelling and Optimising Complex Heterogeneous Architectures
+
+    Shuai Zhao (University of York),
+    Xiaotian Dai (University of York),
+    Wanli Chang (University of York),
+    Iain Bate (University of York)
 
 ## Sponsors
 
