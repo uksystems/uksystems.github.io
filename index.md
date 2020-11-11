@@ -15,7 +15,7 @@ of Things. We aim to be broad and inclusive -- if it's a matter that has bearing
 on how we design, build, operate and use large-scale computing systems, it's in
 scope.
 
-** Due to COVID-19 disruption, we are running the UK Systems Research Challenges Workshop as a virtual seminar series. Please see program below.**
+<b> Due to COVID-19 disruption, we are running the UK Systems Research Challenges Workshop as a virtual seminar series. Please see program below. </b>
 
 ## Virtual Seminar Series 
 
