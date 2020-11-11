@@ -3,7 +3,7 @@ title: Fifth Annual UK System Research Challenges Workshop, 2020
 layout: default
 ---
 
-# Fifth Annual UK System Research Challenges Workshop, March 17--19, 2020
+# Fifth Annual UK System Research Challenges Workshop, November-December, 2020, Virtual Seminar Series
 
 This is the fifth iteration of a workshop bringing together systems researchers
 from across the UK and beyond, to discuss pressing topics affecting the design
@@ -14,34 +14,6 @@ consensus and engineering, to data visualisation, data centres and the Internet
 of Things. We aim to be broad and inclusive -- if it's a matter that has bearing
 on how we design, build, operate and use large-scale computing systems, it's in
 scope.
-
-<b>
-We have been monitoring PHE, WHO, and Government advice closely and with deep regret we have taken the decision to postpone the UK Systems Workshop until later in the year due to the impact of the CORVID-19 outbreak.
-
-<b>
-This was a difficult decision in a rapidly changing and complex situation. Some of the considerations for this outcome have been based on:
-
-- <b>Speakers and participants restricted by organisational travel bans, which may lead to an increased number of last minute talk cancellations
-
-- <b>The situation is unlikely to improve over the coming weeks, and the unpredictable nature risks putting attendees in a difficult position where they must take a personal decision over whether to attend
-
-- <b>Recommendations and precautionary measures are changing everyday which is impacting our ability to coordinate a successful event
-
-<b>
-This has made it likely that, even if we went ahead, we would only be able to run a much reduced programme.
-
-<b>
-Rather than do this, or impact the community building nature of the workshop by turning the event into an online conference, we feel that it is better to postpone the workshop until we can run a full programme later in the year.
-
-<b>
-We know that all of you who were planning to give papers, or participate in other ways, will be as disappointed as we are. However, we hope you’ll understand; once the current problems have diminished we’ll be back in touch about setting another date to run a full workshop.
-
-<b>
-Your registration fees will be refunded, however we would appreciate your patience as we work through the administration of this.
-
-<b>
-We are all tremendously disappointed, and thank you for your understanding.
-</b>
 
 ## ~~Location~~
 
