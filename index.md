@@ -74,19 +74,19 @@ scope.
 
      Magnus Morton (University of Edinburgh), Björn Franke (University of Edinburgh)
 
-    [[Abstract](uksystems2020-abstract8.txt)]
+     [[Abstract](uksystems2020-abstract8.txt)]
 
   *  Towards a distributed privacy-preserving IoT management model for smart buildings
 
      Vadim Safronov (University of Cambridge), Ian Lewis (University of Cambridge), Richard Mortier (University of Cambridge)
 
-    [[Abstract](uksystems2020-abstract16.txt)]
+     [[Abstract](uksystems2020-abstract16.txt)]
 
   *  PASTE: Network-Storage Stack Co-Design for Persistent Memory
 
      Michio Honda (University of Edinburgh)
 
-    [[Abstract](uksystems2020-abstract27.txt)]
+     [[Abstract](uksystems2020-abstract27.txt)]
 
 ### 9th December 2020, 14:00-15:30
 
