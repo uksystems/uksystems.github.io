@@ -94,7 +94,7 @@ scope.
 
      Antonio Barbalace (University of Edinburgh), Pierre Olivier (The University of Manchester), Binoy Ravindran (Virginia Tech)
 
-    [[Abstract](uksystems2020-abstract26.txt)]
+     [[Abstract](uksystems2020-abstract26.txt)]
 
   *  Confidential Consortium Framework
 
@@ -109,7 +109,7 @@ scope.
      Olga Vrousgou (Microsoft Research),
      Sylvan Clebsch (Microsoft Research)
 
-    [[Abstract](uksystems2020-abstract17.txt)]
+     [[Abstract](uksystems2020-abstract17.txt)]
 
   *  Parsing Protocol Standards
 
@@ -117,7 +117,7 @@ scope.
      Vivian Band (University of Glasgow),
      Colin Perkins (University of Glasgow)
 
-    [[Abstract](uksystems2020-abstract3.txt)]
+     [[Abstract](uksystems2020-abstract3.txt)]
 
 ### 10th December 2020, 10:30-12:00
 
@@ -128,7 +128,7 @@ scope.
      Wanli Chang (University of York), 
      Iain Bate (University of York) 
 
-    [[Abstract](uksystems2020-abstract11.txt)]
+     [[Abstract](uksystems2020-abstract11.txt)]
 
   *  Debugging Unikernel Operating Systems
  
@@ -137,21 +137,21 @@ scope.
      Jon Lewis (University of St Andrews),
      Ward Jaradat (University of St Andrews)
 
-    [[Abstract](uksystems2020-abstract40.txt)]
+     [[Abstract](uksystems2020-abstract40.txt)]
 
    * What am I waiting for? Energy and Performance Optimization on big.LITTLE Architectures: A Memory-latency Aware Approach
 
      Willy Wolff (Lancaster University),
      Barry Porter (Lancaster University)
 
-    [[Abstract](uksystems2020-abstract21.txt)]
+     [[Abstract](uksystems2020-abstract21.txt)]
 
    * Towards Emergent Scheduling for Distributed Execution Frameworks
 
      Paul Allan Dean (Lancaster University),
      Barry Porter (Lancaster University)
 
-    [[Abstract](uksystems2020-abstract22.txt)]
+     [[Abstract](uksystems2020-abstract22.txt)]
 
 ### 16th December 2020, 14:00-15:30
 
@@ -159,26 +159,26 @@ scope.
 
      Christos Vasiladiotis (University of Edinburgh)
 
-    [[Abstract](uksystems2020-abstract28.txt)]
+     [[Abstract](uksystems2020-abstract28.txt)]
 
    * Participatory Design Fiction for Wearables II: The Sequel
 
      Helen Oliver (The Alan Turing Institute/University of Cambridge)
 
-    [[Abstract](uksystems2020-abstract35.txt)]
+     [[Abstract](uksystems2020-abstract35.txt)]
 
    * An In-memory Graph System for Scalable and Consistent Data Integration
 
      Bilal Arshad (University of Derby)
 
-    [[Abstract](uksystems2020-abstract5.txt)]
+     [[Abstract](uksystems2020-abstract5.txt)]
 
    * Optimizing Generic Taint Analysis
 
      John Galea (University of Oxford),
      Daniel Kroening (University of Oxford)
 
-    [[Abstract](uksystems2020-abstract33.txt)]
+     [[Abstract](uksystems2020-abstract33.txt)]
 
    * Novel visualisation method for summarising and exploring complex networks
 
@@ -186,7 +186,7 @@ scope.
      Matthew Forshaw (Newcastle University),
      Nick Holliman (Newcastle University)
 
-    [[Abstract](uksystems2020-abstract14.txt)]
+     [[Abstract](uksystems2020-abstract14.txt)]
 
 
 ## ~~Location~~
