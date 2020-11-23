@@ -19,21 +19,27 @@ scope.
 
 ## Virtual Seminar Series 
 
-### 25th November 2020
+### 25th November 2020, 14:00-15:30
 
   * JIT-as-a-Service
 
     Tom Spink (University of Edinburgh)
+
+    [[Abstract](uksystems2020-abstract10.txt)]
    
   * AutoAI and Machine Learning Systems Design
 
     Neil Lawrence (University of Cambridge)
 
+    [[Abstract](uksystems2020-abstract39.txt)]
+
   * Pricing Python Parallelism : Guided JIT compilation for Heterogeneous Architectures
 
     Dejice Jacob (University of Glasgow)
 
-### 2nd December 2020
+    [[Abstract](uksystems2020-abstract7.txt)]
+
+### 2nd December 2020, 14:00-15:30
 
   *  The Efficiency Death-March: The Unintended Consequences of Large-scale Systems Research upon Climate Change
 
@@ -53,7 +59,7 @@ scope.
 
      Clement Escoffier (Red Hat) 
 
-### 3rd December 2020
+### 3rd December 2020, 10:30-12:00
 
   *  Data-Centric Parallelisation
 
@@ -70,7 +76,7 @@ scope.
 
      Michio Honda (University of Edinburgh)
 
-### 9th December 2020
+### 9th December 2020, 14:00-15:30
 
   *  Popcorn Linux OS and Compiler Framework: lessons from 7 years of research, development, and deployments
 
@@ -97,7 +103,7 @@ scope.
      Vivian Band (University of Glasgow) 
      Colin Perkins (University of Glasgow)
 
-### 10th December 2020
+### 10th December 2020, 10:30-12:00
 
   *  MOCHA: Modelling and Optimising Complex Heterogeneous Architectures
 
@@ -123,7 +129,7 @@ scope.
      Paul Allan Dean (Lancaster University),
      Barry Porter (Lancaster University)
 
-### 16th December 2020
+### 16th December 2020, 14:00-15:30
 
    * Exposing parallelism in sequential code using a modern commutativity analysis
 
