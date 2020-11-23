@@ -1,0 +1,18 @@
+Submission #4: The role of Reactive and Event-Driven Applications in Microservice Architectures
+===============================================================================================
+
+Author
+------
+Clement Escoffier <clement.escoffier@redhat.com> (Red Hat)
+
+Abstract
+--------
+In the past few years, microservices architectures have become highly popular. The promise to accelerate the time to market has convinced many companies. However, in the past year, this trend started to fade away. One of the main reasons is the inability to fulfill the given promise, mainly because of the usage of inadequate interaction protocols, such as HTTP or synchronous RPC, and underestimated infrastructure costs. Using event-driven and reactive patterns enables the agility of microservices and relies on mature and well-understood technologies. But,  this style of architecture struggles to become mainstream.
+
+This talk aims to give a broad overview of the various technical challenges that are faced when building event-driven and reactive microservices, followed by a look at solutions and emerging implementation patterns. Finally, the talk highlights future opportunities for improvements. 
+
+We will begin by briefly describing microservice architectures and the role of reactive to avoid common implementation anti-patterns. Reactive architectures promise to improve the robustness and responsiveness of distributed systems, such as microservice architectures. We will also highlight the benefits of applying reactive patterns in microservices. Finally, we will analyze the reasons behind the lack of popularity of these solutions, especially the paradigm shift required to implement reactive applications. We will also look at the current trends to make reactive and event-driven more affordable to developers. We will discuss the usage of co-routines and development models more compatible with enterprise Java.
+
+This talk is based on the experience of Red Hat to implement event-driven and reactive microservice architectures. Red Hat has built a strong leadership in this area thanks to Eclipse Vert.x, a toolkit to build reactive applications. Vert.x is used in many different domains, such as payment platforms, web applications, and IoT gateways. This talk will explain how Vert.x applications are built, with a focus on reactive patterns. This talk will also describe how the reactive ideas from Vert.x are infused inside the core of Quarkus and the effort to make event-driven and reactive architectures more accessible for developers and operators.
+
+

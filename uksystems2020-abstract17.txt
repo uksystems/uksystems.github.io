@@ -1,0 +1,29 @@
+Submission #17: Confidential Consortium Framework
+=================================================
+
+Authors
+-------
+1. Alex Shamis <alexsha@microsoft.com> (Microsoft Research)
+2. Amaury Chamayou <amchamay@microsoft.com> (Microsoft Research)
+3. Cedric Fournet <fournet@microsoft.com> (Microsoft Research)
+4. Christoph M Wintersteiger <cwinter@microsoft.com> (Microsoft Research)
+5. Eddy Ashton <edashton@microsoft.com> (Microsoft Research)
+6. Julien Maffre <jumaffre@microsoft.com> (Microsoft Research)
+7. Manuel Costa <manuelc@microsoft.com> (Microsoft Research)
+8. Miguel Castro <mcastro@microsoft.com> (Microsoft Research)
+9. Olga Vrousgou <olvrousg@microsoft.com> (Microsoft Research)
+10. Sylvan Clebsch <syclebsc@microsoft.com> (Microsoft Research)
+
+Abstract
+--------
+The Confidential Consortium Framework (CCF) is an open-source framework for building permissioned confidential applications.
+CCF uses replicated hardware-protected trusted execution environments to provide confidentiality and integrity.
+Trusted nodes maintain a distributed ledger using a crash fault-tolerant consensus protocol with offline verifiability.
+CCF exposes a transactional programming model based on a key-value store and access control to sensitive data is enforced at the application level.
+CCF also supports transparent, programmable governance where the power of the members of the consortium is tunable and their actions recorded in the ledger for full auditability.
+
+The implementation of CCF is based on SGX-enabled Azure Confidential Compute and is built on top of the Open Enclave SDK.
+Experimental results show that CCF achieves throughput of ~50,000 transactions per second and latency of ~250 milliseconds for a geo-replicated Simple Bank application.
+CCF code and documentation are available at https://github.com/Microsoft/CCF.
+
+

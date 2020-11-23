@@ -1,0 +1,14 @@
+Submission #14: Novel visualisation method for summarising and exploring complex networks
+=========================================================================================
+
+Authors
+-------
+1. OSMAN AKBULUT <o.akbulut2@newcastle.ac.uk> (Newcastle University)
+2. Matthew Forshaw <matthew.forshaw@newcastle.ac.uk> (Newcastle University)
+3. Nick Holliman <nick.holliman@newcastle.ac.uk> (Newcastle University)
+
+Abstract
+--------
+This interdisciplinary project explores the development of novel visualisation approaches to aid the design, implementation and operation of a large-scale system. This study aims to enable end-users to perform tasks more easily by implementing a novel approach of node-link visualisation in the context of large complex networks. In order to accomplish this, an optimal visualisation model will be built for complex networks that will allow users to correlate, summarise and explore various kind of entities or information in the network.
+
+

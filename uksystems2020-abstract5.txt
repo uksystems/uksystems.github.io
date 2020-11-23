@@ -1,0 +1,12 @@
+Submission #5: An In-memory Graph System for Scalable and Consistent Data Integration
+=====================================================================================
+
+Author
+------
+Bilal Arshad <b.arshad@derby.ac.uk> (University of Derby)
+
+Abstract
+--------
+In a distributed environment, data from heterogeneous sources are brought together in a unified and consistent manner for analytics and insights. Inconsistencies arising due to the dynamic nature of sources such as addition/deletion of column or merging of columns can compromise the consistency of the distributed system. This can lead to the linking of inaccurate records and faulty data entries. Resulting in false reports and erroneous analyses. Furthermore, issues such as performance guarantees and scalability fuel the existing challenges. We have proposed an alternate graph-based approach to integrate data using an in-memory environment. The central idea of the approach is the use of graphs to integrate heterogeneous data sources in a distributed environment. The underlying approach provides both high-performance and scalability to address changes in a dynamic system for data integration. This allows the generation of graphs from individual source data and modifications in a consistent manner so that the state of the overall distributed system always remains coherent. It provides a novel way of combining consistent data integration and performance in a distributed system. Our system performs better than existing graph systems for dynamic graph evolution ensuring consistency and provides the necessary scalability guarantees as the size of the data increases. Results also show the correctness of the approach when integrating disparate datasets.
+
+

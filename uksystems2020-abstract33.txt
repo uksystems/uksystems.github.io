@@ -1,0 +1,13 @@
+Submission #33: Optimizing Generic Taint Analysis
+=================================================
+
+Authors
+-------
+1. John Galea <john.galea@cs.ox.ac.uk> (University of Oxford)
+2. Daniel Kroening <kroening@cs.ox.ac.uk> (University of Oxford)
+
+Abstract
+--------
+Dynamic taint analysis is a fundamental technique for software security that has been used, amongst others, for vulnerability analysis and runtime attack detection. However, it is known to face scalability issues due to high runtime overheads. In this presentation, we will discuss optimisations for heavy, yet useful, technique
+
+

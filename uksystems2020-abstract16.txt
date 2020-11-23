@@ -1,0 +1,21 @@
+Submission #16: Towards a distributed privacy-preserving IoT management model for smart
+buildings
+================================================================================================
+
+Authors
+-------
+1. Vadim Safronov <vadim.safronov@cl.cam.ac.uk> (University of Cambridge)
+2. Ian Lewis <ian.lewis@cl.cam.ac.uk> (University of Cambridge)
+3. Richard Mortier <richard.mortier@cl.cam.ac.uk> (University of Cambridge)
+
+Abstract
+--------
+With the rapid progress of Internet of Things (IoT) over the last few decades, the concept of a smart building has evolved from fiction to reality. Besides the automation of general management processes, modern buildings already allow the creation of personal conditions for every user (e.g. automatically find a vacant parking place, select personal temperature or lighting level at the workspace and remotely control various smart appliances). To provide a wide range of automation capabilities, a smart building is equipped with a large number of sensors and actuators which allow a building management platform to centrally monitor its condition and respond to critical changes in a timely fashion. Due to diverse functional requirements and hardware constraints, different sensors and actuators require different communication protocols to interact with each other (e.g. LoRaWAN/Sigfox for low-power and low-bandwidth sensors vs ZigBee/Z-Wave for devices which require more frequent interactions at shorter distances).
+
+The current methods of IoT interactions in a smart building have several drawbacks. Besides being a single point of failure, the building management platform centrally collects all sensor readings that can contain sensitive user data and potentially allow to track every building occupier, thus compromising their privacy. A large scale deployment where thousands of diverse IoT devices frequently transmit data can potentially lead to unacceptable delays and overloaded bandwidth on the links to the management platform. These congestion problems caused by current centralised management model could disrupt some critical workflows in the building when actions must be taken immediately (e.g. actuation of fire suppression systems).
+
+We are exploring the application of distributed approach for smart building management in order to improve user privacy and IoT network performance in general. The idea is to offload control and automation functions from the central platform to a hierarchy of intermediate networked units located inside the smart building network. Each unit acts as a smart gateway for a subset of IoT devices, filtering their uplink data to the central platform as well as interacting with other subsets of heterogeneous IoT devices in the building to enforce management functions distributed across the architecture.
+
+This architectural proposal is a part of my ongoing PhD, and I would appreciate any feedback on the presented concept. At the upcoming workshop I would like to present the distributed approach for smart building management in more detail, describe potential benefits, use-cases and challenges as well as discuss future work in that direction.
+
+

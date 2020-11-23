@@ -1,0 +1,23 @@
+Submission #40: Debugging Unikernel Operating Systems
+=====================================================
+
+Authors
+-------
+1. Kareem Ahmad <mka@st-andrews.ac.uk> (University of St Andrews)
+2. Alan Dearle <alan.dearle@st-andrews.ac.uk> (University of St Andrews)
+3. Jon Lewis <jon.lewis@st-andrews.ac.uk> (University of St Andrews)
+4. Ward Jaradat <ward.jaradat@st-andrews.ac.uk> (University of St Andrews)
+
+Abstract
+--------
+Unikernels are executable binaries of library operating systems that run directly on the hypervisor with the executable containing both the kernel functions and the applications code. Unikernels are challenging to debug as there are not many production ready debuggers. In this talk we report on a undergraduate led project to develop debugger for Unikernels running on Xen. Specifically, we focused on debugging support for the Stardust Unikernel. However, the work is applicable to any Unikernel written in C or C++.
+
+Unikernels are more difficult to debug for a number of reasons. Firstly, the kernel and the application are both compiled statically into a single image and therefore debugging support needs to be embedded in the kernel. However, this is clearly problematic as an independent debugging context is needed in order to provide isolation and the ability to stop and start the operating system. Secondly, Unikernels may not be designed for compatibility with conventional debugging tools like GDB, and may not provide drivers that make use of the debugging facilities provided by the underlying hypervisor. Furthermore, tools like GDB also rely on Unix process structures and system calls like fork.
+
+The debugger is based on previous work done by Spencer Micheals at the NCC Group. Both debuggers run in the control domain of the hypervisor (Dom0), this is where we handle allocation and destruction of Virtual Machines (VM), and use Xen’s Virtual Machine Introspection (VMI) interface to Stardust. However, this interface is not sufficient for a complete debugger and the current project employs additional libraries to extract high level program information such as the mappings of code, and variables to line numbers, and addresses respectively as well as data structure representations etc.
+
+During this project, we have experimented with a couple of approaches to the construction of a debugger; one in C++ and one in Go. We highlight the differences in these approaches.
+
+We hope this work will both support the development of Stardust, and will be of help to the community developing Unikernel operating systems.
+
+
