@@ -1,0 +1,22 @@
+Submission #30: Liberating Consensus: benchmarking consensus systems
+====================================================================
+
+Authors
+-------
+1. Chris Jensen <cjj39@cam.ac.uk> (University of Cambridge)
+2. Daniel Saaw <dks28@cam.ac.uk> (University of Cambridge)
+3. Heidi Howard <hh360@cam.ac.uk> (University of Cambridge)
+4. Richard Mortier <richard.mortier@cl.cam.ac.uk> (University of Cambridge)
+
+Abstract
+--------
+Many distributed systems use a consensus protocol for coordination and control between nodes. This protocol layer is often provided by production systems such as etcd and Zookeeper.
+Since these systems provide very similar capabilities, the deciding factor is their performance. 
+
+Our current work aims to provide a new benchmark which fault-tolerant key-value stores, such as etcd and Zookeeper, can plug into. Previous work has focussed primarily on homogenous nodes and datacenter style networks. This work seeks to extend that work by building on top of the Mininet network emulation framework.
+
+Mininet provides arbitrary network topology emulation and is typically used to investigate new routing protocols. However, here we use it to examine the effect of different network types on performance as well as to emulate various network and node failures. It also gives us the ability to control the resources available to a given node and thus allows us to test heterogeneous node deployments. 
+
+We will present preliminary results comparing etcd, Zookeeper, and a custom multi-Paxos implementation. Our simulator will be released as open-source soon, and we would welcome feedback and beta testers.
+
+

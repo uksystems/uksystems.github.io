@@ -41,25 +41,17 @@ scope.
 
 ### 2nd December 2020, 14:00-15:30
 
-  *  The Efficiency Death-March: The Unintended Consequences of Large-scale Systems Research upon Climate Change
-
-     Peter Garraghan	(Lancaster University)
- 
-     [[Abstract](uksystems2020-abstract32.txt)]
- 
   *  Towards In-Switch Reinforcement Learning
 
      Kyle Simpson (University of Glasgow)
 
      [[Abstract](uksystems2020-abstract9.txt)]
 
-  *  Dyninka: a framework for distributed FaaS dataflow
+  * Liberating Consensus: benchmarking consensus systems 
 
-     Patrik Fortier (INSA Lyon - CITI) 
-     Julien Ponge (Red Hat) 
-     Frédéric le Mouël (INSA Lyon - CITI)
+     Chris Jensen (University of Cambridge), Daniel Saaw (University of Cambridge), Heidi Howard (University of Cambridge), Richard Mortier (University of Cambridge)
 
-     [[Abstract](uksystems2020-abstract37.txt)]
+    [[Abstract](uksystems2020-abstract30.txt)]
 
   *  The role of Reactive and Event-Driven Applications in Microservice Architectures
 
@@ -88,6 +80,12 @@ scope.
 
      [[Abstract](uksystems2020-abstract27.txt)]
 
+  *  The Efficiency Death-March: The Unintended Consequences of Large-scale Systems Research upon Climate Change
+
+     Peter Garraghan	(Lancaster University)
+ 
+     [[Abstract](uksystems2020-abstract32.txt)]
+ 
 ### 9th December 2020, 14:00-15:30
 
   *  Popcorn Linux OS and Compiler Framework: lessons from 7 years of research, development, and deployments
