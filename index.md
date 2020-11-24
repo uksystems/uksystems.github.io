@@ -80,12 +80,7 @@ scope.
 
      [[Abstract](uksystems2020-abstract27.txt)]
 
-  *  The Efficiency Death-March: The Unintended Consequences of Large-scale Systems Research upon Climate Change
 
-     Peter Garraghan	(Lancaster University)
- 
-     [[Abstract](uksystems2020-abstract32.txt)]
- 
 ### 9th December 2020, 14:00-15:30
 
   *  Popcorn Linux OS and Compiler Framework: lessons from 7 years of research, development, and deployments
@@ -116,6 +111,12 @@ scope.
      Colin Perkins (University of Glasgow)
 
      [[Abstract](uksystems2020-abstract3.txt)]
+
+  *  The Efficiency Death-March: The Unintended Consequences of Large-scale Systems Research upon Climate Change
+
+     Peter Garraghan	(Lancaster University)
+ 
+     [[Abstract](uksystems2020-abstract32.txt)] 
 
 ### 10th December 2020, 10:30-12:00
 
