@@ -25,7 +25,7 @@ scope.
 
     Tom Spink (University of Edinburgh)
 
-    [[Abstract](uksystems2020-abstract10.txt)][[Slides](files/presso10.pdf)]
+    [[Abstract](uksystems2020-abstract10.txt)]
    
   * AutoAI and Machine Learning Systems Design
 
@@ -116,7 +116,7 @@ scope.
 
      Peter Garraghan	(Lancaster University)
  
-     [[Abstract](uksystems2020-abstract32.txt)] 
+     [[Abstract](uksystems2020-abstract32.txt)][[Slides](files/presso32.pdf)] 
 
 ### 10th December 2020, 10:30-12:00
 
@@ -170,7 +170,7 @@ scope.
 
      Bilal Arshad (University of Derby)
 
-     [[Abstract](uksystems2020-abstract5.txt)][[Slides](files/presso7.pdf)]
+     [[Abstract](uksystems2020-abstract5.txt)][[Slides](files/presso5.pdf)]
 
    * Optimizing Generic Taint Analysis
 
