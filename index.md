@@ -25,19 +25,19 @@ scope.
 
     Tom Spink (University of Edinburgh)
 
-    [[Abstract](uksystems2020-abstract10.txt)]
+    [[Abstract](uksystems2020-abstract10.txt)][[Slides](files/presso10.pdf)]
    
   * AutoAI and Machine Learning Systems Design
 
     Neil Lawrence (University of Cambridge)
 
-    [[Abstract](uksystems2020-abstract39.txt)]
+    [[Abstract](uksystems2020-abstract39.txt)][[Slides](files/presso39.url)]
 
   * Pricing Python Parallelism : Guided JIT compilation for Heterogeneous Architectures
 
     Dejice Jacob (University of Glasgow)
 
-    [[Abstract](uksystems2020-abstract7.txt)]
+    [[Abstract](uksystems2020-abstract7.txt)][[Slides](files/presso7.pdf)]
 
 ### 2nd December 2020, 14:00-15:30
 
@@ -51,13 +51,13 @@ scope.
 
      Chris Jensen (University of Cambridge), Daniel Saaw (University of Cambridge), Heidi Howard (University of Cambridge), Richard Mortier (University of Cambridge)
 
-    [[Abstract](uksystems2020-abstract30.txt)]
+    [[Abstract](uksystems2020-abstract30.txt)][[Slides](files/presso30.pdf)]
 
   *  The role of Reactive and Event-Driven Applications in Microservice Architectures
 
      Clement Escoffier (Red Hat) 
 
-     [[Abstract](uksystems2020-abstract4.txt)]
+     [[Abstract](uksystems2020-abstract4.txt)][[Slides](files/presso4.pdf)]
 
 
 ### 3rd December 2020, 10:30-12:00
@@ -66,7 +66,7 @@ scope.
 
      Magnus Morton (University of Edinburgh), Björn Franke (University of Edinburgh)
 
-     [[Abstract](uksystems2020-abstract8.txt)]
+     [[Abstract](uksystems2020-abstract8.txt)][[Slides](files/presso8.pdf)]
 
   *  Towards a distributed privacy-preserving IoT management model for smart buildings
 
@@ -87,7 +87,7 @@ scope.
 
      Antonio Barbalace (University of Edinburgh), Pierre Olivier (The University of Manchester), Binoy Ravindran (Virginia Tech)
 
-     [[Abstract](uksystems2020-abstract26.txt)]
+     [[Abstract](uksystems2020-abstract26.txt)][[Slides](files/presso26.pdf)]
 
   *  Confidential Consortium Framework
 
@@ -102,7 +102,7 @@ scope.
      Olga Vrousgou (Microsoft Research),
      Sylvan Clebsch (Microsoft Research)
 
-     [[Abstract](uksystems2020-abstract17.txt)]
+     [[Abstract](uksystems2020-abstract17.txt)][[Slides](files/presso17.pdf)]
 
   *  Parsing Protocol Standards
 
@@ -127,7 +127,7 @@ scope.
      Wanli Chang (University of York), 
      Iain Bate (University of York) 
 
-     [[Abstract](uksystems2020-abstract11.txt)]
+     [[Abstract](uksystems2020-abstract11.txt)][[Slides](files/presso11.pptx)]
 
   *  Debugging Unikernel Operating Systems
  
@@ -136,21 +136,21 @@ scope.
      Jon Lewis (University of St Andrews),
      Ward Jaradat (University of St Andrews)
 
-     [[Abstract](uksystems2020-abstract40.txt)]
+     [[Abstract](uksystems2020-abstract40.txt)][[Slides](files/presso40.pptx)]
 
    * What am I waiting for? Energy and Performance Optimization on big.LITTLE Architectures: A Memory-latency Aware Approach
 
      Willy Wolff (Lancaster University),
      Barry Porter (Lancaster University)
 
-     [[Abstract](uksystems2020-abstract21.txt)]
+     [[Abstract](uksystems2020-abstract21.txt)][[Slides](files/presso21.url)]
 
    * Towards Emergent Scheduling for Distributed Execution Frameworks
 
      Paul Allan Dean (Lancaster University),
      Barry Porter (Lancaster University)
 
-     [[Abstract](uksystems2020-abstract22.txt)]
+     [[Abstract](uksystems2020-abstract22.txt)][[Slides](files/presso22.pptx)]
 
 ### 16th December 2020, 14:00-15:30
 
@@ -158,19 +158,19 @@ scope.
 
      Christos Vasiladiotis (University of Edinburgh)
 
-     [[Abstract](uksystems2020-abstract28.txt)]
+     [[Abstract](uksystems2020-abstract28.txt)][[Slides](files/presso28.pdf)]
 
    * Participatory Design Fiction for Wearables II: The Sequel
 
      Helen Oliver (The Alan Turing Institute/University of Cambridge)
 
-     [[Abstract](uksystems2020-abstract35.txt)]
+     [[Abstract](uksystems2020-abstract35.txt)][[Slides](files/presso35.key)]
 
    * An In-memory Graph System for Scalable and Consistent Data Integration
 
      Bilal Arshad (University of Derby)
 
-     [[Abstract](uksystems2020-abstract5.txt)]
+     [[Abstract](uksystems2020-abstract5.txt)][[Slides](files/presso7.pdf)]
 
    * Optimizing Generic Taint Analysis
 
