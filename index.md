@@ -11,7 +11,7 @@ We invite you to submit 500 word / 0.5 page abstracts (PDF or plain text) of wor
 
  
 
-This is the fifth iteration of a workshop bringing together systems researchers from across the UK and beyond, to discuss pressing topics affecting the design and implementation of large-scale systems in a friendly and inclusive setting. We're interested in presentations that speak to:
+This is the sixth iteration of a workshop bringing together systems researchers from across the UK and beyond, to discuss pressing topics affecting the design and implementation of large-scale systems in a friendly and inclusive setting. We're interested in presentations that speak to:
 
 - innovative mechanisms
 - lessons learned: experience with large or unusual systems
