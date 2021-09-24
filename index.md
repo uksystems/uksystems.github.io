@@ -1,276 +1,107 @@
 ---
-title: Fifth Annual UK System Research Challenges Workshop, 2020
+title: Sixth Annual UK System Research Challenges Workshop 2021
 layout: default
 ---
 
-# Fifth Annual UK Systems Research Challenges Workshop, November-December, 2020, Virtual Seminar Series
+# Sixth Annual UK System Research Challenges Workshop, November 30-- December 2, 2021
 
-This is the fifth iteration of a workshop bringing together systems researchers
-from across the UK and beyond, to discuss pressing topics affecting the design
-and implementation of large-scale systems in a friendly and inclusive setting.
+## Call for Presentations & Participation
 
-Past topics have included everything from system security and architecture, to
-consensus and engineering, to data visualisation, data centres and the Internet
-of Things. We aim to be broad and inclusive -- if it's a matter that has bearing
-on how we design, build, operate and use large-scale computing systems, it's in
-scope.
+We invite you to submit 500 word / 0.5 page abstracts (PDF or plain text) of work for presentation at the next UK Systems Research Challenges workshop. In most cases the main points to include in the abstract are the problem being solved, the new idea or hypothesis being explored in your work, and the current state of the project (e.g., whether you are looking for feedback on an early idea or presenting finished results that others might want to use).
 
-<b> Due to COVID-19 disruption, we are running the UK Systems Research Challenges Workshop as a virtual seminar series. Please see program below. </b>
-
-## Virtual Seminar Series 
-
-### 25th November 2020, 14:00-15:30
-
-  * JIT-as-a-Service
-
-    Tom Spink (University of Edinburgh)
-
-    [[Abstract](uksystems2020-abstract10.txt)]
-   
-  * AutoAI and Machine Learning Systems Design
-
-    Neil Lawrence (University of Cambridge)
-
-    [[Abstract](uksystems2020-abstract39.txt)][[Slides](files/presso39.url)]
-
-  * Pricing Python Parallelism : Guided JIT compilation for Heterogeneous Architectures
-
-    Dejice Jacob (University of Glasgow)
-
-    [[Abstract](uksystems2020-abstract7.txt)][[Slides](files/presso7.pdf)]
-
-### 2nd December 2020, 14:00-15:30
-
-  *  Towards In-Switch Reinforcement Learning
-
-     Kyle Simpson (University of Glasgow)
-
-     [[Abstract](uksystems2020-abstract9.txt)]
-
-  * Liberating Consensus: benchmarking consensus systems 
-
-     Chris Jensen (University of Cambridge), Daniel Saaw (University of Cambridge), Heidi Howard (University of Cambridge), Richard Mortier (University of Cambridge)
-
-    [[Abstract](uksystems2020-abstract30.txt)][[Slides](files/presso30.pdf)]
-
-  *  The role of Reactive and Event-Driven Applications in Microservice Architectures
-
-     Clement Escoffier (Red Hat) 
-
-     [[Abstract](uksystems2020-abstract4.txt)][[Slides](files/presso4.pdf)]
-
-
-### 3rd December 2020, 10:30-12:00
-
-  *  Data-Centric Parallelisation
-
-     Magnus Morton (University of Edinburgh), Björn Franke (University of Edinburgh)
-
-     [[Abstract](uksystems2020-abstract8.txt)][[Slides](files/presso8.pdf)]
-
-  *  Towards a distributed privacy-preserving IoT management model for smart buildings
-
-     Vadim Safronov (University of Cambridge), Ian Lewis (University of Cambridge), Richard Mortier (University of Cambridge)
-
-     [[Abstract](uksystems2020-abstract16.txt)]
-
-  *  PASTE: Network-Storage Stack Co-Design for Persistent Memory
-
-     Michio Honda (University of Edinburgh)
-
-     [[Abstract](uksystems2020-abstract27.txt)]
-
-
-### 9th December 2020, 14:00-15:30
-
-  *  Popcorn Linux OS and Compiler Framework: lessons from 7 years of research, development, and deployments
-
-     Antonio Barbalace (University of Edinburgh), Pierre Olivier (The University of Manchester), Binoy Ravindran (Virginia Tech)
-
-     [[Abstract](uksystems2020-abstract26.txt)][[Slides](files/presso26.pdf)]
-
-  *  Confidential Consortium Framework
-
-     Alex Shamis (Microsoft Research),
-     Amaury Chamayou (Microsoft Research),
-     Cedric Fournet (Microsoft Research), 
-     Christoph M Wintersteiger (Microsoft Research),
-     Eddy Ashton (Microsoft Research),
-     Julien Maffre (Microsoft Research),
-     Manuel Costa (Microsoft Research),
-     Miguel Castro (Microsoft Research),
-     Olga Vrousgou (Microsoft Research),
-     Sylvan Clebsch (Microsoft Research)
-
-     [[Abstract](uksystems2020-abstract17.txt)][[Slides](files/presso17.pdf)]
-
-  *  Parsing Protocol Standards
-
-     Stephen McQuistin (University of Glasgow),
-     Vivian Band (University of Glasgow),
-     Colin Perkins (University of Glasgow)
-
-     [[Abstract](uksystems2020-abstract3.txt)]
-
-  *  The Efficiency Death-March: The Unintended Consequences of Large-scale Systems Research upon Climate Change
-
-     Peter Garraghan	(Lancaster University)
  
-     [[Abstract](uksystems2020-abstract32.txt)][[Slides](files/presso32.pdf)] 
 
-### 10th December 2020, 10:30-12:00
+This is the fifth iteration of a workshop bringing together systems researchers from across the UK and beyond, to discuss pressing topics affecting the design and implementation of large-scale systems in a friendly and inclusive setting. We're interested in presentations that speak to:
 
-  *  MOCHA: Modelling and Optimising Complex Heterogeneous Architectures
+- innovative mechanisms
+- lessons learned: experience with large or unusual systems
+- a viewpoint on a controversial systems topic
+- a big problem coming over the horizon
+- and really, anything that would be of interest to the builders of computer systems
 
-     Shuai Zhao (University of York),
-     Xiaotian Dai (University of York), 
-     Wanli Chang (University of York), 
-     Iain Bate (University of York) 
-
-     [[Abstract](uksystems2020-abstract11.txt)][[Slides](files/presso11.pptx)]
-
-  *  Debugging Unikernel Operating Systems
  
-     Kareem Ahmad (University of St Andrews),
-     Alan Dearle (University of St Andrews),
-     Jon Lewis (University of St Andrews),
-     Ward Jaradat (University of St Andrews)
 
-     [[Abstract](uksystems2020-abstract40.txt)][[Slides](files/presso40.pptx)]
+Past topics have included everything from system security and architecture, to consensus and engineering, to data visualisation, data centres and the Internet of Things. We aim to be broad and inclusive-- if it's a matter that has bearing on how we design, build, operate and use large-scale computing systems, it's in scope.
 
-   * What am I waiting for? Energy and Performance Optimization on big.LITTLE Architectures: A Memory-latency Aware Approach
+ 
 
-     Willy Wolff (Lancaster University),
-     Barry Porter (Lancaster University)
+This is an informal workshop without published proceedings. Work is not subject to detailed peer review; we are requesting abstracts only to help us put together the programme and confirm that work is on-topic. In the event of an excess of submissions, preference for presentation slots will be given to Ph.D. students and early career researchers.
 
-     [[Abstract](uksystems2020-abstract21.txt)][[Slides](files/presso21.url)]
+ 
 
-   * Towards Emergent Scheduling for Distributed Execution Frameworks
+## Location
 
-     Paul Allan Dean (Lancaster University),
-     Barry Porter (Lancaster University)
+--------
 
-     [[Abstract](uksystems2020-abstract22.txt)][[Slides](files/presso22.pptx)]
+- [Redworth Hall Hotel](https://www.redworthhalldurham.co.uk/){:target="_blank"}, Surtees Rd, Newton Aycliffe DL5 6NL
 
-### 16th December 2020, 14:00-15:30
+- Coach transport will be provided between the venue and Newcastle city centre (Urban Sciences Building, 1 Science Square, Science Central, NE4 5TG)
 
-   * Exposing parallelism in sequential code using a modern commutativity analysis
+ 
 
-     Christos Vasiladiotis (University of Edinburgh)
+## Key Dates
 
-     [[Abstract](uksystems2020-abstract28.txt)][[Slides](files/presso28.pdf)]
+---------
 
-   * Participatory Design Fiction for Wearables II: The Sequel
+- Abstract submission deadline: October 13<sup>th</sup>, 2022
 
-     Helen Oliver (The Alan Turing Institute/University of Cambridge)
+- Acceptance notification and presentation programme: November 1<sup>st</sup>, 2021
 
-     [[Abstract](uksystems2020-abstract35.txt)][[Slides](files/presso35.key)]
+- Workshop dates: arrival evening Tuesday November 30<sup>th</sup>, closing with lunch Thursday December 2<sup>nd</sup>, 2021
 
-   * An In-memory Graph System for Scalable and Consistent Data Integration
+ 
 
-     Bilal Arshad (University of Derby)
+## Submission
 
-     [[Abstract](uksystems2020-abstract5.txt)][[Slides](files/presso5.pdf)]
+---------
 
-   * Optimizing Generic Taint Analysis
+Submissions will be accepted via HotCRP; submission will open on 1<sup>st</sup> October 2021.
 
-     John Galea (University of Oxford),
-     Daniel Kroening (University of Oxford)
-
-     [[Abstract](uksystems2020-abstract33.txt)]
-
-   * Novel visualisation method for summarising and exploring complex networks
-
-     Osman Akbulut (Newcastle University),
-     Matthew Forshaw (Newcastle University),
-     Nick Holliman (Newcastle University)
-
-     [[Abstract](uksystems2020-abstract14.txt)]
+<!--Submissions via this [link.](https://hotcrp.uksystems.org/)-->
 
 
-## ~~Location~~
+## Registration and Costs
 
-- Redworth Hall Hotel, Surtees Rd, Newton Aycliffe DL5 6NL
-- Coach transport will be provided between the venue and Newcastle city centre
-  (Urban Sciences Building, 1 Science Square, Science Central, NE4 5TG)
+-----
 
-## ~~Key Dates~~
-
-- ~~Abstract submission deadline: January 31, 2020~~
-- ~~Acceptance notification and presentation programme: February 19, 2020~~
-- Workshop dates: arrival evening March 17, closing with lunch March 19, 2020
-
-## ~~Registration and Costs~~
-
-Registration includes accommodation and all meals:
+Including accommodation and meals:
 
 - Current students: £60
+
 - Standard: £125
 
-## ~~Call for Presentations~~
+We are committed to widen participation and historically underrepresented groups within the Systems community. We recognise the need for individualised support to address barriers to participation. To discuss how we can support you (e.g. through bursaries or reimbursement of reasonable expenses) please contact [Jennifer Wood](mailto:jennifer.wood@ncl.ac.uk).
 
-**Submissions are now closed -- see the list of [accepted talks](initial-program.txt).**
+ 
+## Organising Committee
 
-We invite you to submit 500 word / 0.5 page abstracts (PDF or plain text) of
-work for presentation at the next UK Systems Research Challenges workshop. In
-most cases the main points to include in the abstract are the problem being
-solved, the new idea or hypothesis being explored in your work, and the current
-state of the project (e.g., whether you are looking for feedback on an early
-idea or presenting finished results that others might want to use).
+Chair
 
-We're interested in presentations that speak to:
+---------
 
-  * innovative mechanisms
-  * lessons learned: experience with large or unusual systems
-  * a viewpoint on a controversial systems topic
-  * a big problem coming over the horizon
+- Matthew Forshaw, matthew.forshaw@ncl.ac.uk,  Newcastle University and The Alan Turing Institute
 
-and really, anything that would be of interest to the builders of computer
-systems.
+ 
 
-This is an informal workshop without published proceedings. Work is not subject
-to detailed peer review; we are requesting abstracts only to help us put
-together the programme and confirm that work is on-topic. In the event of an
-excess of submissions, preference for presentation slots will be given to Ph.D.
-students and early career researchers.
+Co-Chairs
 
-## Committees
+---------
 
-### Chair
+- Richard Mortier, richard.mortier@cl.cam.ac.uk, Cambridge University
 
-- Diana Andreea Popescu, diana.popescu at cl.cam.ac.uk,  University of Cambridge
+- Derek McAuley, derek.mcauley@nottingham.ac.uk, Nottingham University
 
-### Technical Programme Committee
+- Paul Watson, paul.watson@newcastle.ac.uk, Newcastle University
 
-- Diana Andreea Popescu, University of Cambridge
-- Dimitrios Pezaros, University of Glasgow
-- Gianni Antichi, Queen Mary University of London
-- Heidi Howard, University of Cambridge
-- Paul Watson, Newcastle University
-- Paolo Costa, Microsoft Research
-- Paul Patras, University of Edinburgh
-- Poonam Yadav, University of York
-- Rebecca Whitworth, RedHat
-- Richard Mortier, University of Cambridge
-- Tim Harris, Amazon
 
-For any questions or queries, please contact Dr Diana Andreea Popescu.
 
-### Steering Committee
-
-- Richard Mortier, richard.mortier at cl.cam.ac.uk, Cambridge University
-- Derek McAuley, derek.mcauley at nottingham.ac.uk, Nottingham University
-- Paul Watson, paul.watson at newcastle.ac.uk, Newcastle University
-
+For any other questions or queries, please contact Dr Matthew Forshaw.
 
 ## Sponsors
+Many thanks to our generous sponsor for their support of this event!
 
-Many thanks to our generous sponsors for their support of this event!
 
 [![Red Hat](/images/redhat-new.jpg)][redhat]
 
 [redhat]: https://www.redhat.com/en
 
-[![MaRIONet Project](/images/marionet.png)][marionet]
-
-[marionet]: https://manycore.org.uk/
