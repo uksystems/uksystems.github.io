@@ -55,9 +55,7 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 ---------
 
-Submissions will be accepted via HotCRP; submission will open on 1<sup>st</sup> October 2021.
-
-<!--Submissions via this [link.](https://hotcrp.uksystems.org/)-->
+Submissions via this [link.](https://hotcrp.uksystems.org/uksystems2021/)
 
 
 ## Registration and Costs
