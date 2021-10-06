@@ -43,7 +43,7 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 ---------
 
-- Abstract submission deadline: October 13<sup>th</sup>, 2022
+- Abstract submission deadline: October 13<sup>th</sup>, 2021
 
 - Acceptance notification and presentation programme: November 1<sup>st</sup>, 2021
 
