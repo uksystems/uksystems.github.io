@@ -49,7 +49,8 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 - Workshop dates: arrival evening Tuesday November 30<sup>th</sup>, closing with lunch Thursday December 2<sup>nd</sup>, 2021
 
- 
+[venue]: https://www.redworthhalldurham.co.uk/
+[ncl]: https://goo.gl/maps/4wEvgUFHr6L2
 ## Programme
 
 ### Tuesday 30<sup>th</sup> November
@@ -67,83 +68,37 @@ Building, Newcastle][ncl]
 
 09:00-09:10 **Welcome & Intro** (_Matt Forshaw_)
 
-09:10-10:30 **Session 1**
-- "**P4Debug: A Framework for Debugging Programmable Data Planes**", Pietro
-  Bressana (Universita' della Svizzera italiana), Robert Soulé (Universita'
-  della Svizzera italiana, Barefoot Networks), Noa Zilberman (University of
-  Cambridge)
-  [[abstract](11-bressana-p4debug.txt)]
-  [[pdf](11-bressana-p4debug.pdf)]
-- "**Another heavy hitter detection problem**", Salvator Galea, Gianni Antichi
-  (University of Cambridge)
-  [[abstract](12-galea-heavyhitters.txt)]
-  [[pdf](12-galea-heavyhitters.pdf)]
-- "**Load Balancing Real-Time Physics for Cloud Based Video Game Delivery**",
-  Alexander Brown, Graham Morgan (Newcastle University)
-  [[abstract](13-brown-physics.txt)]
-  [[pdf](13-brown-physics.pdf)]
-  [[video (mp4)](13-brown-physics.mp4)]
-- "**FaRM and MVCC**", Alex Shamis (Microsoft Research)
-  [[abstract](14-shamis-farm.txt)]
-- "**ABC: Adaptive Brokerage for the Cloud**", Abdessalam Elhabbash, Yehia
-  Elkhatib, Gordon Blair (Lancaster University)
-  [[abstract](15-elhabbash-abc.txt)]
-  [[pdf](15-elhabbash-abc.pdf)]
+09:10-10:30 **Session 1: Hardware**
+- "**Hardware Accelerated Cross-architecture Execution Tracing**", Tom Spink (University of Edinburgh)
+- "**Adaptable Multicore Scheduling in a Research Operating System**", Kim Stonehouse (University of Edinburgh)
+- "**MOCHA: Modelling and Optimising Complex Heterogeneous Architectures**", Xiaotian Dai, Shuai Zhao, Alan Burns, and Iain Bate (University of York)
+- "**A direct I/O framework for SoC-based accelerators**", Shinichi Awamoto, Antonio Barbalace, and Michio Honda (University of Edinburgh)
+- "**TITLE**", AUTHOR
 
 10:30-11:15 Coffee
 
-11:15-12:00 **Session 2**
-- "**Visualizing Urban IoT Using Cloud Supercomputing**", Nicolas Holliman, Manu
-  Antony, Stephen Dowsland, Mark Turner (Newcastle University)
-  [[abstract](21-dowsland-visualising.txt)]
-  [[pdf](21-dowsland-visualising.pdf)]
-- "**Intelligent applications on OpenShift from prototype to production**",
-  Rebecca Simmonds, Mike McCune (Red Hat)
-  [[abstract](22-simmonds-openshift.txt)]
-  [[pdf](22-simmonds-openshift.pdf)]
-- "**And what would you do with ten thousand Raspberry Pis?**", Jeremy Singer,
-  Anna Lito, Michala Herry Herry (University of Glasgow)
-  [[abstract](23-herry-fruit.txt)]
-  [[pdf](23-herry-fruit.pdf)]
+11:15-12:00 **Session 2: Networking**
+- "**Packets as Persistent In-Memory Data Structures**", Michio Honda (University of Edinburgh)
+- "**Does TCP's New Congestion Window Validation Improve HTTP Adaptive Streaming Performance?**", Mihail Yanev and Colin Perkins (University of Glasgow)
+- "**Characterizing SmartNIC Architectures**", Tong Xing, Michio Honda, and Antonio Barbalace (University of Edinburgh)
 
 12:20-14:00 Lunch
 
-14:00-15:00 **Short Talks**
-- "**Efficient Cross-architecture Hardware Virtualisation**", Tom Spink
-  (University of Edinburgh)
-  [[abstract](31-spink-crossvirt.txt)]
-  [[pdf](31-spink-crossvirt.pdf)]
-- "**Systems in an Era of Custom Hardware**", Aleksandar Dragojevic, Junyi Liu
-  (Microsoft (Microsoft)
-  [[abstract](32-dragojevic-customhw.txt)]
-- "**Challenges in Scaling Up Graph Analytics**", Priyank Faldu, Boris Grot (The
-  University of Edinburgh)
-  [[abstract](33-faldu-graphanal.txt)]
-  [[pdf](33-faldu-graphanal.pdf)]
-- "**Can you trust your I/O?**", A. Theodore Markettos (University of Cambridge)
-  [[abstract](34-markettos-trustio.txt)]
+14:00-15:00 **Session 3: Short Talks**
+- "**Java in a Container world: what we've done and where we're going**", Jonathan Dowland (Red Hat & Newcastle University)
+- "**A Call for Novel Datasets for Deep Learning**",	Stephen McGough (Newcastle University)
+- "**Investigating the effect of downsampling and interpolating time series data using similarity metrics.**",	Tolu Awosanya, Matthew Forshaw, and Joe Matthews (Newcastle University)
+- "**Spatial transcriptomics in the web browser: Creating a three-dimensional atlas of the whole human embryo**",	Dave Horsfall (Newcastle University)
+- "**Analysis pipeline for hydrological simulation in the PYRAMID project**",	Robin Wardle and Mark Turner (Newcastle University, UK)
+- "**Preservation of Patient Confidentiality using Edge Computing and Distributed Machine Learning: An early Proof of Concept Study**",	Hugo Hiden (Newcastle university); Paul Watson, Jamie McQuire, and Nick Wright (Newcastle University); Michael Catt (Independent)
 
 15:00-15:30 Coffee
 
-15:30-17:00 **Session 3**
-- "**Towards Tiny Trustworthy Enclaves for Unikernels**", Zahra Tarkhani, Anil
-  Madhavapeddy (University of Cambridge)
-  [[abstract](41-tarkhani-enclaves.txt)]
-  [[pdf](41-tarkhani-enclaves.pdf)]
-- (_withdrawn_) ~~_"**Building systems with Rust: Lessons learned**", Marco
-  Caballero (University of Cambridge)_~~
-- "**Unikernel support for the deployment of light-weight, self-contained, and
-  latency avoiding services**", Ward Jaradat, Alan Dearle, Jonathan Lewis
-  (University of St Andrews)
-  [[abstract](42-jaradat-services.txt)]
-  [[pdf](42-jaradat-services.pdf)]
-- "**Containerizing Middleware Applications**", Jonathan Dowland (Red Hat)
-  [[abstract](43-dowland-middleware.txt)]
-  [[pdf](43-dowland-middleware.pdf)]
-  [[ascii](43-dowland-middleware-ascii.txt)]
-- "**There and back again: a microservices tale**", Mark Little (Red Hat)
-  [[abstract](44-little-microservices.txt)]
-  [[pdf](44-little-microservices.pdf)]
+15:30-17:00 **Session 4**
+- "**Quiver: Scaling Graph Learning with Automatic Hybrid Processor and Memory Management**", Zeyuan Tan (University of Edinburgh); Xiulong Yuan (Tsinghua University); Guo Li (Imperial College London); Luo Mai (University of Edinburgh); Peter Pietzuch (Imperial College London); Kai Zeng (unaffiliated)
+- "**Unit (and other) testing of stochastic code**", Simon Dobson (University of St Andrews)
+- "**Elephants and relevance in systems research**", Stephen Kell (King's College London)
+- "**An In-memory Graph System for Scalable and Consistent Legacy System Integration**", Bilal Arshad (University of Derby)
 
 19:00-21:00 Dinner
 
@@ -154,22 +109,18 @@ Short (5 minute) talks on any relevant topic.
 
 ### Thursday 2<sup>nd</sup> December
 
-09:00-10:20 **Formal Methods & IoT** (_Richard Mortier_)
-- "**Formal Verification of Spacecraft Control Programs Using a Metalanguage for
-  State Transformers**", Andrey Mokhov, Georgy Lukyanov (Newcastle University),
-  Jakob Lechner (RUAG Space Austria GmbH)
-  [[abstract](51-lukyanov-redfin.txt)]
-  [[pdf](51-lukyanov-redfin.pdf)]
+09:00-10:20 **Session 5**
+- "**Turbocharging Serverless Research with vHive**",	Dmitrii Ustiugov and Boris Grot (University of Edinburgh)
+- "**FaaS with Disaggregated Shared Memory**",	Adarsh Patil (University of Edinburgh)
+- "**Bringing FaaS Closer to Cloud Storage**",	Jakub Krzysztof Szewczyk, Tom Spink, and Antonio Barbalace (University of Edinburgh)
+- "**Picking a winner: cost models for evaluating alternative stream-processing programs**",	Jonathan Dowland (Red Hat & Newcastle University)
 
-10:20-10:50 Coffee
+10:30-11:00 Coffee
 
-10:50-12:10 **Blockchain & Edge** (_Julie McCann_)
-- "**Modern key distribution with ClaimChain**", Bogdan Kulynych (École
-  polytechnique fédérale de Lausanne), Marios Isaakidis (University College
-  London), Carmela Troncoso (École polytechnique fédérale de Lausanne), George
-  Danezis (University College London)
-  [[abstract](61-isaakidis-claimchain.txt)]
-  [[pdf](61-isaakidis-claimchain.pdf)]
+11:00-12:00 **Session 6**
+- "**Wait-Hit: A high-performance concurrency control protocol for any scale**",	Jack Waudby and Paul Ezhilchelvan (Newcastle University); Jim Webber (Neo4j)
+- "**A Brief Retrospective on Tornado VM**",	James Clarkson (Neo4j)
+- "**WePS: Enabling Low-latency Giant Model Replication in Geo-distributed Parameter Servers**",	Chijun Sima (Tencent); Yao Fu and Man-Kit Sit (University of Edinburgh); Feng Lin (Tencent); Pierre Louis Aublin (IIJ Innovation Institute); Luo Mai (University of Edinburgh)
 
 12:00-12:30 **Wrap-up**
 
