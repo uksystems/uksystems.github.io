@@ -139,6 +139,8 @@ Submissions via this [link.](https://hotcrp.uksystems.org/uksystems2021/)
 
 -----
 
+To register, please contact [Jennifer Wood](mailto:jennifer.wood@ncl.ac.uk) directly.
+
 Including accommodation and meals:
 
 - Current students: £60
