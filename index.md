@@ -81,7 +81,9 @@ Building, Newcastle][ncl]
 - "**Does TCP's New Congestion Window Validation Improve HTTP Adaptive Streaming Performance?**", Mihail Yanev and Colin Perkins (University of Glasgow)
 - "**Characterizing SmartNIC Architectures**", Tong Xing, Michio Honda, and Antonio Barbalace (University of Edinburgh)
 
-12:20-14:00 Lunch
+12:00-12:30 Networking
+
+12:30-14:00 Lunch
 
 14:00-15:00 **Session 3: Short Talks**
 - "**Java in a Container world: what we've done and where we're going**", Jonathan Dowland (Red Hat & Newcastle University)
