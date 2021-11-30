@@ -73,7 +73,6 @@ Building, Newcastle][ncl]
 - "**Adaptable Multicore Scheduling in a Research Operating System**", Kim Stonehouse (University of Edinburgh)
 - "**MOCHA: Modelling and Optimising Complex Heterogeneous Architectures**", Xiaotian Dai, Shuai Zhao, Alan Burns, and Iain Bate (University of York)
 - "**A direct I/O framework for SoC-based accelerators**", Shinichi Awamoto, Antonio Barbalace, and Michio Honda (University of Edinburgh)
-- "**TITLE**", AUTHOR
 
 10:30-11:15 Coffee
 
