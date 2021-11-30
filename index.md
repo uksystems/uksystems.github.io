@@ -64,7 +64,7 @@ Building, Newcastle][ncl]
 
 **18:30 for 19:00** Dinner
 
-### Wednesday 1<sup>st</sup> Decemer
+### Wednesday 1<sup>st</sup> December
 
 09:00-09:10 **Welcome & Intro** (_Matt Forshaw_)
 
