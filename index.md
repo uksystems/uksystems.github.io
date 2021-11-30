@@ -91,7 +91,7 @@ Building, Newcastle][ncl]
 - "**Investigating the effect of downsampling and interpolating time series data using similarity metrics.**",	Tolu Awosanya, Matthew Forshaw, and Joe Matthews (Newcastle University)
 - "**Spatial transcriptomics in the web browser: Creating a three-dimensional atlas of the whole human embryo**",	Dave Horsfall (Newcastle University)
 - "**Analysis pipeline for hydrological simulation in the PYRAMID project**",	Robin Wardle and Mark Turner (Newcastle University, UK)
-- "**Preservation of Patient Confidentiality using Edge Computing and Distributed Machine Learning: An early Proof of Concept Study**",	Hugo Hiden (Newcastle university); Paul Watson, Jamie McQuire, and Nick Wright (Newcastle University); Michael Catt (Independent)
+- "**Preservation of Patient Confidentiality using Edge Computing and Distributed Machine Learning: An early Proof of Concept Study**",	Hugo Hiden (Newcastle University); Paul Watson, Jamie McQuire, and Nick Wright (Newcastle University); Michael Catt (Independent)
 
 15:00-15:30 Coffee
 
