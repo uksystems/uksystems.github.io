@@ -69,7 +69,7 @@ Building, Newcastle][ncl]
 09:00-09:10 **Welcome & Intro** (_Matt Forshaw_)
 
 09:10-10:30 **Session 1: Hardware**
-- "**Hardware Accelerated Cross-architecture Execution Tracing**", Tom Spink (University of Edinburgh)
+- "**Hardware Accelerated Cross-architecture Execution Tracing**", Tom Spink (University of Edinburgh) <a href="slides/Tom Spink - Hardware Accelerated Cross-architecture Execution Tracing.pdf" target="_blank">[Slides]</a>
 - "**Adaptable Multicore Scheduling in a Research Operating System**", Kim Stonehouse (University of Edinburgh)
 - "**MOCHA: Modelling and Optimising Complex Heterogeneous Architectures**", Xiaotian Dai, Shuai Zhao, Alan Burns, and Iain Bate (University of York)
 - "**A direct I/O framework for SoC-based accelerators**", Shinichi Awamoto, Antonio Barbalace, and Michio Honda (University of Edinburgh)
