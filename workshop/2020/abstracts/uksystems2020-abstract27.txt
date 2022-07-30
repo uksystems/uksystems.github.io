@@ -1,0 +1,18 @@
+Submission #27: PASTE: Network-Storage Stack Co-Design for Persistent Memory
+============================================================================
+
+Author
+------
+Michio Honda <michio.honda@ed.ac.uk> (University of Edinburgh)
+
+Abstract
+--------
+Costs of persisting data over networks have been dominated by slow access latency to disks or SSDs, and the access methods of them, causing end-to-end latency on the order of hundreds or thousands of microseconds. Therefore, networking, whose RTTs over standard TCP/IP take just a few tens of microseconds, was a relatively lightweight component of the end-to-end system. However, emerging non-volatile main memory (NVMM), which is also known as persistent memory will change this situation, because durably writing data becomes two-three orders of magnitude faster due to not only physical media speed but also the new access methods. Therefore, network and storage stacks equally stress the end-to-end system, and tight integration of these stacks is required to design efficient systems. This is not only the case for RDMA networking.
+
+We present PASTE, a new networking interface to build networked storage systems on top of it. It offers run-to-completion processing model across networking and storage layers, and true zero copy by DMA performed directly to named packet buffers on NVMM, while preserving protection and rich set of network protocols provided by the socket APIs today.  PASTE allows applications to overlap network message processing with (still) expensive flush operations, improving performance while making persistence guarantee simple.  We benchmark PASTE using Write-Ahead Logging and B+tree, as well as porting it to key value stores and software switch, and show PASTE significantly outperforms well-tuned Linux and the state-of-the art network stack. PASTE is a open source Linux kernel module which does not need to modify the main kernel, but we also supported FreeBSD recently.
+
+The work initially appeared in NSDI'18 [1], but we further discuss new directions such as transaction support and file system design.
+
+[1] https://www.usenix.org/system/files/conference/nsdi18/nsdi18-honda.pdf
+
+

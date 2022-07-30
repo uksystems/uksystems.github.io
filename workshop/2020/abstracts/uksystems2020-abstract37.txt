@@ -1,0 +1,19 @@
+Submission #37: Dyninka: a framework for distributed FaaS dataflow
+==================================================================
+
+Authors
+-------
+1. Patrik Fortier <patrik.fortier@insa-lyon.fr> (INSA Lyon - CITI)
+2. Julien Ponge <jponge@redhat.com> (Red Hat)
+3. Frédéric le Mouël <frederic.le-mouel@insa-lyon.fr> (INSA Lyon - CITI)
+
+Abstract
+--------
+The challenges of the Internet of Things(IoT) require applications to deal with large amount of data streaming from small devices into processing, storing and analytical systems. Such one-way datastream can be modelled into a directed graph where vertices are processing units, and edges are data flow con- nections between them. Modern applications are often written as micro-services, where each service focuses on one functional con- cern and exposes one or several APIs over the network, typically using HTTP, web sockets and messaging systems. Services are loosely-coupled and make communications over the network to operate. An appli- cation is then a composition of micro-services interacting with each other. One of the main benefits of this architecture is that services can be scaled independently to accommodate fluctuating workloads, and they can be reused by other services. More recently, the function-as-a-service and serverless paradigms have emerged, where a function is a minimal service unit with very strict functional boundaries, and where developers do not want to be involved with the operational concerns regarding running code.
+We present Dyninka, a framework for creating distributed dataflow applications based on Kotlin and Kubernetes. Our framework allows the generation of distributed systems using a language approach, providing dynamic service placement, service mobility, and contextual adaptation of the application to its environment. This allows fine control over the evolution of stream-based applications and also add the environment as a dynamic factor of the development process where one component of the dataflow may need to be redeployed on another node to increase performance. Specific service requirements are described by using intelligent placement specification constructs. Dataflows are formed by chaining functions, resulting in linking generated services together. Prototyping is made quick and interactive by making developers write functions in their IDE, test them locally and Dyninka ex- poses them as micro-services in a distributed configuration. Code modification updates micro-services and changes the workflow without having to redeploy the whole application. Communication between services is abstracted, so such boilerplates are removed from the codebase.
+
+Experimentation was undertaken to compare our framework on a concrete IoT application example, with a handcrafted distributed application and OpenFaaS platform to compare performance and resilience of the distributed application, readability as well as the size of the codebase.
+
+This framework is a first step for the design of new IoT frameworks and languages helping to write context-aware distributed applications. It is an ongoing project and future work will focus on bringing built-in languages constructs specific to dynamic distributed systems. Common orthogonal functionalities like connectors, data producers, logging and security layers can be reduced to language constructs. Future versions aim also to support Apache Mesos and other orchestration technologies.
+
+

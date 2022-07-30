@@ -1,0 +1,18 @@
+Submission #26: Popcorn Linux OS and Compiler Framework: lessons from 7 years of research,
+development, and deployments
+================================================================================================
+
+Authors
+-------
+1. Antonio Barbalace <abarbala@ed.ac.uk> (University of Edinburgh)
+2. Pierre Olivier <pierre.olivier@manchester.ac.uk> (The University of Manchester)
+3. Binoy Ravindran <binoy@vt.edu> (Virginia Tech)
+
+Abstract
+--------
+The Popcorn Linux OS and Compiler Framework have undergone 7 years of research, development, and deployments. Popcorn started as a proof of concept multiple-kernel OS based on a monolithic OS, Linux. Next, it evolved to an OS and compiler framework enabling seamless program execution among heterogeneous-ISA CPUs in a single machine or across machines in the data-center. It recently turned into a runtime and compiler framework supporting process and VM execution migration across heterogeneous-ISA CPUs platforms for centralized and edge data-centers.
+In this talk we examine the lessons learnt in those years about multiple-kernel OS design and multi-ISA compiler/runtime architecture, including feedback from industry and academia. We introduce the Popcorn Linux OS architecture, a multiple-monolithic kernel OS, and revisit the key modifications made within the Linux OS, including the redesign of the memory subsystem that has been extended to provide distributed shared memory. We discuss the issues with the most performance-critical component, the communication layer, which runs now atop different transport medias. 
+We then present the Popcorn Compiler and runtime framework enabling the creation of applications that can migrate during run time among processors of different ISAs, and its evolution from supporting only C language to any language that can be converted into LLVM IR. We illustrate how our runtime heterogeneous-ISA migration core mechanism, stack transformation, works and can be used by either Popcorn Linux OS or a runtime migration library, including Hexo – that enables VM/unikernel migration, and hetCRIU – that supports process migration.
+We present various use case scenarios of Popcorn, related to both industry and academia. If time permits, a heterogeneous-ISA migration demo will be showcased – between ARM and x86.
+
+

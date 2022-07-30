@@ -1,0 +1,30 @@
+Submission #3: Parsing Protocol Standards
+=========================================
+
+Authors
+-------
+1. Stephen McQuistin <sm@smcquistin.uk> (University of Glasgow)
+2. Vivian Band <vivianband0@gmail.com> (University of Glasgow)
+3. Colin Perkins <csp@csperkins.org> (University of Glasgow)
+
+Abstract
+--------
+Standards documents have been slow to adopt packet description formalisms that
+go beyond the limited syntax that can be captured in packet header diagrams. As
+increasingly complex protocols, like QUIC, are standardised, this is becoming
+problematic: descriptions of packet formats are often fragmented, incomplete,
+and difficult to follow, and buggy implementations, that do not conform to the
+specification, are likely to result.
+
+In this talk, I will describe an abstract, intermediate packet representation,
+that fully captures the syntax of packet formats, can be generated from a range
+of packet description languages, and can generate packet parser code. By
+specifying an intermediate representation that can be produced from both
+existing and novel packet descriptions, we hope to encourage use of more
+expressive, machine readable, packet descriptions in protocol standards. The
+design and adoption of such an intermediate representation gives rise to a
+number of interesting technical and social challenges: I will discuss these
+challenges, and the solutions developed so far, and seek feedback from the
+community.
+
+

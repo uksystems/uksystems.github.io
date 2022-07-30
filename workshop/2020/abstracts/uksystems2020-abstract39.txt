@@ -1,0 +1,29 @@
+Submission #39: AutoAI and Machine Learning Systems Design
+==========================================================
+
+Author
+------
+Neil D. Lawrence <ndl21@cam.ac.uk> (University of Cambridge)
+
+Abstract
+--------
+It seems that we would like to design artificial intelligences, robust decision-making systems that understand the broader context of the decisions they are making, including the history and nature of human experience. At least, that is what the global hype around artificial intelligence implies we are doing.
+
+The reality is very different. In practice, we are designing and deploying data-driven decision-making systems within complex software systems with little to no understanding of the downstream implications.
+
+At the heart of the challenge is standard practice around the design and construction of modern, complex, software systems. In particular, we have resolved the challenge of the mythical person-month through separation of concerns. Decomposition of the task into separate entities, each of which has defined input and outputs and each of which is normally developed and/or maintained by a single software team.
+
+The challenge with such large-scale software systems is that they have incredible complexity. Separation of concerns enables us to deal with such complexity with a decomposition of components. Unfortunately, this means that no team is ‘concerned’ with the overall operation of this system.
+
+Modern artificial intelligence is based on machine learning algorithms. In deployment these become components of the larger system that make decisions through observing historic data around those decisions and emulating those decisions through fitting mathematical functions to the data.
+
+The field of machine learning is closely related to statistics, but in contrast to statistics, less emphasis has traditionally been placed on the interpretability of model outputs or the validity of decisions in the sense of some form of ‘statistical truth’.
+
+This released the field from the constraints of the simpler models that statisticians have typically focussed on, but the success of these models has triggered a wave of head scratching around the fairness, explainability and transparency of such models (FET models). FET models are an active area of machine learning research with their own conference.
+The challenge we are interested in is deeper: FET systems. When separation of concerns has been deployed, even if an individual model is FET then there is no guarantee that the entire system of interacting components will be FET. That would require composition of our criteria for fairness, explainability and transparency.
+
+Other authors have already pointed out the challenges of technical debt in machine learning systems. Technical debt is the challenge of building systems that are maintainable in production without significant additional labour, but the deeper problem is one of intellectual debt. We are deploying systems that are not explainable in production without deeper significant additional intellectual labour.
+
+This presentation is a call for help. We urgently need the expertise of the UK Systems Community around these issues to ensure we can construct safe, maintainable and explainable artificial intelligence solutions through FET systems.
+
+

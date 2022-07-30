@@ -1,0 +1,15 @@
+Submission #35: Participatory Design Fiction for Wearables II: The Sequel
+=========================================================================
+
+Author
+------
+Helen Oliver <helen.oliver@cl.cam.ac.uk> (The Alan Turing Institute/University of Cambridge)
+
+Abstract
+--------
+Previously on Participatory Design Fiction for Wearables: end users contributed their insight and creativity through storytelling to inspire the Gallery Necklace, a technology probe that they wore in-the-wild.
+Now that we know Design Fiction can help users of wearable technology to tell us what they want at the inspiration phase, what about the reflection phase? The purpose of Design Fiction is to make us think about the implications of new technologies for society – the good and the bad. As this phase of the research draws to a close, study participants were invited to update their stories and tell us what happens next. Does the Gallery Jacket fulfil its initial promise to bring creative people together, and usher in a new era of collaboration and public interest in the arts? Or is it just a vector for fake news and microtargeted advertising as our world collapses into a dystopian funk around us? How can the Positivity Patch bring reconciliation to a divided nation?
+
+These and other questions of critical topical interest to designers of IoT systems will be explored, not just by researchers but by the end users of those systems, in their own words. The stories depict the users' biggest concerns about technology in society today, and how they see the way forward as they plot their paths to build better worlds.
+
+

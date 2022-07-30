@@ -15,9 +15,10 @@ of Things. We aim to be broad and inclusive -- if it's a matter that has bearing
 on how we design, build, operate and use large-scale computing systems, it's in
 scope.
 
-<b> Due to COVID-19 disruption, we are running the UK Systems Research Challenges Workshop as a virtual seminar series. Please see program below. </b>
+**Due to COVID-19 disruption, we are running the UK Systems Research Challenges
+Workshop as a virtual seminar series. Please see program below.**
 
-## Virtual Seminar Series 
+## Virtual Seminar Series
 
 ### 25th November 2020, 14:00-15:30
 
@@ -25,19 +26,19 @@ scope.
 
     Tom Spink (University of Edinburgh)
 
-    [[Abstract](uksystems2020-abstract10.txt)]
-   
+    [[Abstract](abstracts/uksystems2020-abstract10.txt)]
+
   * AutoAI and Machine Learning Systems Design
 
     Neil Lawrence (University of Cambridge)
 
-    [[Abstract](uksystems2020-abstract39.txt)][[Slides](files/presso39.url)]
+    [[Abstract](abstracts/uksystems2020-abstract39.txt)][[Slides](slides/presso39.url)]
 
   * Pricing Python Parallelism : Guided JIT compilation for Heterogeneous Architectures
 
     Dejice Jacob (University of Glasgow)
 
-    [[Abstract](uksystems2020-abstract7.txt)][[Slides](files/presso7.pdf)]
+    [[Abstract](abstracts/uksystems2020-abstract7.txt)][[Slides](slides/presso7.pdf)]
 
 ### 2nd December 2020, 14:00-15:30
 
@@ -45,19 +46,19 @@ scope.
 
      Kyle Simpson (University of Glasgow)
 
-     [[Abstract](uksystems2020-abstract9.txt)]
+     [[Abstract](abstracts/uksystems2020-abstract9.txt)]
 
-  * Liberating Consensus: benchmarking consensus systems 
+  * Liberating Consensus: benchmarking consensus systems
 
      Chris Jensen (University of Cambridge), Daniel Saaw (University of Cambridge), Heidi Howard (University of Cambridge), Richard Mortier (University of Cambridge)
 
-    [[Abstract](uksystems2020-abstract30.txt)][[Slides](files/presso30.pdf)]
+    [[Abstract](abstracts/uksystems2020-abstract30.txt)][[Slides](slides/presso30.pdf)]
 
   *  The role of Reactive and Event-Driven Applications in Microservice Architectures
 
-     Clement Escoffier (Red Hat) 
+     Clement Escoffier (Red Hat)
 
-     [[Abstract](uksystems2020-abstract4.txt)][[Slides](files/presso4.pdf)]
+     [[Abstract](abstracts/uksystems2020-abstract4.txt)][[Slides](slides/presso4.pdf)]
 
 
 ### 3rd December 2020, 10:30-12:00
@@ -66,19 +67,19 @@ scope.
 
      Magnus Morton (University of Edinburgh), Björn Franke (University of Edinburgh)
 
-     [[Abstract](uksystems2020-abstract8.txt)][[Slides](files/presso8.pdf)]
+     [[Abstract](abstracts/uksystems2020-abstract8.txt)][[Slides](slides/presso8.pdf)]
 
   *  Towards a distributed privacy-preserving IoT management model for smart buildings
 
      Vadim Safronov (University of Cambridge), Ian Lewis (University of Cambridge), Richard Mortier (University of Cambridge)
 
-     [[Abstract](uksystems2020-abstract16.txt)]
+     [[Abstract](abstracts/uksystems2020-abstract16.txt)]
 
   *  PASTE: Network-Storage Stack Co-Design for Persistent Memory
 
      Michio Honda (University of Edinburgh)
 
-     [[Abstract](uksystems2020-abstract27.txt)]
+     [[Abstract](abstracts/uksystems2020-abstract27.txt)]
 
 
 ### 9th December 2020, 14:00-15:30
@@ -87,13 +88,13 @@ scope.
 
      Antonio Barbalace (University of Edinburgh), Pierre Olivier (The University of Manchester), Binoy Ravindran (Virginia Tech)
 
-     [[Abstract](uksystems2020-abstract26.txt)][[Slides](files/presso26.pdf)]
+     [[Abstract](abstracts/uksystems2020-abstract26.txt)][[Slides](slides/presso26.pdf)]
 
   *  Confidential Consortium Framework
 
      Alex Shamis (Microsoft Research),
      Amaury Chamayou (Microsoft Research),
-     Cedric Fournet (Microsoft Research), 
+     Cedric Fournet (Microsoft Research),
      Christoph M Wintersteiger (Microsoft Research),
      Eddy Ashton (Microsoft Research),
      Julien Maffre (Microsoft Research),
@@ -102,7 +103,7 @@ scope.
      Olga Vrousgou (Microsoft Research),
      Sylvan Clebsch (Microsoft Research)
 
-     [[Abstract](uksystems2020-abstract17.txt)][[Slides](files/presso17.pdf)]
+     [[Abstract](abstracts/uksystems2020-abstract17.txt)][[Slides](slides/presso17.pdf)]
 
   *  Parsing Protocol Standards
 
@@ -110,47 +111,47 @@ scope.
      Vivian Band (University of Glasgow),
      Colin Perkins (University of Glasgow)
 
-     [[Abstract](uksystems2020-abstract3.txt)]
+     [[Abstract](abstracts/uksystems2020-abstract3.txt)]
 
   *  The Efficiency Death-March: The Unintended Consequences of Large-scale Systems Research upon Climate Change
 
      Peter Garraghan	(Lancaster University)
- 
-     [[Abstract](uksystems2020-abstract32.txt)][[Slides](files/presso32.pdf)] 
+
+     [[Abstract](abstracts/uksystems2020-abstract32.txt)][[Slides](slides/presso32.pdf)]
 
 ### 10th December 2020, 10:30-12:00
 
   *  MOCHA: Modelling and Optimising Complex Heterogeneous Architectures
 
      Shuai Zhao (University of York),
-     Xiaotian Dai (University of York), 
-     Wanli Chang (University of York), 
-     Iain Bate (University of York) 
+     Xiaotian Dai (University of York),
+     Wanli Chang (University of York),
+     Iain Bate (University of York)
 
-     [[Abstract](uksystems2020-abstract11.txt)][[Slides](files/presso11.pptx)]
+     [[Abstract](abstracts/uksystems2020-abstract11.txt)][[Slides](slides/presso11.pptx)]
 
   *  Debugging Unikernel Operating Systems
- 
+
      Kareem Ahmad (University of St Andrews),
      Alan Dearle (University of St Andrews),
      Jon Lewis (University of St Andrews),
      Ward Jaradat (University of St Andrews)
 
-     [[Abstract](uksystems2020-abstract40.txt)][[Slides](files/presso40.pptx)]
+     [[Abstract](abstracts/uksystems2020-abstract40.txt)][[Slides](slides/presso40.pptx)]
 
    * What am I waiting for? Energy and Performance Optimization on big.LITTLE Architectures: A Memory-latency Aware Approach
 
      Willy Wolff (Lancaster University),
      Barry Porter (Lancaster University)
 
-     [[Abstract](uksystems2020-abstract21.txt)][[Slides](files/presso21.url)]
+     [[Abstract](abstracts/uksystems2020-abstract21.txt)][[Slides](slides/presso21.url)]
 
    * Towards Emergent Scheduling for Distributed Execution Frameworks
 
      Paul Allan Dean (Lancaster University),
      Barry Porter (Lancaster University)
 
-     [[Abstract](uksystems2020-abstract22.txt)][[Slides](files/presso22.pptx)]
+     [[Abstract](abstracts/uksystems2020-abstract22.txt)][[Slides](slides/presso22.pptx)]
 
 ### 16th December 2020, 14:00-15:30
 
@@ -158,26 +159,26 @@ scope.
 
      Christos Vasiladiotis (University of Edinburgh)
 
-     [[Abstract](uksystems2020-abstract28.txt)][[Slides](files/presso28.pdf)]
+     [[Abstract](abstracts/uksystems2020-abstract28.txt)][[Slides](slides/presso28.pdf)]
 
    * Participatory Design Fiction for Wearables II: The Sequel
 
      Helen Oliver (The Alan Turing Institute/University of Cambridge)
 
-     [[Abstract](uksystems2020-abstract35.txt)][[Slides](files/presso35.key)]
+     [[Abstract](abstracts/uksystems2020-abstract35.txt)][[Slides](slides/presso35.key)]
 
    * An In-memory Graph System for Scalable and Consistent Data Integration
 
      Bilal Arshad (University of Derby)
 
-     [[Abstract](uksystems2020-abstract5.txt)][[Slides](files/presso5.pdf)]
+     [[Abstract](abstracts/uksystems2020-abstract5.txt)][[Slides](slides/presso5.pdf)]
 
    * Optimizing Generic Taint Analysis
 
      John Galea (University of Oxford),
      Daniel Kroening (University of Oxford)
 
-     [[Abstract](uksystems2020-abstract33.txt)]
+     [[Abstract](abstracts/uksystems2020-abstract33.txt)]
 
    * Novel visualisation method for summarising and exploring complex networks
 
@@ -185,7 +186,7 @@ scope.
      Matthew Forshaw (Newcastle University),
      Nick Holliman (Newcastle University)
 
-     [[Abstract](uksystems2020-abstract14.txt)]
+     [[Abstract](abstracts/uksystems2020-abstract14.txt)]
 
 
 ## ~~Location~~
