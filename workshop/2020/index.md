@@ -128,7 +128,7 @@ Workshop as a virtual seminar series. Please see program below.**
      Wanli Chang (University of York),
      Iain Bate (University of York)
 
-     [[Abstract](abstracts/uksystems2020-abstract11.txt)][[Slides](slides/presso11.pptx)]
+     [[Abstract](abstracts/uksystems2020-abstract11.txt)][[Slides](slides/presso11.pdf)]
 
   *  Debugging Unikernel Operating Systems
 
@@ -137,7 +137,7 @@ Workshop as a virtual seminar series. Please see program below.**
      Jon Lewis (University of St Andrews),
      Ward Jaradat (University of St Andrews)
 
-     [[Abstract](abstracts/uksystems2020-abstract40.txt)][[Slides](slides/presso40.pptx)]
+     [[Abstract](abstracts/uksystems2020-abstract40.txt)][[Slides](slides/presso40.pdf)]
 
    * What am I waiting for? Energy and Performance Optimization on big.LITTLE Architectures: A Memory-latency Aware Approach
 
@@ -151,7 +151,7 @@ Workshop as a virtual seminar series. Please see program below.**
      Paul Allan Dean (Lancaster University),
      Barry Porter (Lancaster University)
 
-     [[Abstract](abstracts/uksystems2020-abstract22.txt)][[Slides](slides/presso22.pptx)]
+     [[Abstract](abstracts/uksystems2020-abstract22.txt)][[Slides](slides/presso22.pdf)]
 
 ### 16th December 2020, 14:00-15:30
 
@@ -165,7 +165,7 @@ Workshop as a virtual seminar series. Please see program below.**
 
      Helen Oliver (The Alan Turing Institute/University of Cambridge)
 
-     [[Abstract](abstracts/uksystems2020-abstract35.txt)][[Slides](slides/presso35.key)]
+     [[Abstract](abstracts/uksystems2020-abstract35.txt)][[Slides](slides/presso35.pdf)]
 
    * An In-memory Graph System for Scalable and Consistent Data Integration
 
