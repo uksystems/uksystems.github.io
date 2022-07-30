@@ -13,9 +13,11 @@ gist:
   noscript: false
 kramdown:
   math_engine: mathjax
-  input: GFM
   hard_wrap: false
   syntax_highlighter: coderay
+  syntax_highlighter_opts:
+    line_numbers: table
+    bold_every: 5
 
 ## my configuration
 exclude: [Makefile, README.md]
