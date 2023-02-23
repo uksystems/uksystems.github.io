@@ -27,9 +27,7 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 - [Ramside Hall](https://www.ramsidehallhotel.co.uk/){:target="_blank"}, Ramside Hall, Carrville, Durham DH1 1TD
 
-- Coach transport will be provided between the venue and Newcastle city centre (Urban Sciences Building, 1 Science Square, Science Central, NE4 5TG)
-
-
+- Coach transport will be provided between the venue and Newcastle city centre ([Urban Sciences Building, 1 Science Square, Science Central, NE4 5TG]((https://goo.gl/maps/4wEvgUFHr6L2)))
 
 ## Key Dates
 
@@ -40,9 +38,6 @@ This is an informal workshop without published proceedings. Work is not subject 
 - Acceptance notification and presentation programme: 10 April 2023
 
 - Workshop dates: arrival evening 25 April, closing with lunch 27 April
-
-[venue]: (https://www.ramsidehallhotel.co.uk/)
-[ncl]: https://goo.gl/maps/4wEvgUFHr6L2
 
 ## Submission
 
