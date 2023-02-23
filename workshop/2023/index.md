@@ -3,7 +3,7 @@ title: Seventh Annual UK System Research Challenges Workshop 2023
 layout: default
 ---
 
-# Seventh Annual UK System Research Challenges Workshop, April XX -- April XX, 2023
+# Seventh Annual UK System Research Challenges Workshop, April 25 -- April 27, 2023
 
 ## Call for Presentations & Participation
 
@@ -25,7 +25,7 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 --------
 
-- [Redworth Hall Hotel](https://www.redworthhalldurham.co.uk/){:target="_blank"}, Surtees Rd, Newton Aycliffe DL5 6NL
+- [Ramside Hall](https://www.ramsidehallhotel.co.uk/){:target="_blank"}, Ramside Hall, Carrville, Durham DH1 1TD
 
 - Coach transport will be provided between the venue and Newcastle city centre (Urban Sciences Building, 1 Science Square, Science Central, NE4 5TG)
 
@@ -35,27 +35,27 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 ---------
 
-- Abstract submission deadline: XXX
+- Abstract submission deadline: 27 March 2023
 
-- Acceptance notification and presentation programme: XXX
+- Acceptance notification and presentation programme: 10 April 2023
 
-- Workshop dates: arrival evening XXX, closing with lunch XXX
+- Workshop dates: arrival evening 25 April, closing with lunch 27 April
 
-[venue]: https://www.redworthhalldurham.co.uk/
+[venue]: (https://www.ramsidehallhotel.co.uk/)
 [ncl]: https://goo.gl/maps/4wEvgUFHr6L2
 
 ## Submission
 
 ---------
 
-Submissions via this [link.](https://hotcrp.uksystems.org/uksystems2021/)
+Submissions via this [link.](https://syswrk2023.hotcrp.com)
 
 
 ## Registration and Costs
 
 -----
 
-To register, please contact [Jennifer Wood](mailto:jennifer.wood@ncl.ac.uk) directly.
+Registration will open shortly.
 
 Including accommodation and meals:
 
