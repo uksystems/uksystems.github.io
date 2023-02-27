@@ -3,6 +3,7 @@ title: UK Systems Annual Workshops
 layout: default
 ---
 
+- 2023: [Seventh Annual UK Systems Research Challenges Workshop](2023)
 - 2021: [Sixth Annual UK System Research Challenges Workshop](2021)
 - 2020: [Fifth Annual UK System Research Challenges Workshop](2020)
 - 2019: [Fourth Annual UK System Research Challenges Workshop](2019)
