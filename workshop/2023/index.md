@@ -27,30 +27,100 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 - [Ramside Hall](https://www.ramsidehallhotel.co.uk/){:target="_blank"}, Ramside Hall, Carrville, Durham DH1 1TD
 
-- Coach transport will be provided between the venue and Newcastle city centre ([Urban Sciences Building, 1 Science Square, Science Central, NE4 5TG]((https://goo.gl/maps/4wEvgUFHr6L2)))
+- Coach transport will be provided between the venue and Newcastle city centre ([Urban Sciences Building, 1 Science Square, Science Central, NE4 5TG](https://goo.gl/maps/4wEvgUFHr6L2))
 
 ## Key Dates
 
 ---------
 
-- Abstract submission deadline: 27 March 2023
+- ~~Abstract submission deadline: 27 March 2023~~
 
-- Acceptance notification and presentation programme: 10 April 2023
+- ~~Acceptance notification and presentation programme: 10 April 2023~~
 
 - Workshop dates: arrival evening 25 April, closing with lunch 27 April
 
-## Submission
+## Programme
+----
+### Tuesday 25th April
+**16:45** Please report to the ground floor reception of the [Urban Sciences Building, Newcastle](https://goo.gl/maps/4wEvgUFHr6L2).
 
----------
+**17:00** Coach leaves the [Urban Sciences Building, Newcastle](https://goo.gl/maps/4wEvgUFHr6L2).
 
-Submissions via this [link.](https://syswrk2023.hotcrp.com)
+**18:00** Check-in at Ramside Hall.
 
+**19:00** Drinks reception
+
+**19:30** Dinner
+
+----
+
+### Wednesday 26th April
+
+**09:00** Welcome & Intro
+
+### 09:10--10:30 Session 1: Architecture
+* **"A Hypervisor Architecture for Efficient GPU Sharing between Multiple VMs"**, Ward Jaradat (Huawei)
+* **"Maximize the IO performance of overcommitted VM"**, Tong Xing (University of Edinburgh)
+* **"Generating Fast Functional Instruction Set Simulators from Formal Specifications"**, Ferdia McKeogh (University of St Andrews)
+* **"Scalable and Fault-Tolerant Data Stream Processing on Multi-Core Architectures"**, Georgios Theodorakis (Neo4j)
+
+**10:30--11:00** Coffee
+
+### 11:00--12:00 Session 2: Short Talks
+* **"Resilience-aware time predictable and resource-efficient scheduling for autonomous systems"**, Jie Zou (University of York)
+* **"What Have Dynamic Languages Ever Done For Us?"**, James Clarkson (Neo4j)
+* **"Secure Work Groups for POSIX"**, Indraj Gandham (University of York)
+* **"The Energy Consumption of the “Fediverse”"**, Anna Mitchell (University of St Andrews)
+
+**12:00--13:00** Lunch
+
+### 13:30--15:10 Session 3: Distributed Systems and the Cloud
+* **"Epoch-based Commit Protocols in Distributed OLTP Databases"**, Jack Waudby (Neo4j)
+* **"Pushing the Limits of Near-Data Processing with Funclets"**, Alan Nair (University of Edinburgh)
+* **"Moving a scientific computing system to the cloud"**, Simon Dobson (University of St Andrews)
+* **"Enhancing Memory Performance in Cloud-based Applications through Cross-invocation Information"**, Esra Nur Ayaz (University of Edinburgh)
+* **"Consensus is simpler and faster when you ConSpire"**, Chris Jensen (University of Cambridge)
+
+**15:10--15:30** Coffee
+
+### 15:30--17:00 Session 4: Network and Serverless
+* **"Not so slow TCP (re)start"**, Mihail Yanev (University of Glasgow)
+* **"The Privacy Hazards of Abstraction in the Network Stack"**, Gregor Haywood (University of St Andrews)
+* **"End-to-end Serverless-Native Data Analytics"**, Shyam Jesalpura (University of Edinburgh)
+* **"Load shaving of microservices using serverless"**, Dilina Dehigama (University of Edinburgh)
+
+**19:00--21:00** Dinner
+
+**21:00--22:00** Lightning Talks
+* Short (5 minute) talks on any relevant topic.
+
+----
+
+### Thursday 27th April
+
+**09:00--09:10** Good morning!
+
+### 09:10--10:50 Session 5: Short Talks
+* **"On Timeseries Downsampling in Stream Processing Engines"**, Iain Dixon (Newcastle University)
+* **"Using DAFNI for a large-scale flood simulation demonstrator project"**, Robin Wardle (Newcastle University)
+* **"Layered Large-scale Legal systems"**, Tristan Henderson (University of St Andrews)
+* **"RAISE: Responsible AI Systems Engineering"**, Alexandros Koliousis (Northeastern University London)
+
+**10:50--11:10** Coffee
+
+### 11:10--12:30 Session 6: Machine Learning and AI
+* **"Rethinking Federated Learning Systems"**, Di Wu (University of St Andrews)
+* **"DNNShifter: Compressing large neural networks for edge systems"**, Bailey Eccles (University of St Andrews)
+* **"PipeLearn: Pipeline Parallelism for Collaborative Machine Learning Systems"**, Zihan Zhang (University of St Andrews)
+* **"Collection Skeletons: Declarative Abstractions for Data Collections"**, Zhibo Li (University of Edinburgh)
+
+**12:30--12:45** Wrap-up
+
+**12:45--14:00** Lunch
 
 ## Registration and Costs
 
 -----
-
-Registration will open shortly.
 
 Including accommodation and meals:
 

@@ -13,10 +13,11 @@ and mobile computing to datacenter and the cloud. If your work has bearing on
 how we should go about building, deploying and operating practical computer
 systems, it's of interest!
 
-The [Seventh iteration of the workshop](/workshop/2023/) is now live!
+----
 
-Please consider [submitting your 500 word
-abstract](https://syswrk2023.hotcrp.com/).
+**The [Seventh iteration of the workshop](/workshop/2023/) is now live!  Click for details of the programme.**
+
+----
 
 This is an informal workshop for the community where we can discuss work
 addressing current and future challenges in systems computing.
