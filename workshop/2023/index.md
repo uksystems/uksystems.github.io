@@ -108,7 +108,7 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 **10:50--11:10** Coffee
 
-### 11:10--12:30 Session 6: Machine Learning and AI
+### 11:10--12:30 Session 6: Systems for Machine Learning, and Programming Languages
 * **"Rethinking Federated Learning Systems"**, Di Wu (University of St Andrews)
 * **"DNNShifter: Compressing large neural networks for edge systems"**, Bailey Eccles (University of St Andrews)
 * **"PipeLearn: Pipeline Parallelism for Collaborative Machine Learning Systems"**, Zihan Zhang (University of St Andrews)
