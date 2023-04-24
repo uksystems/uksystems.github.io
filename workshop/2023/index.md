@@ -59,7 +59,7 @@ This is an informal workshop without published proceedings. Work is not subject 
 **09:00** Welcome & Intro
 
 ### 09:10--10:30 Session 1: Architecture
-* **"A Hypervisor Architecture for Efficient GPU Sharing between Multiple VMs"**, Ward Jaradat (Huawei)
+* **"A Hypervisor Architecture for Efficient GPU Sharing between Multiple VMs"**, Karim Manaouil (University of Edinburgh)
 * **"Maximize the IO performance of overcommitted VM"**, Tong Xing (University of Edinburgh)
 * **"Generating Fast Functional Instruction Set Simulators from Formal Specifications"**, Ferdia McKeogh (University of St Andrews)
 * **"Scalable and Fault-Tolerant Data Stream Processing on Multi-Core Architectures"**, Georgios Theodorakis (Neo4j)
