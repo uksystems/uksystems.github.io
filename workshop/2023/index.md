@@ -58,9 +58,9 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 The conference will be held in the **Neville & Hatfield Suite**.
 
-**09:00** Welcome & Intro
+**09:00** Welcome & Intro by Tom Spink
 
-### 09:10--10:30 Session 1: Architecture
+### 09:10--10:30 Session 1: Architecture *(chaired by Tom Spink)*
 * **"A Hypervisor Architecture for Efficient GPU Sharing between Multiple VMs"**, Karim Manaouil (University of Edinburgh)
 * **"Maximize the IO performance of overcommitted VM"**, Tong Xing (University of Edinburgh)
 * **"Generating Fast Functional Instruction Set Simulators from Formal Specifications"**, Ferdia McKeogh (University of St Andrews)
@@ -68,7 +68,7 @@ The conference will be held in the **Neville & Hatfield Suite**.
 
 **10:30--11:00** Coffee
 
-### 11:00--12:00 Session 2: Short Talks
+### 11:00--12:00 Session 2: Short Talks *(chaired by Adam Barker)
 * **"Resilience-aware time predictable and resource-efficient scheduling for autonomous systems"**, Jie Zou (University of York)
 * **"What Have Dynamic Languages Ever Done For Us?"**, James Clarkson (Neo4j)
 * **"Secure Work Groups for POSIX"**, Indraj Gandham (University of York)
@@ -76,7 +76,7 @@ The conference will be held in the **Neville & Hatfield Suite**.
 
 **12:00--13:00** Lunch
 
-### 13:30--15:10 Session 3: Distributed Systems and the Cloud
+### 13:30--15:10 Session 3: Distributed Systems and the Cloud *(chaired by Saleem Bhatti)*
 * **"Epoch-based Commit Protocols in Distributed OLTP Databases"**, Jack Waudby (Neo4j)
 * **"Pushing the Limits of Near-Data Processing with Funclets"**, Alan Nair (University of Edinburgh)
 * **"Moving a scientific computing system to the cloud"**, Simon Dobson (University of St Andrews)
@@ -85,7 +85,7 @@ The conference will be held in the **Neville & Hatfield Suite**.
 
 **15:10--15:30** Coffee
 
-### 15:30--17:00 Session 4: Network and Serverless
+### 15:30--17:00 Session 4: Network and Serverless *(chaired by Poonam Yadav)*
 * **"Not so slow TCP (re)start"**, Mihail Yanev (University of Glasgow)
 * **"The Privacy Hazards of Abstraction in the Network Stack"**, Gregor Haywood (University of St Andrews)
 * **"End-to-end Serverless-Native Data Analytics"**, Shengda Zhu and Shyam Jesalpura (equal co-authors, University of Edinburgh)
@@ -111,7 +111,7 @@ The conference will be held in the **Neville & Hatfield Suite**.
 
 **10:50--11:10** Coffee
 
-### 11:10--12:30 Session 6: Systems for Machine Learning, and Programming Languages
+### 11:10--12:30 Session 6: Systems for Machine Learning, and Programming Languages *(chaired by Paul Ezhilchelvan)*
 * **"Rethinking Federated Learning Systems"**, Di Wu (University of St Andrews)
 * **"DNNShifter: Compressing large neural networks for edge systems"**, Bailey Eccles (University of St Andrews)
 * **"PipeLearn: Pipeline Parallelism for Collaborative Machine Learning Systems"**, Zihan Zhang (University of St Andrews)
