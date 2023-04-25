@@ -88,7 +88,7 @@ The conference will be held in the **Neville & Hatfield Suite**.
 ### 15:30--17:00 Session 4: Network and Serverless
 * **"Not so slow TCP (re)start"**, Mihail Yanev (University of Glasgow)
 * **"The Privacy Hazards of Abstraction in the Network Stack"**, Gregor Haywood (University of St Andrews)
-* **"End-to-end Serverless-Native Data Analytics"**, Shengda Zhu & Shyam Jesalpura (equal co-authors, University of Edinburgh)
+* **"End-to-end Serverless-Native Data Analytics"**, Shengda Zhu and Shyam Jesalpura (equal co-authors, University of Edinburgh)
 * **"Load shaving of microservices using serverless"**, Dilina Dehigama (University of Edinburgh)
 
 **19:00--21:00** Dinner
@@ -107,7 +107,6 @@ The conference will be held in the **Neville & Hatfield Suite**.
 ### 10:10--10:50 Session 5: Short Talks
 * **"On Timeseries Downsampling in Stream Processing Engines"**, Iain Dixon (Newcastle University)
 * **"Using DAFNI for a large-scale flood simulation demonstrator project"**, Robin Wardle (Newcastle University)
-* **"Layered Large-scale Legal systems"**, Tristan Henderson (University of St Andrews)
 * **"RAISE: Responsible AI Systems Engineering"**, Alexandros Koliousis (Northeastern University London)
 
 **10:50--11:10** Coffee
