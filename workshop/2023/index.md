@@ -50,11 +50,13 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 **19:00** Drinks reception
 
-**19:30** Dinner
+**19:30** Dinner in the **Beaumont Suite**
 
 ----
 
 ### Wednesday 26th April
+
+The conference will be held in the **Neville & Hatfield Suite**.
 
 **09:00** Welcome & Intro
 
@@ -98,9 +100,11 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 ### Thursday 27th April
 
-**09:00--09:10** Good morning!
+*Note the later start today*
 
-### 09:10--10:50 Session 5: Short Talks
+**10:00--10:10** Good morning!
+
+### 10:10--10:50 Session 5: Short Talks
 * **"On Timeseries Downsampling in Stream Processing Engines"**, Iain Dixon (Newcastle University)
 * **"Using DAFNI for a large-scale flood simulation demonstrator project"**, Robin Wardle (Newcastle University)
 * **"Layered Large-scale Legal systems"**, Tristan Henderson (University of St Andrews)
