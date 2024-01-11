@@ -15,18 +15,17 @@ systems, it's of interest!
 
 ----
 
-**The [Seventh iteration of the workshop](/workshop/2023/) is now live!  Click for details of the programme.**
+Stand by for information regarding the **Eighth** iteration of the workshop!
 
 ----
 
 This is an informal workshop for the community where we can discuss work
 addressing current and future challenges in systems computing.
-[Submissions](https://syswrk2023.hotcrp.com/) are typically in the form of a
-short 0.5pp / 500 word abstracts which, after a light review process focused on
-ensuring relevance, lead to a presentation (typically 15min) plus Q&A at the
-workshop. In the event that too many submissions are received, preference is
-given to Ph.D. students and Early Career Researchers. Both UK and international
-participants are very welcome!
+Submissions are typically in the form of a short 0.5pp / 500 word abstracts which,
+after a light review process focused on ensuring relevance, lead to a presentation
+(typically 15min) plus Q&A at the workshop. In the event that too many submissions
+are received, preference is given to PhD students, and Early Career Researchers.
+Both UK and international participants are very welcome!
 
 Details of previous workshops are [available here](/workshop).
 
