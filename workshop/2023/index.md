@@ -148,6 +148,7 @@ We are committed to widen participation and historically underrepresented groups
 - Richard Mortier, richard.mortier@cl.cam.ac.uk, Cambridge University
 - Derek McAuley, derek.mcauley@nottingham.ac.uk, Nottingham University
 - Paul Watson, paul.watson@newcastle.ac.uk, Newcastle University
+- Adam Barker, adam.barker@st-andrews.ac.uk, University of St Andrews
 
 For any other questions or queries, please contact Tom Spink.
 
