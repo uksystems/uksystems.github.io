@@ -61,16 +61,16 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 **09:00** Welcome *(Tom Spink)*
 
-**09:10--10:30** <u>Session 1: Distributed Systems and Reproducibility</u>
+**09:10--10:30** <u>Session 1: Distributed Systems and Reproducibility</u> (chair Adam Barker)
 
-* Conjunction of Majorities Protocol for Scalable Transactions in Distributed (Graph) Databases<br>*Jim Webber (Neo4j)*
 * Unanimous 2PC: fast, simple, and fault-tolerant distributed transactions<br>*Chris Jensen (University of Cambridge), Antonios Katsarakis (Huawei Research), Heidi Howard (Azure Research, Microsoft), Richard Mortier (University of Cambridge)*
+* Safeguarding your Kafka data with encryption-at-rest<br>*Keith Wall*
 * Why you should care about sheaves<br>*Simon Dobson (University of St Andrews)*
 * On Systems Reproducibility<br>*Iain Dixon (Newcastle University), Matthew Forshaw (Newcastle University), Joe Matthews (Newcastle University)*
 
 **10:30--11:00** Coffee Break
 
-**11:00--12:15** <u>Session 2: Short Talks</u>
+**11:00--12:15** <u>Session 2: Short Talks</u> (chair Simon Dobson)
 
 * Achieving Balanced Lock Usage Fairness & Lock Utilization using Wuji-Locks<br>*Xueheng Wang (University of Edinburgh), Leping Li (University of Edinburgh), Yuvraj Patel (University of Edinburgh)*
 * Developing a Modern Kubernetes based Study Management Platform<br>*Hugo Hiden (Newcastle University), Stephen Dowsland (Newcastle University)*
@@ -80,7 +80,7 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 **12:15--13:30** Lunch
 
-**13:30--15:10** <u>Session 3: Architecture and OS</u>
+**13:30--15:10** <u>Session 3: Architecture and OS</u> (chair Tom Spink)
 
 * Producing Fast Full-system Emulators from Formal Specifications
 Ferdia McKeogh<br>*(University of St Andrews), Tom Spink (University of St Andrews), Al Dearle (University of St Andrews)*
@@ -91,7 +91,7 @@ Ferdia McKeogh<br>*(University of St Andrews), Tom Spink (University of St Andre
 
 **15:10--15:30**  Coffee Break
 
-**15:30--17:10** <u>Session 4: Containers</u>
+**15:30--17:10** <u>Session 4: Containers</u> (chair Poonam Yadav)
 
 * Themelios: a model-checked reimplementation of Kubernetes<br>*Andrew Jeffery (University of Cambridge), Richard Mortier (University of Cambridge)*
 * Composing Microservices and Serverless for Load Resilience<br>*Dilina Dehigama (University of Edinburgh), Shyam Jesalpura (University of Edinburgh), Boris Grot (University of Edinburgh)*
@@ -101,30 +101,31 @@ Ferdia McKeogh<br>*(University of St Andrews), Tom Spink (University of St Andre
 
 **19:00--21:00** Dinner
 
-**21:00--22:00** Lightning Talks
+**21:00--22:00** Lightning Talks (chair Jonathan Dowland)
 * Short (5 minute) talks on any relevant topic.
 
 ----
 
 ### Friday 19th April
 
-**09:15--10:40** <u>Session 5: Short Talks</u>
+**10:00--10:20** <u>Session 5: Security<u> (chair Tom Spink)
+
+* Defence Against the Unknown: Preventing Side Channel Attacks You Don’t Know Exist<br>*Gregor Haywood (University of St Andrews)*
+
+**10:25--10:40** <u>Session 6a: Short Talks</u> (chair Paul Ezhilchelvan)
 
 * Divert, not Throttle: Colocating Batched Jobs with Online Services in Datacenters<br>*Alan Nair (University of Edinburgh), Antonio Barbalace (University of Edinburgh)*
-* MoE-Infinity: Activation – Aware Expert Offloading for Efficient MoE Serving.<br>*Leyang Xue (University of Edinburgh), Yao Fu (University of Edinburgh), Zhan Lu (University of Edinburgh), Luo Mai (University of Edinburgh), Mahesh K. Marina (University of Edinburgh)*
-* Introducing Socio-technical Change in Large-Scale Systems: A Distributed Participatory Design Approach<br>*Abd Alsattar Ardati (University of St Andrews)*
-* **10 minute comfort break**
-* InfiniTensor: A Tensor-Friendly, Efficient Parallel Programming Library for Accelerator-Centric Clusters<br>*Yeqi Huang (University of Edinburgh), Congjie He (University of Edinburgh), Luo Mai (University of Edinburgh)*
-* RIPEn at home - Surveying internal domain names using RIPE Atlas<br>*Elizabeth Boswell (University of Glasgow), Colin S. Perkins (University of Glasgow)*
 
 **10:40--11:00** Coffee Break
 
-**11:00--11:40** <u>Session 6: Security</u>
+**11:00--12:00** <u>Session 6b: Short Talks</u> (chair Paul Ezhilchelvan)
 
-* Defence Against the Unknown: Preventing Side Channel Attacks You Don’t Know Exist<br>*Gregor Haywood (University of St Andrews)*
-* Safeguarding your Kafka data with encryption-at-rest<br>*Keith Wall*
+* MoE-Infinity: Activation – Aware Expert Offloading for Efficient MoE Serving.<br>*Leyang Xue (University of Edinburgh), Yao Fu (University of Edinburgh), Zhan Lu (University of Edinburgh), Luo Mai (University of Edinburgh), Mahesh K. Marina (University of Edinburgh)*
+* Introducing Socio-technical Change in Large-Scale Systems: A Distributed Participatory Design Approach<br>*Abd Alsattar Ardati (University of St Andrews)*
+* InfiniTensor: A Tensor-Friendly, Efficient Parallel Programming Library for Accelerator-Centric Clusters<br>*Yeqi Huang (University of Edinburgh), Congjie He (University of Edinburgh), Luo Mai (University of Edinburgh)*
+* RIPEn at home - Surveying internal domain names using RIPE Atlas<br>*Elizabeth Boswell (University of Glasgow), Colin S. Perkins (University of Glasgow)*
 
-**11:45--12:30** Wrap-up and discussion
+**12:00--12:30** Wrap-up and discussion
 
 **12:30--14:00** Lunch
 
