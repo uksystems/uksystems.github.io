@@ -49,11 +49,11 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 ~~**17:00** Coach leaves the [Urban Sciences Building, Newcastle](https://goo.gl/maps/4wEvgUFHr6L2).~~
 
-**17:35** Check-in at Redworth Hall.
+~~**17:35** Check-in at Redworth Hall.~~
 
-**18:30** Drinks reception
+~~**18:30** Drinks reception~~
 
-**19:00** Dinner in the **Great Hall**
+~~**19:00** Dinner in the **Great Hall**~~
 
 ----
 
