@@ -41,15 +41,13 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 - **Workshop dates:** arrival evening 17th April, closing with lunch 19th April
 
-## Preliminary Programme
+## Programme
 ----
 
-**NOTE:** This schedule is preliminary and subject to change.  Full programme details will be provided once talks have been accepted.
-
 ### Wednesday 17th April
-**16:45** Please report to the ground floor reception of the [Urban Sciences Building, Newcastle](https://goo.gl/maps/4wEvgUFHr6L2).
+~~**16:45** Please report to the ground floor reception of the [Urban Sciences Building, Newcastle](https://goo.gl/maps/4wEvgUFHr6L2).~~
 
-**17:00** Coach leaves the [Urban Sciences Building, Newcastle](https://goo.gl/maps/4wEvgUFHr6L2).
+~~**17:00** Coach leaves the [Urban Sciences Building, Newcastle](https://goo.gl/maps/4wEvgUFHr6L2).~~
 
 **17:35** Check-in at Redworth Hall.
 
@@ -61,15 +59,45 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 ### Thursday 18th April
 
-* Breakfast
-* Welcome
-* Talks - Session #1
-* Coffee
-* Talks - Session #2
-* Lunch
-* Talks - Session #3
-* Coffee
-* Talks - Session #4
+**09:00** Welcome *(Tom Spink)*
+
+**09:10--10:30** <u>Session 1: Distributed Systems and Reproducibility</u>
+
+* Conjunction of Majorities Protocol for Scalable Transactions in Distributed (Graph) Databases<br>*Jim Webber (Neo4j)*
+* Unanimous 2PC: fast, simple, and fault-tolerant distributed transactions<br>*Chris Jensen (University of Cambridge), Antonios Katsarakis (Huawei Research), Heidi Howard (Azure Research, Microsoft), Richard Mortier (University of Cambridge)*
+* Why you should care about sheaves<br>*Simon Dobson (University of St Andrews)*
+* On Systems Reproducibility<br>*Iain Dixon (Newcastle University), Matthew Forshaw (Newcastle University), Joe Matthews (Newcastle University)*
+
+**10:30--11:00** Coffee Break
+
+**11:00--12:15** <u>Session 2: Short Talks</u>
+
+* Achieving Balanced Lock Usage Fairness & Lock Utilization using Wuji-Locks<br>*Xueheng Wang (University of Edinburgh), Leping Li (University of Edinburgh), Yuvraj Patel (University of Edinburgh)*
+* Developing a Modern Kubernetes based Study Management Platform<br>*Hugo Hiden (Newcastle University), Stephen Dowsland (Newcastle University)*
+* Enabling User Control in IoT Device Traffic Management through Enhanced Open-Source MUD Manager Interface<br>*Louis Hatton (University of York), Poonam Yadav (University of York)*
+* New CARD: A Vertically Integrated Teaching Tool for Microarchitecture<br>*Mária Ďuračková (University of Edinburgh), Nigel Topham (University of Edinburgh)*
+* From Internet to Emulator: A Virtual Testbed for Internet Routing Protocols<br>*Joshua Levett (University of York), Poonam Yadav (University of York), Vassilios Vassilakis (University of York)*
+
+**12:15--13:30** Lunch
+
+**13:30--15:10** <u>Session 3: Architecture and OS</u>
+
+* Producing Fast Full-system Emulators from Formal Specifications
+Ferdia McKeogh<br>*(University of St Andrews), Tom Spink (University of St Andrews), Al Dearle (University of St Andrews)*
+* Hardware just-in-time compilation<br>*Kimberley Stonehouse (University of Edinburgh)*
+* Weaver: Streamlining LLM Inference with Spatial Accelerators<br>*Congjie He (University of Edinburgh), Yeqi Huang (University of Edinburgh), Luo Mai (University of Edinburgh)*
+* A collaborative approach to leverage overlapping-ISA heterogeneous multicore architectures<br>*Jiaxun Yang (University of Edinburgh)*
+* Introducing Page Table Garbage Collection For Faster and Better Memory Utilisation<br>*Karim Manaouil (University of Edinburgh), Antonio Barbalace (University of Edinburgh)*
+
+**15:10--15:30**  Coffee Break
+
+**15:30--17:10** <u>Session 4: Containers</u>
+
+* Themelios: a model-checked reimplementation of Kubernetes<br>*Andrew Jeffery (University of Cambridge), Richard Mortier (University of Cambridge)*
+* Composing Microservices and Serverless for Load Resilience<br>*Dilina Dehigama (University of Edinburgh), Shyam Jesalpura (University of Edinburgh), Boris Grot (University of Edinburgh)*
+* CoreKube: An Efficient, Autoscaling and Resilient Mobile Core System<br>*Andrew E. Ferguson (University of Edinburgh), Jon Larrea (University of Edinburgh), Mahesh K. Marina (University of Edinburgh)*
+* Serverless Native Analytics Engine<br>*Shyam Jesalpura (University of Edinburgh), Shengda Zhu (University of Edinburgh), Boris Grot (University of Edinburgh), Amir Shaikhha (University of Edinburgh)*
+* Contention resilience in overcommitted serverless deployments<br>*Al Amjad Tawfiq Isstaif (University of Cambridge), Richard Mortier (University of Cambridge)*
 
 **19:00--21:00** Dinner
 
@@ -80,12 +108,23 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 ### Friday 19th April
 
-* Breakfast
-* Talks - Session #5
-* Coffee
-* Talks - Session #6
+**09:15--10:40** <u>Session 5: Short Talks</u>
 
-**12:10--12:30** Wrap-up
+* Divert, not Throttle: Colocating Batched Jobs with Online Services in Datacenters<br>*Alan Nair (University of Edinburgh), Antonio Barbalace (University of Edinburgh)*
+* MoE-Infinity: Activation – Aware Expert Offloading for Efficient MoE Serving.<br>*Leyang Xue (University of Edinburgh), Yao Fu (University of Edinburgh), Zhan Lu (University of Edinburgh), Luo Mai (University of Edinburgh), Mahesh K. Marina (University of Edinburgh)*
+* Introducing Socio-technical Change in Large-Scale Systems: A Distributed Participatory Design Approach<br>*Abd Alsattar Ardati (University of St Andrews)*
+* **10 minute comfort break**
+* InfiniTensor: A Tensor-Friendly, Efficient Parallel Programming Library for Accelerator-Centric Clusters<br>*Yeqi Huang (University of Edinburgh), Congjie He (University of Edinburgh), Luo Mai (University of Edinburgh)*
+* RIPEn at home - Surveying internal domain names using RIPE Atlas<br>*Elizabeth Boswell (University of Glasgow), Colin S. Perkins (University of Glasgow)*
+
+**10:40--11:00** Coffee Break
+
+**11:00--11:40** <u>Session 6: Security</u>
+
+* Defence Against the Unknown: Preventing Side Channel Attacks You Don’t Know Exist<br>*Gregor Haywood (University of St Andrews)*
+* Safeguarding your Kafka data with encryption-at-rest<br>*Keith Wall*
+
+**11:45--12:30** Wrap-up and discussion
 
 **12:30--14:00** Lunch
 
