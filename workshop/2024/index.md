@@ -59,18 +59,18 @@ This is an informal workshop without published proceedings. Work is not subject 
 
 ### Thursday 18th April
 
-**09:00** Welcome *(Tom Spink)*
+~~**09:00** Welcome *(Tom Spink)*~~
 
-**09:10--10:30** <u>Session 1: Distributed Systems and Reproducibility</u> (chair Adam Barker)
+~~**09:10--10:30** <u>Session 1: Distributed Systems and Reproducibility</u>~~ (chair Adam Barker)
 
 * Unanimous 2PC: fast, simple, and fault-tolerant distributed transactions<br>*Chris Jensen (University of Cambridge), Antonios Katsarakis (Huawei Research), Heidi Howard (Azure Research, Microsoft), Richard Mortier (University of Cambridge)*
 * Safeguarding your Kafka data with encryption-at-rest<br>*Keith Wall*
 * Why you should care about sheaves<br>*Simon Dobson (University of St Andrews)*
 * On Systems Reproducibility<br>*Iain Dixon (Newcastle University), Matthew Forshaw (Newcastle University), Joe Matthews (Newcastle University)*
 
-**10:30--11:00** Coffee Break
+~~**10:30--11:00** Coffee Break~~
 
-**11:00--12:15** <u>Session 2: Short Talks</u> (chair Simon Dobson)
+~~**11:00--12:15** <u>Session 2: Short Talks</u>~~ (chair Simon Dobson)
 
 * Achieving Balanced Lock Usage Fairness & Lock Utilization using Wuji-Locks<br>*Xueheng Wang (University of Edinburgh), Leping Li (University of Edinburgh), Yuvraj Patel (University of Edinburgh)*
 * Developing a Modern Kubernetes based Study Management Platform<br>*Hugo Hiden (Newcastle University), Stephen Dowsland (Newcastle University)*
@@ -78,9 +78,9 @@ This is an informal workshop without published proceedings. Work is not subject 
 * New CARD: A Vertically Integrated Teaching Tool for Microarchitecture<br>*Mária Ďuračková (University of Edinburgh), Nigel Topham (University of Edinburgh)*
 * From Internet to Emulator: A Virtual Testbed for Internet Routing Protocols<br>*Joshua Levett (University of York), Poonam Yadav (University of York), Vassilios Vassilakis (University of York)*
 
-**12:15--13:30** Lunch
+~~**12:15--13:30** Lunch~~
 
-**13:30--15:10** <u>Session 3: Architecture and OS</u> (chair Tom Spink)
+~~**13:30--15:10** <u>Session 3: Architecture and OS</u>~~ (chair Tom Spink)
 
 * Producing Fast Full-system Emulators from Formal Specifications
 Ferdia McKeogh<br>*(University of St Andrews), Tom Spink (University of St Andrews), Al Dearle (University of St Andrews)*
@@ -89,7 +89,7 @@ Ferdia McKeogh<br>*(University of St Andrews), Tom Spink (University of St Andre
 * A collaborative approach to leverage overlapping-ISA heterogeneous multicore architectures<br>*Jiaxun Yang (University of Edinburgh)*
 * Introducing Page Table Garbage Collection For Faster and Better Memory Utilisation<br>*Karim Manaouil (University of Edinburgh), Antonio Barbalace (University of Edinburgh)*
 
-**15:10--15:30**  Coffee Break
+~~**15:10--15:30**  Coffee Break~~
 
 **15:30--17:10** <u>Session 4: Containers</u> (chair Poonam Yadav)
 
@@ -119,7 +119,7 @@ Ferdia McKeogh<br>*(University of St Andrews), Tom Spink (University of St Andre
 * Divert, not Throttle: Colocating Batched Jobs with Online Services in Datacenters<br>*Alan Nair (University of Edinburgh), Antonio Barbalace (University of Edinburgh)*
 * MoE-Infinity: Activation – Aware Expert Offloading for Efficient MoE Serving.<br>*Leyang Xue (University of Edinburgh), Yao Fu (University of Edinburgh), Zhan Lu (University of Edinburgh), Luo Mai (University of Edinburgh), Mahesh K. Marina (University of Edinburgh)*
 * Introducing Socio-technical Change in Large-Scale Systems: A Distributed Participatory Design Approach<br>*Abd Alsattar Ardati (University of St Andrews)*
-* **COMFORT BREAK**
+* **COMFORT BREAK 5 mins**
 * InfiniTensor: A Tensor-Friendly, Efficient Parallel Programming Library for Accelerator-Centric Clusters<br>*Yeqi Huang (University of Edinburgh), Congjie He (University of Edinburgh), Luo Mai (University of Edinburgh)*
 * RIPEn at home - Surveying internal domain names using RIPE Atlas<br>*Elizabeth Boswell (University of Glasgow), Colin S. Perkins (University of Glasgow)*
 
