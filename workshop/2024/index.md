@@ -112,16 +112,14 @@ Ferdia McKeogh<br>*(University of St Andrews), Tom Spink (University of St Andre
 
 * Defence Against the Unknown: Preventing Side Channel Attacks You Don’t Know Exist<br>*Gregor Haywood (University of St Andrews)*
 
-**10:25--10:40** <u>Session 6a: Short Talks</u> (chair Paul Ezhilchelvan)
+**10:20--10:40** Coffee Break
+
+**10:40--12:00** <u>Session 6: Short Talks</u> (chair Paul Ezhilchelvan)
 
 * Divert, not Throttle: Colocating Batched Jobs with Online Services in Datacenters<br>*Alan Nair (University of Edinburgh), Antonio Barbalace (University of Edinburgh)*
-
-**10:40--11:00** Coffee Break
-
-**11:00--12:00** <u>Session 6b: Short Talks</u> (chair Paul Ezhilchelvan)
-
 * MoE-Infinity: Activation – Aware Expert Offloading for Efficient MoE Serving.<br>*Leyang Xue (University of Edinburgh), Yao Fu (University of Edinburgh), Zhan Lu (University of Edinburgh), Luo Mai (University of Edinburgh), Mahesh K. Marina (University of Edinburgh)*
 * Introducing Socio-technical Change in Large-Scale Systems: A Distributed Participatory Design Approach<br>*Abd Alsattar Ardati (University of St Andrews)*
+* **COMFORT BREAK**
 * InfiniTensor: A Tensor-Friendly, Efficient Parallel Programming Library for Accelerator-Centric Clusters<br>*Yeqi Huang (University of Edinburgh), Congjie He (University of Edinburgh), Luo Mai (University of Edinburgh)*
 * RIPEn at home - Surveying internal domain names using RIPE Atlas<br>*Elizabeth Boswell (University of Glasgow), Colin S. Perkins (University of Glasgow)*
 
