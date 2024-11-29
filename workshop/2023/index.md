@@ -63,8 +63,8 @@ The conference will be held in the **Neville & Hatfield Suite**.
 ### 09:10--10:30 Session 1: Architecture *(chaired by Tom Spink)*
 * **"A Hypervisor Architecture for Efficient GPU Sharing between Multiple VMs"**, Karim Manaouil (University of Edinburgh)
 * **"Maximize the IO performance of overcommitted VM"**, Tong Xing (University of Edinburgh)
-* **"Generating Fast Functional Instruction Set Simulators from Formal Specifications"**, Ferdia McKeogh (University of St Andrews)
-* **"Scalable and Fault-Tolerant Data Stream Processing on Multi-Core Architectures"**, Georgios Theodorakis (Neo4j)
+* **["Generating Fast Functional Instruction Set Simulators from Formal Specifications"](slides/mckeogh.pdf)**, Ferdia McKeogh (University of St Andrews)
+* **["Scalable and Fault-Tolerant Data Stream Processing on Multi-Core Architectures"](slides/theodorakis.pdf)**, Georgios Theodorakis (Neo4j)
 
 **10:30--11:00** Coffee
 
@@ -79,17 +79,17 @@ The conference will be held in the **Neville & Hatfield Suite**.
 ### 13:30--15:10 Session 3: Distributed Systems and the Cloud *(chaired by Saleem Bhatti)*
 * **"Epoch-based Commit Protocols in Distributed OLTP Databases"**, Jack Waudby (Neo4j)
 * **"Pushing the Limits of Near-Data Processing with Funclets"**, Alan Nair (University of Edinburgh)
-* **"Moving a scientific computing system to the cloud"**, Simon Dobson (University of St Andrews)
+* **["Moving a scientific computing system to the cloud"](slides/dobson.pdf)**, Simon Dobson (University of St Andrews)
 * **"Enhancing Memory Performance in Cloud-based Applications through Cross-invocation Information"**, Esra Nur Ayaz (University of Edinburgh)
 * **"Consensus is simpler and faster when you ConSpire"**, Chris Jensen (University of Cambridge)
 
 **15:10--15:30** Coffee
 
 ### 15:30--17:00 Session 4: Network and Serverless *(chaired by Poonam Yadav)*
-* **"Not so slow TCP (re)start"**, Mihail Yanev (University of Glasgow)
-* **"The Privacy Hazards of Abstraction in the Network Stack"**, Gregor Haywood (University of St Andrews)
-* **"End-to-end Serverless-Native Data Analytics"**, Shengda Zhu and Shyam Jesalpura (equal co-authors, University of Edinburgh)
-* **"Load shaving of microservices using serverless"**, Dilina Dehigama (University of Edinburgh)
+* **["Not so slow TCP (re)start"](slides/yanev.pdf)**, Mihail Yanev (University of Glasgow)
+* **["The Privacy Hazards of Abstraction in the Network Stack"](slides/haywood.pdf)**, Gregor Haywood (University of St Andrews)
+* **["End-to-end Serverless-Native Data Analytics"](slides/jesalpura.pdf)**, Shengda Zhu and Shyam Jesalpura (equal co-authors, University of Edinburgh)
+* **["Load shaving of microservices using serverless"](slides/dehigama.pdf)**, Dilina Dehigama (University of Edinburgh)
 
 **19:00--21:00** Dinner
 
@@ -105,17 +105,17 @@ The conference will be held in the **Neville & Hatfield Suite**.
 **10:00--10:10** Good morning!
 
 ### 10:10--10:50 Session 5: Short Talks
-* **"On Timeseries Downsampling in Stream Processing Engines"**, Iain Dixon (Newcastle University)
-* **"Using DAFNI for a large-scale flood simulation demonstrator project"**, Robin Wardle (Newcastle University)
+* **["On Timeseries Downsampling in Stream Processing Engines"](slides/dixon.pdf)**, Iain Dixon (Newcastle University)
+* **["Using DAFNI for a large-scale flood simulation demonstrator project"](slides/wardle.pdf)**, Robin Wardle (Newcastle University)
 * **"RAISE: Responsible AI Systems Engineering"**, Alexandros Koliousis (Northeastern University London)
 
 **10:50--11:10** Coffee
 
 ### 11:10--12:30 Session 6: Systems for Machine Learning, and Programming Languages *(chaired by Paul Ezhilchelvan)*
-* **"Rethinking Federated Learning Systems"**, Di Wu (University of St Andrews)
-* **"DNNShifter: Compressing large neural networks for edge systems"**, Bailey Eccles (University of St Andrews)
-* **"PipeLearn: Pipeline Parallelism for Collaborative Machine Learning Systems"**, Zihan Zhang (University of St Andrews)
-* **"Collection Skeletons: Declarative Abstractions for Data Collections"**, Zhibo Li (University of Edinburgh)
+* **["Rethinking Federated Learning Systems"](slides/wu.pdf)**, Di Wu (University of St Andrews)
+* **["DNNShifter: Compressing large neural networks for edge systems"](slides/eccles.pdf)**, Bailey Eccles (University of St Andrews)
+* **["PipeLearn: Pipeline Parallelism for Collaborative Machine Learning Systems"](slides/zhang.pdf)**, Zihan Zhang (University of St Andrews)
+* **["Collection Skeletons: Declarative Abstractions for Data Collections"](slides/li.pdf)**, Zhibo Li (University of Edinburgh)
 
 **12:30--12:45** Wrap-up
 
