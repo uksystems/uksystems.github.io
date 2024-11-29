@@ -15,7 +15,7 @@ systems, it's of interest!
 
 ----
 
-**The [Eighth iteration of the workshop](/workshop/2024/) is now live!  Click for details of the programme.**
+**The [Ninth iteration of the workshop](/workshop/2025/) is now live!  Click for preliminary details.**
 
 ----
 

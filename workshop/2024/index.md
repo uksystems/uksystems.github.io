@@ -7,8 +7,6 @@ layout: default
 
 ## Call for Presentations & Participation
 
-**Link to submission site:** [https://srcw24.hotcrp.com/](https://srcw24.hotcrp.com/)
-
 We invite you to submit 500 word / 0.5 page abstracts (PDF or plain text) of work for presentation at the next UK Systems Research Challenges workshop. In most cases the main points to include in the abstract are the problem being solved, the new idea or hypothesis being explored in your work, and the current state of the project (e.g., whether you are looking for feedback on an early idea or presenting finished results that others might want to use).
 
 This is the eighth iteration of a workshop bringing together systems researchers from across the UK and beyond, to discuss pressing topics affecting the design and implementation of large-scale systems in a friendly and inclusive setting. We're interested in presentations that speak to:
@@ -91,7 +89,7 @@ Ferdia McKeogh<br>*(University of St Andrews), Tom Spink (University of St Andre
 
 ~~**15:10--15:30**  Coffee Break~~
 
-**15:30--17:10** <u>Session 4: Containers</u> (chair Poonam Yadav)
+~~**15:30--17:10** <u>Session 4: Containers</u>~~ (chair Poonam Yadav)
 
 * Themelios: a model-checked reimplementation of Kubernetes<br>*Andrew Jeffery (University of Cambridge), Richard Mortier (University of Cambridge)*
 * Composing Microservices and Serverless for Load Resilience<br>*Dilina Dehigama (University of Edinburgh), Shyam Jesalpura (University of Edinburgh), Boris Grot (University of Edinburgh)*
@@ -99,22 +97,22 @@ Ferdia McKeogh<br>*(University of St Andrews), Tom Spink (University of St Andre
 * Serverless Native Analytics Engine<br>*Shyam Jesalpura (University of Edinburgh), Shengda Zhu (University of Edinburgh), Boris Grot (University of Edinburgh), Amir Shaikhha (University of Edinburgh)*
 * Contention resilience in overcommitted serverless deployments<br>*Al Amjad Tawfiq Isstaif (University of Cambridge), Richard Mortier (University of Cambridge)*
 
-**19:00--21:00** Dinner
+~~**19:00--21:00** Dinner~~
 
-**21:00--22:00** Lightning Talks (chair Jonathan Dowland)
+~~**21:00--22:00** Lightning Talks~~ (chair Jonathan Dowland)
 * Short (5 minute) talks on any relevant topic.
 
 ----
 
 ### Friday 19th April
 
-**10:00--10:20** <u>Session 5: Security<u> (chair Tom Spink)
+~~**10:00--10:20** <u>Session 5: Security<u>~~ (chair Tom Spink)
 
 * Defence Against the Unknown: Preventing Side Channel Attacks You Don’t Know Exist<br>*Gregor Haywood (University of St Andrews)*
 
-**10:20--10:40** Coffee Break
+~~**10:20--10:40** Coffee Break~~
 
-**10:40--12:00** <u>Session 6: Short Talks</u> (chair Paul Ezhilchelvan)
+~~**10:40--12:00** <u>Session 6: Short Talks</u>~~ (chair Paul Ezhilchelvan)
 
 * Divert, not Throttle: Colocating Batched Jobs with Online Services in Datacenters<br>*Alan Nair (University of Edinburgh), Antonio Barbalace (University of Edinburgh)*
 * MoE-Infinity: Activation – Aware Expert Offloading for Efficient MoE Serving.<br>*Leyang Xue (University of Edinburgh), Yao Fu (University of Edinburgh), Zhan Lu (University of Edinburgh), Luo Mai (University of Edinburgh), Mahesh K. Marina (University of Edinburgh)*
@@ -123,11 +121,11 @@ Ferdia McKeogh<br>*(University of St Andrews), Tom Spink (University of St Andre
 * InfiniTensor: A Tensor-Friendly, Efficient Parallel Programming Library for Accelerator-Centric Clusters<br>*Yeqi Huang (University of Edinburgh), Congjie He (University of Edinburgh), Luo Mai (University of Edinburgh)*
 * RIPEn at home - Surveying internal domain names using RIPE Atlas<br>*Elizabeth Boswell (University of Glasgow), Colin S. Perkins (University of Glasgow)*
 
-**12:00--12:30** Wrap-up and discussion
+~~**12:00--12:30** Wrap-up and discussion~~
 
-**12:30--14:00** Lunch
+~~**12:30--14:00** Lunch~~
 
-**14:00** Coach departs for Newcastle
+~~**14:00** Coach departs for Newcastle~~
 
 ## Registration and Costs
 
