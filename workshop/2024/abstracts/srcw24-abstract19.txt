@@ -1,0 +1,811 @@
+Submission #1: Conjunction of Majorities Protocol for Scalable Transactions in Distributed
+(Graph) Databases
+================================================================================================
+
+Abstract
+--------
+Maintaining the consistency of a distributed graph database is easy, if you don't want it to scale. Scaling it is easy, if you don't mind corrupting your data. Both approaches have been tried in industry to various levels of ridicule and disappointment.
+
+Our paper presents early work on a novel transaction protocol called comTX that is strong enough to support reciprocal consistency in graphs. comTx allows any server in a cluster to coordinate a transaction, and for any number of transactions to run concurrently. Resource managers enrolled into transactions use ancestry metadata called the TX-DAG to determine whether they have compatible histories with the proposed update, and should all affected shards produce a majority in favour of proceeding, the transaction is committed.
+
+Author
+------
+Jim Webber <jim@jimwebber.org> (Neo4j)
+
+
+Submission #2: Themelios: a model-checked reimplementation of Kubernetes
+========================================================================
+
+Abstract
+--------
+Orchestration platforms are critical for today's service deployments improving reliability, automation and delivery.
+Kubernetes is the most prevalent such platform, being particularly widely used in the cloud-native domain.
+However, due to its popularity Kubernetes is now being pushed towards the edge where the deployment environment has very different characteristics.
+
+Deployment of Kubernetes at the edge places services close to users but does so using an architecture that doesn't properly accommodate differences in latency, reliability, and connectivity.
+Spreading a single instance of Kubernetes across multiple edge sites leads to availability problems, limiting each site's ability to perform operations in the face of dynamic requirements.
+The main distributions for Kubernetes at the edge still retain the same core architecture and either still rely on the cloud or are not designed to be distributed across multiple edge sites.
+There is currently no solution to the problem of how to run a single cluster across multiple sites that both provides ease of use and retains reliability, availability, and local-first operation.
+
+The underlying limitation that prevents realising this architecture is the central key-value store used to replicate state --- in Kubernetes, etcd.
+Its consistency requirements mean that it does not support local operation for every edge site.
+Thus, a natural approach to rearchitecting Kubernetes to support edge-site deployments is to weaken these consistency requirements.
+Unfortunately, reasoning about how changes to such a core component will affect Kubernetes behaviour is difficult as there is no clear statement of the properties Kubernetes requires from its key-value store, and therefore no straightforward way to check whether they are provided by any alternative store.
+
+In Themelios we consider this problem of ensuring that different architectures for orchestration platforms  suiting different environments provide the required behaviours.
+We start by developing an understanding of what _correctness_ is in Kubernetes specifically as the basis for orchestration more generally.
+We have reimplemented the core of Kubernetes, and used model checking to begin to extract guarantees being made in preparation for testing them against new architectures.
+A key feature of our approach is to maintain the deployable nature of the components that we check, for correctness and trust.
+This means that components we check can integrate into an existing Kubernetes cluster, gaining the benefits of our checked approach, or can themselves be used to build a new cluster.
+
+Having checked components against properties extracted from the core components, we then seek to address the architectural changes required to make Kubernetes more edge-suitable.
+The primary architectural change we focus on is consistency at the core of the cluster, used to store the state of resources.
+This change in consistency would enable the core to be rearchitected to match the deployment environment.
+Notably, issues already exist for Kubernetes relating to staleness of read values, leading to a critical safety problem.
+This issue is reproducible in Themelios and it can be used to test the proposed fix.
+Using this we can also begin to research the next step to weakening consistency further, focusing on write consistency.
+
+Authors
+-------
+1. Andrew Jeffery <apj39@cam.ac.uk> (University of Cambridge)
+2. Richard Mortier <richard.mortier@cl.cam.ac.uk> (University of Cambridge)
+
+
+Submission #3: Abstract: Achieving Balanced Lock Usage Fairness and Lock Utilization using
+Wuji-Locks
+================================================================================================
+
+Abstract
+--------
+As processor clock speeds plateau, software developers increasingly turn to
+concurrency and multicore machines to boost performance. Locks are crucial for
+synchronizing concurrent events and ensuring mutual exclusion and are commonly
+used in building concurrent software like operating systems, servers, and
+key-value stores. Lock designers focus on specific properties that locks should
+exhibit while designing locks, thereby representing different worlds. For
+example, spinlocks are simple locks where the cache coherence governs who will
+acquire the lock and is designed with a focus on high lock utilization and
+performance. However, they cannot ensure lock usage fairness and may starve one
+or more threads. On the other hand, Scheduler--Cooperative Locks (SCLs) are
+complex locks that track the lock usage of the competing entities and dedicate
+a window of opportunity where only a single entity can acquire the lock
+multiple times while all other entities wait for their opportunities. SCLs
+guarantee lock usage fairness by penalizing dominant lock entities to give more
+opportunities to other entities. Thus, SCLs are non-work conservative and may
+compromise lock utilization to guarantee lock usage fairness. We observe none
+of the existing locks can effectively ensure high lock utilization and lock
+usage fairness. In this work, we ask the question -- is it possible to design a
+lock that can guarantee both high lock usage fairness and high lock
+utilization. 
+
+To address the problem, we understand the desired behavior by identifying under
+what circumstances one can achieve high lock usage fairness and high
+utilization and make specific observations. Using these observations, we build
+Wuji Locks (W-Locks) --  a new family of locking primitives that can guarantee
+both high lock usage fairness and high lock utilization. Like SCLs, W-Locks
+provide a window of opportunity to entities. However, other compatible entities
+also share the same window whose critical and non-critical sections align well,
+thereby increasing the lock utilization. W-Locks prioritize non-dominant
+entities while forming groups that can share the window of opportunity and
+penalize dominant entities. Our design avoids scalability collapse, ensures
+lock acquisition fairness, and incurs minimal overhead. 
+
+W-Locks implementation comprises two components -- mechanism and policy. The
+mechanism handles the lock acquisition and release procedures. The policy
+represents the strategy determining the lock behavior exhibiting desired lock
+properties. Our design provides both robustness and flexibility, enabling
+W-Locks to adapt to diverse goals and environments with minimal effort. We
+implement three locks comprising a userspace W-Lock, a NUMA-aware W-Lock, and a
+reader-writer lock. 
+
+Using microbenchmarks and real-world applications, we show W-Locks can achieve
+high lock usage fairness and lock utilization in varied and extreme scenarios
+compared to existing locks. Additionally, we perform lock overhead and latency
+sensitivity study to show W-Locks can scale well up to 40 CPUs and deliver low
+latency to latency-sensitive applications. To show real-world applicability, we
+port W-Locks to UpScaleDB, KyotoCabinet, and Memcached to compare the
+performance of W-Locks against other state-of-the-art locks. Our experiments
+show that W-Locks can dramatically enhance the performance of real-world
+applications.
+
+Authors
+-------
+1. Xueheng Wang <Xueheng.Wang@ed.ac.uk> (University of Edinburgh)
+2. Leping Li <Leping.Li@ed.ac.uk> (University of Edinburgh)
+3. Yuvraj Patel <Yuvraj.Patel@ed.ac.uk> (University of Edinburgh)
+
+
+Submission #4: Unanimous 2PC: fast, simple, and fault-tolerant distirbuted transactions
+=======================================================================================
+
+Abstract
+--------
+This talk will present U2PC which was recently submitted to the PAPOC workshop.
+
+Modern datastores must be high performance and fault-tolerant. Performance can be achieved through sharding the dataset over disparate areas of concern and hence distributing transaction processing over multiple nodes. Fault-tolerance can be achieved through protocols like Paxos which replicate each server several times, and these replicas repeat work to ensure it will persist over failures.
+
+Protocols which achieve each of these aims individually can be relatively simple. For example 2PC is the canonical simple high-performance commit protocol but is not fault-tolerant. And basic Paxos can be relatively simple, but is difficult to achieve high performance.
+
+Unanimous 2PC, is a simple fault-tolerant extension to 2PC which is latency optimal and low overhead. It replicates each shard onto f + 1 replicas where f is the system’s maximum crash-fault-tolerance and uses interactive transactions to simplify the execution phase. This means that the transaction’s commit coordinator can broadcast a lock-and-log request to all replicas in all shards the transaction has accessed, and each replica can then separately lock and log the request so long as the shard is not yet locked. If the coordinator receives unanimous locks from every relevant replica, it commits the transaction and broadcasts apply-unlock to all replicas. Otherwise, it transmits pre-abort-unlocks to every locked replica, and once any accessed shard is fully unlocked, it aborts the transaction.
+
+As with similar state-of-the-art systems such as FaRM, U2PC does not mask failures, if a replica in a shard fails or is inaccessible, no transaction can be committed using that shard. Instead, failure detectors are used to detect the failure, reconfigure to replace that replica and recovery all inflight transactions. The recovery can be simply performed by checking if any live replica which should have locked the transaction have not, and if so the transaction could not have been committed and hence is aborted. Otherwise, the recovery procedure commits the transaction.
+
+This results in a protocol simple enough wholly describe in this abstract, and yet its theoretical performance is on-par or exceeds most state-of-the-art protocols. More specifically, U2PC commits in one round-trip, aborts in one or two, and locks are held for a single round-trip. This means that in addition to optimal latency, it also maximises throughput for contention limited workloads. Finally, although the overhead for modified shards in U2PC is low at 3(f+1) messages, it cannot benefit from the read validation approach of protocols like FaRM, and hence, although it should outperform FaRM in modification heavy workloads, it may be beaten in read-heavy workloads.
+
+Authors
+-------
+1. Chris Jensen <chris.jensen@cl.cam.ac.uk> (University of Cambridge)
+2. Antonios Katsarakis <antonios.katsarakis@huawei.com> (Huawei Research)
+3. Heidi Howard <heidi.howard@microsoft.com> (Azure Research, Microsoft)
+4. Richard Mortier <richard.mortier@cl.cam.ac.uk> (University of Cambridge)
+
+
+Submission #5: Energy Efficient Scheduling for Mobile Asymmetric Multicore Processors
+=====================================================================================
+
+Abstract
+--------
+Modern mobile devices, such as mobile phones and tablets, are built around modern multi-core processors that are powerful enough to execute even some tasks that have until recently been reserved only for high-end high-performance systems (e.g.~AI on the edge). That, however, comes with a cost as more power brings larger energy consumption and need for frequent recharging, which is inconvenient for the users and harmful to the environment. Most of these processors are asymmetric, including cores of different power/energy efficiency profiles. For example, the latest generation of Google Pixel mobile phones include an 8-core processor which has 4 “small” (the least powerful but the most energy efficient), 2 “medium”, and 2 “large” cores (the most powerful, but the least energy efficient). Each of these cores can individually be powered on and off and their frequency can be adapted during the device operation to increase/decrease processing power and energy consumption. However, the Android operating system lacks proper support for this feature, especially support for the adaptation of the cores configuration to dynamic changes in workload of the system.
+In this talk, I will present a novel dynamic technique for dynamic adaptation of the processor configuration, including the number and type of cores switched on and their frequency. Our scheduling technique measures the system load, in terms of the number of tasks that are ready for execution and their size. Based on this, the scheduler decides which cores should be powered on, and at what frequency they should operating at. Our goal is to configure the processors so that energy consumption is minimised while the minimum requirements to achieve Quality-of-Service are still met. We introduce a regression model for deriving a near-optimal processor configuration based on the current workload, an implementation of the model in the Android OS kernel, and evaluation  on a set of representative scenarios that model realistic use of mobile devices in everyday life. 
+The talk will include the following results:
+An overview of a regression-based model for predicting optimal configuration of heterogeneous multicore processors, based on the current system load;
+An overview of a scheduling algorithm that uses this model for dynamic processor (re)configuration in the Android operating system;
+A summary of a set of mobile benchmarks that model the realistic usage of mobile devices by standard users;
+A summary of the evaluation of our algorithm on the developed benchmarks, on a Google Pixel 6a and 7 mobile device.
+The talk is a presentation of the latest research results to come out the EPSRC Energise Project at St Andrews. I am presenting finished results, but I am looking for new ideas and collaborations based on the results presented.
+
+Author
+------
+Christopher Brown <cmb21@st-andrews.ac.uk> (St Andrews University)
+
+
+Submission #6: Producing Fast Full-system Emulators from Formal Specifications
+==============================================================================
+
+Abstract
+--------
+In this talk we present our work on automatically generating emulators from formal specifications, focusing on challenges that were encountered, limitations of this avenue of research, and future plans to address those limitations.
+
+Sail is a popular language for describing instruction set architectures (ISAs) that has seen wide industry adoption. However, the emulator that the Sail compiler produces from an ISA model is very slow relative to the current state of the art. 
+
+The GenC language of the GenSim toolchain and Captive dynamic binary translator (DBT) achieve very high performance (>2x that of QEMU), but require handwritten ISA models. Producing such a model is a labour-intensive and error prone process.
+
+The first year of PhD study involved researching and developing a compiler for translating Sail to GenC automatically in order to gain both the advantages of the Sail language and ecosystem, and high performance emulation of the GenSim toolchain. This compiler successfully produced a GenC model of the Aarch64 v8.5 architecture which was used to correctly emulate several small programs.
+
+Unfortunately, this approach is not scalable as GenSim compile times grow unsustainably with the model size. Future work during the remained of the PhD will aim to create a new, scalable toolchain to replace GenSim, improving the process of creating fast emulators from Sail models.
+
+Authors
+-------
+1. Ferdia McKeogh <fm208@st-andrews.ac.uk> (University of St Andrews)
+2. Tom Spink <tcs6@st-andrews.ac.uk> (University of St Andrews)
+3. Alan Dearle <alan.dearle@st-andrews.ac.uk> (University of St Andrews)
+
+
+Submission #7: Hardware just-in-time compilation
+================================================
+
+Abstract
+--------
+Just-in-time (JIT) compilation is ubiquitous. It offers performance benefits over interpretation methods and dynamic optimisation benefits over ahead-of-time compilation methods. For these reasons, many languages rely heavily on JIT compilation. These languages, including Java, Python, C#, PHP, JavaScript and WebAssembly are used in a wide variety of applications, in settings ranging from data centres to mobile phones. However, the primary constraint on JIT compilation is speed. The classic compromise of compilation speed versus code quality becomes almost cyclical: unlike with ahead-of-time compilation, execution time cannot be decreased by spending more compilation time on code quality, because both costs are paid at runtime.
+
+Tiered compilation aims to address this problem by introducing multiple compilation tiers, each with a different goal: the earlier tiers are focused on delivering code as quickly as possible to allow execution to begin, whilst the later tiers work in the background to replace this initial code with more and more optimised versions. Traditionally, these tiers are implemented in software, but we observe that there is a limit to how fast a software compiler can execute on general-purpose hardware. With such strict speed constraints on the early tiers in particular, we are investigating how compilation can benefit from the current trend of hardware specialisation. In this talk, we will discuss our ongoing efforts to use high-level synthesis (HLS) to implement a first-tier templating compiler on an FPGA, and the challenges that remain for us to solve.
+
+Author
+------
+Kimberley Stonehouse <Kim.Stonehouse@ed.ac.uk> (The University of Edinburgh)
+
+
+Submission #8: Why you should care about sheaves
+================================================
+
+Abstract
+--------
+Why you should care about sheaves
+
+Simon Dobson
+Complex and Adaptive Systems Group, University of St Andrews
+mailto:simon.dobson@st-andrews.ac.uk
+https://simondobson.org
+
+
+A lot of data analytics involves taking a collection of local
+observations and developing some kind of non-local or global synthesis:
+a good example is a consensus algorithm in distributed systems. Problems
+like this occur in all sorts of data analytics. They're particularly
+prevalent in sensor systems, where each data point is collected at some
+location in space and time, but the main interest of the system comes
+from the decisions that we make as a result of collecting these
+observations together, for example to interpolate rainfall data across a
+space from data collected at a (probably fairly small and sparse) set of
+local rain gauges.
+
+Doing this kind of thing in a principled way is hard: over the years
+several approaches have been tried, mostly /ad hoc/ and/or inspired by
+the limitations of the underlying sensor system, like averaging the
+readings of all the sensors within one-hop wireless range in the hope of
+reducing noise.
+
+A more principled approach is now emerging, that holds out the promise
+of being able to build well-founded distributed consensus (and other)
+algorithms. Sheaf theory is regarded by some as the canonical
+mathematical way to reason about information fusion [1]. From a systems
+perspective, though, it's even more interesting, because it provides a
+way of defining the local-to-global transition that's an essential part
+of distributed systems and data analytics, as well as providing clear
+directions for implementation and analysis. It is making an increasing
+contribution to environmental sensing [2], ecology [3], delay-tolerant
+networking [4], and other fields of great practical interest.
+
+Unfortunately a lot of the sheaf theory literature is utterly
+impenetrable for systems practitioners, and makes assumptions that
+simply don't hold in practice. This is a shame, as it potentially offers
+us a lot. So in this talk I will introduce the core ideas of sheaves and
+show how they can be applied to systems problems, especially those in
+distributed sensor systems. In particular, I'll show that some of the
+/ad hoc/ techniques we've used for years can be given a proper
+foundation [5], and describe some of the ideas we're looking to deploy
+in practice.
+
+[1] Michael Robinson. /Sheaves Are the Canonical Data Structure for
+Sensor Integration/. Information Fusion *36*, pp.208–224. 2016.
+<https://doi.org/10.1016/j.inffus.2016.12.002>
+
+[2] Anh-Duy Pham, An Dinh Le, Chuong Dinh Le, Hoang Viet Pham, and
+Hien Bich Vo. /Harnessing Sheaf Theory for Enhanced Air Quality
+Monitoring: Overcoming Conventional Limitations with Topology-Inspired
+Self-Correcting Algorithm/. In /Lecture Notes in Networks and
+Systems/, pp.102–122. Springer Nature Switzerland. 2023.
+<https://doi.org/10.1007/978-3-031-47454-5_8>
+
+[3] Cliff A. Joslyn, Lauren Charles, Chris DePerno, Nicholas Gould,
+Kathleen Nowak, Brenda Praggastis, Emilie Purvine, Michael Robinson,
+Jennifer Strules, and Paul Whitney. /A Sheaf Theoretical Approach to
+Uncertainty Quantification of Heterogeneous Geolocation Information/.
+Sensors *20*, pp.3418. 2020. <https://doi.org/10.3390/s20123418>
+
+[4] Robert Short, Alan Hylton, Jacob Cleveland, Michael Moy, Robert
+Cardona, Robert Green, Justin Curry, Brendan Mallery, Gabriel
+Bainbridge, and Zander Memon. /Sheaf Theoretic Models for Routing in
+Delay Tolerant Networks]. In /IEEE Aerospace Conference/. 2022.
+<https://doi.org/10.1109/aero53065.2022.9843504>
+
+[5] Hans Riess and Robert Ghrist. /Diffusion of Information on
+Networked Lattices by Gossip/. In /IEEE 61st Conference on
+Decision and Control/. 2022.
+<https://doi.org/10.1109/cdc51059.2022.9992539>
+
+Author
+------
+Simon Dobson <simon.dobson@st-andrews.ac.uk> (University of St Andrews)
+
+
+Submission #9: Developing a modern Kubernetes based Study Management Platform
+=============================================================================
+
+Abstract
+--------
+This paper describes the design and development of an observational study management platform (OSM) which unifies the collection, storage and processing of medical study data targeting large numbers of participants.
+
+Authors
+-------
+1. Hugo Hiden <hugo.hiden@newcastle.ac.uk> (Newcastle University)
+2. Stephen Dowsland <stephen.dowsland@newcastle.ac.uk> (Newcastle University)
+
+
+Submission #10: RIPEn at home - Surveying internal domain names using RIPE Atlas
+================================================================================
+
+Abstract
+--------
+Many home routers and residential gateways use custom domain names that allow users to access the devices' configuration page from within the network. For example, a user might be able to access their home router's configuration page by navigating to routerconfig.home when connected to the router. The gateway device maps the DNS query for that name to the local IP address hosting the configuration module.
+
+These internal names are often not registered in the public DNS, and sometimes use top level domains that don't exist in the public DNS, or were not expected to exist.
+This can cause issues, as a recent case has shown: German router manufacturer AVM uses the name fritz.box to allow users of their line of Fritz!Box gateways to access the gateway configuration page. The .box TLD has been delegated, and started accepting registrations from the public in January. For several weeks, fritz.box and other local .box names were available for registration by anyone, or were registered by speculators. This is an obvious hijacking risk, as a malicious actor could register the domain and set up a site mimicking the router configuration page. They could then retrieve router login credentials or other sensitive information from users who inadvertently attempt to access their router configuration page when not connected to the router.
+
+It is possible that other router manufacturers also use names with a similar acute or hypothetical hijacking risk. We have performed client-side measurements, using RIPE Atlas, to explore which internal names have been used. This gives an insight into how widespread this practise is.
+
+There have been past studies of the usage of internal names using root server data, but the issue is less well-explored from the client side. Root server data is limited because it only captures queries for internal names that were not intercepted and resolved by the gateway. It also doesn't capture names that are resolvable in the public DNS. Checking which internal names are resolvable by clients gives a more realistic insight into which local names are used.
+
+In our measurements on RIPE Atlas, we found 4305 RIPE Atlas probes using 3092 names that resolve to local addresses. Of these names, 42.8% use TLDs that are not in the public DNS, but that could become registered in the future. 2.1% of domain names are not registered in the public DNS, but they are a subdomain of a domain on the public suffix list, meaning that they  could be registered any time. This shows that other home routers manufacturers also use local names with a hijacking risk.
+
+This work is in an early stage - future work will involve developing additional fingerprinting techniques for home gateways to find and categorise their internal names. We will also develop further ways to determine the hijacking risk of these names.
+
+Authors
+-------
+1. Elizabeth Boswell <e.boswell.2@research.gla.ac.uk> (University of Glasgow)
+2. Colin S. Perkins <csp@csperkins.org> (University of Glasgow)
+
+
+Submission #11: Defence Against the Unknown: Preventing Side Channel Attacks You Don’t Know
+Exist
+================================================================================================
+
+Abstract
+--------
+Systems privacy as the degree to which a system hides information about how it is used from third parties. This includes both explicit signals, and indirect side channels. Preventing privacy abuses is difficult, as side channels are both hard to spot, and hard to remove without significantly impacting performance. Attacking side channels, on the other hand, is relatively easy, as any existing exploitable patterns can be found via brute-machine learning – machine learning approaches are also able to adapt if defences are deployed that change the previously exposed patterns (disrupting trained models) but expose new ones. In this work, we show how side channel attacks can be disrupted by targeting their statistical characteristics, even if the specifics of the machine learning algorithm are unknown. We demonstrate this for real-time communication using multipath, and argue that it could be used to address side channel attacks in other areas of systems research. 
+
+The focus of this research is on the statistical modelling of side channel attacks. We treat an attack as a sampling process on a distribution governed by the characteristics of the attacked system. Systems that are stateful – whose current behaviour depends on their history – are more vulnerable than those that are stateless because each sample (observation) the attacker takes reveals information about the sampled event, and the events it influences. Our defence uses some domain-specific mechanism to control the probability of intercept, thereby reshaping the distribution from which the attacker samples. This allows us to hide stateful behaviour with no greater performance cost than the domain-specific mechanism requires. In the case of network communications, multipath can be used to facilitate this, which may improve bandwidth and reliability rather than introducing a performance cost. 
+
+This research is the analytical follow-on to earlier empirical work on multipath evasion. We are therefore both presenting our findings, and looking for feedback (and potential collaboration) on how well they generalise to other areas of systems research.
+
+Author
+------
+Gregor Haywood <gh66@st-andrews.ac.uk> (University of St Andrews)
+
+
+Submission #12: From Internet to Emulator: A Virtual Testbed for Internet Routing Protocols
+===========================================================================================
+
+Abstract
+--------
+The ongoing evolution and expansion of the Internet demands resilient, secure and scalable routing protocols to provide seamless connectivity across global networks. However, the lack of a realistic testbed for the development and analysis of new internetwork routing protocols or extensions at an Internet scale leads to unpredictability in real-world performance prior to implementation. Whilst existing simulation and emulation approaches provide some insight, such as by replicating a routing environment at a smaller scale, or using a lab-generated topology, these do not capture existing architectural challenges or usage and therefore deployment challenges may not be fully addressed, and performance improvement is likely to be artificially optimistic.
+
+We propose an emulation approach based on real-world Internet topology captures and the replay of routing changes, to provide a more comprehensive testbed for new routing protocols. Our underlying hypothesis is that capturing Internet topology and automating Internet emulation by replicating each topological node using an emulated border router, can enable researchers to gleam greater insight into the performance of Internet protocols. This is particularly important for problems of protocol adoption, where our approach may enable real-world understanding of critical adoption thresholds, or in measuring relative resource requirements - such as for energy or relative change in carbon emission - by capturing resource usage metrics from each emulated device.
+
+By taking an emulation approach utilising a combination of Python-based software and Apptainer/Singularity container virtualisation, we hope to provide the flexibility to deploy representative Internet emulation environments in both public cloud and research HPC contexts. The current state of the project is seeking feedback on early conceptual results, but later we hope to undertake routing protocol research at a wider scale, providing evidence-based benefit and adoption statistics.
+
+In conclusion, we endeavour to contribute to the development of Internet scale routing protocols by providing a more realistic and representative emulated testing environment compatible with research HPC. Our proposed approach enables the collection of deployment data representative of real-world routing demands, providing evidence-based statistics and the capture of critical adoption thresholds.
+
+Authors
+-------
+1. Joshua Levett <joshua.levett@york.ac.uk> (University of York)
+2. Poonam Yadav <poonam.yadav@york.ac.uk> (University of York)
+3. Vassilios Vassilakis <vasilieos.vasilakis@york.ac.uk> (University of York)
+
+
+Submission #13: MoE-Infinity: Activation-Aware Expert Offloading for Efficient MoE Serving
+==========================================================================================
+
+Abstract
+--------
+The increasing complexity and size of Mixture-of-Experts (MoE) models present significant challenges for AI services. Models like Mixtral, Claude-3, OpenAI’s GPT-4 represent state-of-the-art (SOTA) AI models, with architectures characterized by their vast parameter spaces, reaching the scale of trillions of parameters and occupying terabytes of memory. Serving (inference) with such models today necessitates scores of GPUs to accommodate the memory demands. This need arises due to low latency requirement for which the current practice is to store and process parameters near GPU high bandwidth memory (HBM).
+
+In the quest to address the significant memory demands, there is a growing interest in exploring both model compression methods and memory offloading methods to reduce GPU memory consumption. Techniques such as quantization offer a limited amount of memory footprint reduction (4x from float16 to int4), while often coming with a loss in generalization and accuracy. Offloading approaches, on the other hand, target lossless behaviour and do so by storing experts in MoE models on external storage mediums and only loading them onto GPUs as needed. However, this solution introduces excessive traffic over bottleneck PCIe links. This is because offloading systems (e.g., Zero-Offload) are designed for dense models, whereas sparsely activated MoE models where only 20% of the parameters are used on average. Such systems treat each sparse layer as a dense layer by fetching all parameters to the GPU. Fetching a 1TB model results in a latency of 40 seconds on PCIe4, while the computation latency is only 2-3
+seconds.
+
+We present MoE-Infinity, a novel serving system design to mitigate the latency
+overhead associated with offloading MoE parameters. Our approach leverages two
+observed MoE characteristics: sparse activation of experts and temporal locality. MoE-
+Infinity features sequence-level expert activation tracing, a new approach adept at
+identifying sparse activations and capturing the temporal locality of MoE inference.
+By analyzing these traces, MoE-Infinity can detect the imminent expert activation,
+thus fetching only experts needed to GPU and reducing the traffic on PCIe. MoE-
+Infinity can also predict the expert activation for the subsequent layers for prefetching.
+Prefetching in MoE-Infinity prioritizes the loading of experts likely to be needed
+soon, based on their activation history. Caching in MoE-Infinity selectively retains
+experts in the cache based on their activation frequency and layer position during each
+generation.
+
+Our evaluation of MoE-Infinity in a GPU cluster environment, serving MoE models such as Google’s Switch Transformers, Facebook’s NLLB and Mixtral, demonstrates significant performance improvements over current state-of-the-art (SOTA) serving systems (e.g., DeepSpeed, CUDA Unified Memory). Notably, MoE-Infinity achieves up
+to 4-20x improvements in latency, and 2-10x improvements in throughput, compared to
+existing offloading systems. MoE-Infinity also reduces 8x in GPU resources without
+performance degradation.
+
+Authors
+-------
+1. Leyang Xue <leyang.xue@ed.ac.uk> (University of Edinburgh)
+2. Yao Fu <y.fu@ed.ac.uk> (University of Edinburgh)
+3. Zhan Lu <lausannel666@gmail.com> (University of Edinburgh)
+4. Luo Mai <luo.mai@ed.ac.uk> (University of Edinburgh)
+5. Mahesh Marina <mahesh@ed.ac.uk> (University of Edinburgh)
+
+
+Submission #14: Composing Microservices and Serverless for Load Resilience
+==========================================================================
+
+Abstract
+--------
+Microservices architecture has become widely popular for modern application development due to its ability to break down applications into smaller, independent services, making development, deployment, and maintenance more manageable. However, a major challenge faced by microservices is efficiently scaling compute resources to handle fluctuating and unexpected spikes in traffic. Typically deployed as containers within virtual machines (VMs), microservices struggle to scale resources efficiently. At present, companies often allocate more resources than necessary to their microservice systems in anticipation of unexpected increases in demand, resulting in excess costs. However, these resources typically remain unused during periods of low demand.
+
+Currently, two distinct strategies are employed to address microservices scalability: proactive and reactive scaling. Proactive scaling involves preemptively allocating resources based on anticipated demand, while reactive scaling adjusts resources dynamically in response to real-time changes in demand or performance metrics. While proactive scaling attempts to manage regular load fluctuations based on forecasts, it often fails to address sudden increases in traffic due to their unpredictable nature. In contrast, reactive scaling can accommodate unforeseen traffic surges but is hindered by the time it takes for scaling events to occur in microservice frameworks, typically requiring several seconds to complete, or even longer if new virtual machines need to be initiated.
+
+Recognizing the challenges, serverless computing emerges as a promising solution due to its elasticity and ultra-fast startup times. With serverless computing, users only pay for the actual resources used, and cloud providers manage resource allocation, provisioning, and scaling on-demand. By leveraging the above insight, we propose Hydra, a hybrid architecture that combines VM-based microservices with serverless computing. Under normal load, Hydra operates online applications as VM-based microservices, as commonly done in current deployments. During load spikes, Hydra seamlessly incorporates serverless components to handle excess load while launching new microservice instances in the background.
+
+Our evaluation demonstrates that Hydra significantly reduces peak tail latency by 62.4% compared to Kubernetes auto-scaling mechanisms, with only a minimal 2.3% increase in cost. This underscores Hydra's effectiveness in achieving load resilience cost-efficiently within modern online service architectures.
+
+Authors
+-------
+1. Dilina Dehigama <dilina.dehigama@ed.ac.uk> (University of Edinburgh)
+2. Shyam Jesalpura <s.jesalpura@gmail.com> (University of Edinburgh)
+3. Boris Grot <boris.grot@ed.ac.uk> (University of Edinburgh)
+
+
+Submission #15: New CARD: A Vertically Integrated Teaching Tool for Microarchitecture
+=====================================================================================
+
+Abstract
+--------
+The field of systems research is facing a significant challenge in attracting new talented researchers, particularly due to the steep rise in demand for machine learning and large language models. As a result, systems researchers must work harder to engage and inspire university students to pursue careers in this critical area. Computer architecture education plays a crucial role in this effort, but it faces its own challenges in providing students with hands-on experience in designing and interacting with processors. Existing tools often focus on either low-level implementation or high-level simulation, creating a disconnect between theory and practice. To address this gap, we present New CARD, a vertically integrated teaching tool that combines low-level hardware implementation exercises with a high-level benchmarking and experimentation framework.
+
+NewCARD extends a simple 5-stage RISC-V core. The tool allows students to implement various components of the RISC-V core, such as the Arithmetic Logic Unit (ALU), register file, and pipeline bypassing, using Verilog. Alongside the hardware implementation, New CARD provides a software debugger that enables students to load instructions, control execution, examine internal processor states, and measure performance using advanced benchmarks.
+
+The integration of hardware implementation and software debugging in NewCARD offers several benefits. Students gain a deeper understanding of processor design by implementing components and observing their impact on overall performance. The use of a real RISC-V core on an FPGA provides a more accurate representation of processor behaviour compared to software simulations. Furthermore, the ability to run advanced benchmarks allows students to explore the effects of their optimizations and design choices on more extensive workloads.
+
+The benchmarking capabilities of New CARD enable students to conduct mini-scientific studies by running the same binary on different core implementations. For example, students can compare the performance of a core with and without pipeline forwarding, or evaluate the impact of various branch predictors. This hands-on approach allows students to reinforce theoretical concepts through practical experimentation and to observe the tangible performance benefits of advanced designs, which is not always feasible to be done in simulation. By engaging in such comparative studies, students develop a deeper understanding of the trade-offs and optimizations involved in processor design.
+
+NewCARD is currently in the prototype stage, with plans for deployment in the upcoming semester. We believe this vertically integrated approach to microarchitecture education will enhance student engagement, bridge the gap between theory and practice, and prepare future computer architects for real-world challenges. We look forward to sharing our experiences and discussing the potential of such tools in advancing computer architecture education and attracting top talent to systems research.
+
+Authors
+-------
+1. Mária Ďuračková <s1915419@ed.ac.uk> (University Of Edinburgh)
+2. Nigel Topham <nigel.topham@ed.ac.uk> (University Of Edinburgh)
+
+
+Submission #16: Weaver: Streamlining LLM Inference with Spatial Accelerators
+============================================================================
+
+Abstract
+--------
+Inference for large language models (LLMs) heavily relies on General Matrix Multiply (GEMM) and General Matrix-Vector Multiply (GEMV) operations, consuming over 80\% of the total computational effort. To tackle these computational challenges, spatial accelerators have been developed. These accelerators have massive Processing Elements (PEs) designed to expedite MM and MV operations, and the PEs are connected through mesh-like network-on-chips, providing massive on-chip memory bandwidth. Notable examples include Cerebras, Dojo, TPUv5, and Tenstorrent.
+
+Despite their potential, spatial accelerators often struggle to fully deliver on their promise for LLM inference due to the high communication and memory demands of existing GEMM and GEMV algorithms. A key issue is the uneven computation pipeline lengths within the mesh structures, leading to pipeline stragglers and bottlenecks. As a result, conventional algorithms like Cannon and SUMMA exhibit insufficient efficiency, with Cannon experiencing $O(N^{2})$ communication complexity and SUMMA incurring $O(2*N^2)$ memory costs, where $N^2$ represents the number of PEs in an accelerator.
+
+In this talk, we will introduce Weaver, a novel LLM inference system specifically designed to capitalize on the capabilities of spatial accelerators. At its core, Weaver employs a new scalable matrix computing approach called MeshFold. By smartly folding matrix entries and interleaving them, the MeshFold approach allows GEMM and GEMV to minimize the length of the longest pipeline spread across the PEs and ensure load balancing on these PEs, with proven $O(N)$ total communication cost and $O(N^2)$ total memory cost.
+
+We've developed a prototype of Weaver on an advanced spatial accelerator Cerebras, and are in the process of adapting it for Tenstorrent. Early experiments have shown that Weaver can improve LLM inference latency by 3 times and increase throughput by 1.8 times compared to existing systems using Cannon and SUMMA.
+
+Authors
+-------
+1. Congjie He <congjie.he@ed.ac.uk> (University of Edinburgh)
+2. Yeqi Huang <yeqi.huang@ed.ac.uk> (University of Edinburgh)
+3. Luo Mai <luo.mai@ed.ac.uk> (University of Edinburgh)
+
+
+Submission #17: A collaborative approach to leverage overlapping-ISA heterogeneous multicore
+architectures
+================================================================================================
+
+Abstract
+--------
+A heterogeneous processor incorporates cores with varying levels of performance and capabili-
+ties, enabling the optimization of specific cores for particular tasks. This configuration facilitates
+the execution of a diverse array of applications with greater efficiency compared to homogeneous
+processors. Recent years have seen a rise in the popularity of single-Instruction Set Architecture
+(ISA) heterogeneous architectures due to their transparent operation with applications, while still
+preserving many advantages of a heterogeneous multicore architecture. Nonetheless, this approach
+restricts core capabilities’ heterogeneity by assuming that every instruction should be executable
+on all cores within a system. Such a limitation leads to the unnecessary replication of seldom-
+utilized function units in cores, thereby hindering the potential for high-level specialization of
+cores. An alternative design, the overlapping-ISA heterogeneous multicore architecture, permits
+all system cores to share a common baseline ISA subset alongside distinct ISA extensions. Prior
+studies on software support for this architectural design, based on fault-and-migrate or emulation
+strategies, are all exposing a uniform ISA to application and incur penalty to migrate or emulate
+when the application is running on suboptimal core, thus inefficient for real world applications. In
+our view, these penalties stem from the operating system’s lack of control over the ISA features
+an application can utilize at runtime. We propose a novel software architecture that encompasses
+applications, the toolchain, and the operating system to address this issue.
+In this proposed architecture, applications would identify functions that could benefit from
+specific ISA extensions, providing two versions for each such function: one optimized with the ISA
+extension and another as a fallback variant using the baseline ISA. Additionally, applications would
+furnish details regarding the runtime performance and speed-up of these two implementations.
+The toolchain is expected to compile both function variants, generating two Global Offset Tables
+to organize each variant and insert NOP trampolines at the entry and exit points of functions.
+The operating system would then determine the optimal placement of an application based
+on toolchain metadata and runtime profiling information. It could switch the register holding the
+global offset table to manage the application’s ISA usage and insert trampoline functions to assist
+in profiling or identifying precise migration points. Moreover, the operating system should offer
+lightweight methods to support Just-In-Time (JIT) applications in selecting the most suitable ISA
+feature set.
+We believe our approach can help software leverage overlapping-ISA heterogeneous multicore
+architectures at its best. This concept is in its nascent stages, and we welcome feedback from other
+system researchers to refine our proposal.
+
+Author
+------
+Jiaxun Yang <jiaxun.yang@flygoat.com> (The University of Edinburgh)
+
+
+Submission #18: CoreKube: An Efficient, Autoscaling and Resilient Mobile Core System
+====================================================================================
+
+Abstract
+--------
+Mobile networks enable ubiquitous and on the move connectivity. At the heart of any mobile network is the mobile core. This essential component handles all control functionality (authenticating devices, managing user sessions, mobility, roaming, billing, etc.) and provides a bridge to the Internet. Compared to the small geographical footprint of a base station, the mobile core serves a much wider area; its responsive and reliable operation is essential.
+
+The mobile core handles both control traffic as well as data plane traffic, the latter originating from user applications (web browsing, video calling, etc..), while the former is used by the mobile core to manage the network and the devices connected to it. Control plane performance is critical to overall user experience: a poorly performing control plane will slow down data plane operations. While the mobile core simply routes data plane traffic, control plane traffic is processed inside the core. There is a real risk that an unexpected burst of control traffic can overwhelm the core. Studies have shown that control plane signalling traffic is not only increasing rapidly but is also highly bursty, due to increased numbers of connected devices, higher density of cell towers, and new classes of IoT devices.
+
+Network operators approach this problem by over-provisioning the core to ensure it can handle traffic bursts. However, this approach is wasteful. Autoscaling is a solution that can lead to more efficient resource usage and lower operational expenditure. Autoscaling varies the amount of resources allocated to the core, depending upon the amount of control plane traffic received.
+
+Despite its advantages, autoscaling is not a straightforward solution. Existing mobile core designs are unable to be autoscaled. We have identified two key challenges that prevent this. Firstly, existing designs closely couple the mobile core to the network of base stations that serve users, preventing separate instances of the core from being spawned and scaling up. Secondly, traditional implementations of the mobile core mix the processing of traffic with the state of connected users, preventing scaling as the state cannot be scaled across multiple instances without losing consistency.
+
+We propose a new design, CoreKube, for a scalable, efficient and resilient mobile core. CoreKube addresses the identified challenges through the use of a novel message-focused design, which features truly stateless instances that interface with a common database and with the base stations through a separate frontend. Our implementation is cloud-native, being orchestrated on Kubernetes and therefore is suitable for deployment on both public and private clouds. We show that compared to state-of-the-art core designs, CoreKube efficiently processes control plane messages, scales dynamically while using minimal compute resources and recovers seamlessly from failures.
+
+CoreKube was both presented and demoed at MobiCom 2023 (Best Artifact Award winner, Best Demo shortlisted). Our implementations are open source. This talk would present the CoreKube design, the challenges and requirements that led to its creation, an evaluation compared to the state-of-the-art alternatives, and a video demo of the working implementation.
+
+Authors
+-------
+1. Andrew E. Ferguson <Andrew.E.Ferguson@ed.ac.uk> (The University of Edinburgh)
+2. Jon Larrea <jon.larrea@ed.ac.uk> (The University of Edinburgh)
+3. Mahesh K. Marina <mahesh@ed.ac.uk> (The University of Edinburgh)
+
+
+Submission #19: Serverless Native Analytics Engine
+==================================================
+
+Abstract
+--------
+Database analytics traditionally performed by analytics engines on VM clusters often result in over-provisioning due to bursty and unpredictable workloads, leading to high costs. Serverless computing, with on-demand resource allocation and fine-grained billing, is a better fit for such workloads. However, existing analytics engines designed for VMs are not suitable for serverless functions due to their unique characteristics like extreme scalability, resource constraints, limited execution time, and lack of direct communication among workers.
+
+Previous studies have shown that utilizing serverless functions for data analytics can offer cost-performance benefits with tailored query plans. While attempts have been made to improve efficiency in various stages of query processing, the lack of an end-to-end serverless-native analytics engine has limited the scope of co-optimization across the global query-processing context, resulting in limited flexibility and applications.
+
+The key insights are:
+1. Existing query planning methods from distributed analytics engines can be adapted to serverless analytics.
+2. A lack of a serverless-native cost model limits the scope of optimization resulting in can result in non-optimal query plans.
+
+By leveraging these insights, the goal is to design an on-demand, end-to-end, serverless-native analytics engine. Extensive data collection and analysis have been performed to generate a specialized performance and monetory cost model for serverless functions. The model once validated will then be utilized by the analytics engine to generate optimal query plans for each input query. The generated plans will be used by the engine to execute the query. This engine aims to fill the gap in current implementations and support data analytics at scale with the benefits of serverless computing.
+
+Authors
+-------
+1. Shyam Jesalpura <s.jesalpura@gmail.com> (University of Edinburgh)
+2. Shengda Zhu <shengda.zhu@ed.ac.uk> (University of Edinburgh)
+3. Boris Grot <boris.grot@ed.ac.uk> (University of Edinburgh)
+4. Amir Shaikhha <amir.shaikhha@ed.ac.uk> (University of Edinburgh)
+5. Antonio Barbalace <antonio.barbalace@ed.ac.uk> (University of Edinburgh)
+
+
+Submission #20: InfiniTensor: A Tensor-Friendly, Efficient Parallel Programming Library for
+Accelerator-Centric Clusters
+================================================================================================
+
+Abstract
+--------
+Rising AI-centric workloads, such as AI4Science, large language models, and large multimodal models, are increasingly deployed on accelerator-centric clusters. These clusters utilize parallel accelerators (e.g., GPUs and TPUs) and feature heterogeneous memory devices (e.g., SRAM, HBM, and DRAM) connected by fast network links (e.g., NVLink and InfiniBand) to deliver substantial computing, memory, and networking resources for tensor operations. 
+
+For optimal performance, it's essential to exploit accelerators for both AI model training/inference and data processing tasks, such as preprocessing, clustering, and cleaning. While AI models benefit from distributed training libraries like Megatron-LM and AI compilers like XLA when utilizing parallel accelerators, data processing tasks often rely on CPUs, leading to bottlenecks when processing and communicating data. 
+
+AI programmers seek a parallel programming library that offers a tensor-friendly interface for managing complex data workflows and automatically utilizes the compute, memory, and network resources on accelerators. Current solutions are inadequate; high-level libraries like Ray require significant code rewrites to comply with the actor-centric message-passing interface, and users must manually distribute tensors when they go beyond a single accelerator. Meanwhile, low-level libraries like NCCL and NVSHMEM demand learning complicated programming paradigms (e.g., collective communication and asynchronous programming), making the porting of existing data tasks to accelerators prohibitively expensive. 
+
+In this talk, we will explore the concept of Partitioned Global Address Space (PGAS), a tensor-friendly programming abstraction originally proposed for scientific programming, but not yet applied to accelerator clusters. A primary reason is its lack of mechanisms for automatically inferring computational dependencies among tensors. This gap hinders efficient data prefetching, caching, and parallelism mechanisms from being effectively realized, critical for fully utilizing accelerator clusters.
+
+To bridge this gap, we've developed InfiniTensor, a tensor-friendly and efficient parallel programming library. InfiniTensor can automatically analyze tensor dependency in PGAS programs, and it leverages analysis results to facilitate effective data prefetching and caching. Our early experiments shows that InfiniTensor can facilitate AI programers to transition complex data processing tasks (i.e., all clustering operations supported in the widely used scikit-learn library) from CPUs to accelerators, achieving high performance with minimal programming effort.
+
+Authors
+-------
+1. Yeqi Huang <yeqi.huang@ed.ac.uk> (University of Edinburgh)
+2. Congjie He <congjie.he@ed.ac.uk> (University of Edinburgh)
+3. Luo Mai <luo.mai@ed.ac.uk> (University of Edinburgh)
+
+
+Submission #22: Divert, not Throttle: Colocating Batched Jobs with Online Services in
+Datacenters
+================================================================================================
+
+Abstract
+--------
+Online Services running in datacenters have pre-defined Service Level Objectives (SLOs) that the Datacenter Provider must strive to meet, such as a threshold tail latency. 
+However, these services commonly run well below the load at which their SLOs get violated.
+The excess resources are utilized by Datacenter Providers to run non-latency-critical batched applications.
+However, the online services' load patterns are generally bursty.
+Colocating batched jobs with latency-critical online services eats up the slack in the latter's SLOs that would have otherwise accommodated the load spikes.
+Therefore, during periods of bursty load, the Datacenters generally throttle the batched applications.
+This causes significant degradation in the batched jobs' throughput.
+
+We observe that the throughput of the colocated batched applications is bound by the available memory bandwidth and not the memory latency. This observation contradicts prior studies.
+We propose a design that utilizes expanded memory using the CXL protocol. Our design replicates a portion of the batched jobs' dataset on both the low-latency local DRAM and the CXL-attached memory. During periods when online services face bursty load, our design diverts the memory accesses of batched jobs towards the CXL memory. This minimizes their interference with the colocated online services ensuring that their SLOs are not violated, while experiencing a much lower degradation in throughput compared to the approach where they are throttled.
+
+Our work is still in progress. We are currently conducting preliminary experiments to motivate our approach.
+
+Authors
+-------
+1. Alan Nair <alan.nair@ed.ac.uk> (The University of Edinburgh)
+2. Antonio Barbalace <antonio.barbalace@ed.ac.uk> ("The University of Edinburgh")
+
+
+Submission #23: Introducing Page Table Garbage Collection For Faster and Better Memory
+Utilisation
+================================================================================================
+
+Abstract
+--------
+The adoption of disaggregated memory architecture in modern data centers presents a promising solution to address various challenges associated with memory management. In conventional data center setups, memory constitutes a significant portion of the total cost of ownership, reaching up to 50\%. However, the lack of flexibility in current architectures poses constraints on memory configurations. For instance, in a typical six-channel DDR5 system with two DIMMs per channel, memory options are limited to 96, 192, or 386 GiB of DRAM, leading to substantial cost disparities between configurations. This limitation exacerbates memory stranding, a prevalent issue in cloud environments, where expensive memory resources are underutilized.
+
+The advent of technologies such as the Compute Express Link (CXL) protocol introduces opportunities for mitigating these challenges through disaggregated memory architectures. The fundamental premise involves equipping servers with a small but fast and costly DRAM component, supplemented by on-demand allocation from a slower, more economical memory tier. In the context of this study, we investigate the behavior of data center applications and identify a significant overhead imposed by virtual memory translation, particularly concerning the utilization of scarce fast memory tiers in disaggregated architectures.
+
+Modern data center workloads often exhibit large address space requirements, primarily driven by application data. However, a considerable portion of memory consumption is attributable to metadata, notably page tables—the foundational data structure underlying virtual memory systems. An empirical analysis conducted on a long-running Redis instance utilizing jemalloc revealed that for a Resident Set Size (RSS) of 590 GiB, a substantial 110 GiB was dedicated to page tables. In the context of memory scarcity, especially within disaggregated memory setups where fast memory is at a premium, this represents a significant allocation of memory resources towards non-essential data.
+
+Similar observations hold for long-running, large-memory virtual machines, further highlighting the impact of page tables on memory utilization inefficiency. This study aims to delve into the intricacies of page table management within modern systems, demonstrating their contribution to memory wastage and fragmentation. Specifically, we explore how page tables hinder the efficient allocation of larger pages, such as Transparent Huge Pages (THPs), a mechanism within the Linux kernel facilitating the transparent allocation of physically contiguous 2MiB pages and mapping them as a single unit, thereby enhancing virtual memory translation efficiency through reduced Translation Lookaside Buffer (TLB) stalls.
+
+In response to these challenges, we propose a novel design and implementation of an efficient runtime mechanism within the Linux kernel to perform garbage collection of page tables, targeting optimal candidates for reclaiming memory resources. This research endeavor seeks to address the inherent inefficiencies associated with page table management, thereby optimizing memory utilization and enhancing overall system performance within disaggregated memory architectures.
+
+Authors
+-------
+1. Karim Manaouil <karim.manaouil@ed.ac.uk> (The University of Edinburgh)
+2. Antonio Barbalace <antonio.barbalace@ed.ac.uk> (The University of Edinburgh)
+
+
+Submission #24: Contention resilience in overcommitted serverless deployments
+=============================================================================
+
+Abstract
+--------
+Serverless computing is becoming an increasingly popular deployment model which allows developers to focus on application functionality while delegating server resource management to a service provider. Serverless functions often experience extended periods of inactivity so a serverless platform that respects resource reservations may lead to wasted CPU resources. This problem can be exacerbated by the function concurrency feature, which requires users to reserve excess CPU resources to accommodate surges in incoming invocations. To address this, one potential approach is to overcommit cluster CPU resources, increasing the efficiency of serverless deployments at the cost of potentially increasing resource contention. In this talk, I present my work on a contention-resilient Linux kernel scheduler which addresses the scheduling overhead associated with overcommitted serverless deployments. We observe that the risk of contention increases in a high density deployment due to the large turnaround time under fairness policy implemented in modern schedulers. The proposed scheduling pushes the envelope of utilisation of CPU resources while ensuring predictable and stable system behaviour during overload. This extension complements work-conserving heuristics implemented in modern scheduler which enables opportunistic use of resource slack of colocated workloads. The key idea behind the extension is to relax the fairness requirement and prioritise the long tail of low concurrency functions. We observe that this makes a cluster worker more resilient to contention, allowing contended CPU run queues to drain more quickly, and other functions to execute with significantly less interruption. The proposed scheduler seamlessly integrates with Knative and is portable to any Linux cgroup-based serverless framework. I provide an extensive evaluation based on real-world workloads, and demonstrate a 20\% reduction in server cost.
+
+Authors
+-------
+1. Al Amjad Tawfiq Isstaif <aati2@cam.ac.uk> (University of Cambridge)
+2. Richard Mortier <rmm1002@cam.ac.uk> (University of Cambridge)
+
+
+Submission #25: Safeguarding your Kafka data with encryption-at-rest
+====================================================================
+
+Abstract
+--------
+Data privacy is a crucial issue in today's world: from medical to finance, from retail to the public sector, data must be handled in accordance with national laws, industry best-practices and corporate policies. This can present an obstacle to adoption of Apache Kafka, especially cloud based Kafka services, where confidential data rests in the clear.
+
+To solve this problem, you need encryption-at-rest, but unfortunately this is not a feature of Apache Kafka.
+
+We’ll look at how a Level 7 proxy can be a useful mechanism to introduce encryption-at-rest into the Kafka system and talk about the benefits of the approach.   Finally, we’ll share some experiences we’ve learnt whilst building a fully open source proxy for Apache Kafka with record-encryption capabilities.
+
+Author
+------
+Keith Wall <kwall@redhat.com> (None)
+
+
+Submission #27: Democratizing Fast Userspace Networking
+=======================================================
+
+Abstract
+--------
+Why is it that after a decade of research and development in userspace network stacks, their benefits remain inaccessible to most developers?
+We argue that this is because prior projects ignored (1) the hardware constraints of public cloud NICs and (2) the software architecture flexibility required by applications.
+All prior stacks target primarily bare-metal servers, depending on NIC features such as flow steering, that are not broadly available in virtualized NICs in public clouds.
+Most of these stacks enforce a restrictive execution model, e.g., one process per NIC, one thread per NIC queue, and no support for high-level languages.
+
+Our proposal to fix this problem is Machnet, a userspace network stack created specifically for public cloud VMs.
+Central to Machnet is a new ``Least Common Denominator'' NIC model, a conceptual NIC with the minimal feature set supported by all kernel-bypass Ethernet NICs.
+We create a new technique called RSS-- that provides flow-steering-like functionality in LCD NICs, which support only a restricted version of receive-side scaling.
+Machnet uses a microkernel design since it provides higher flexibility in application execution compared to a library OS design; we show that on large cloud networks, the inter-process communication overhead of microkernels is negligible.
+Our experiments show that Machnet works on today's three largest public clouds.
+We also demonstrate the latency and throughput benefits of Machnet for two real-world applications: a key-value store and state-machine replication.
+For the key-value store application, Machnet achieves 80\% lower latency and 75\% lower CPU utilization compared to Linux TCP/IP.
+
+Authors
+-------
+1. Alireza Sanaee <a.sanaee@qmul.ac.uk> (Queen Mary University of London)
+2. Gianni Antichi <gianni.antichi@polimi.it> (Politecnico di Milano and Queen Mary University of
+   London)
+
+
+Submission #28: Enabling User Control in IoT Device Traffic Management through Enhanced
+Open-Source MUD Manager Interface
+================================================================================================
+
+Abstract
+--------
+The Manufacturer Usage Description (MUD) standard introduces a clear approach to enforcement of Internet of Things (IoT) device network traffic. It requires manufacturers to define the network behaviour of their IoT devices within a MUD file, which is a JSON encoded YANG model containing access control lists (ACLs). These rules can be enforced at the network level by a network administrator or MUD manager to limit a device's network activities to the provided requirements. This allows the IoT devices to function normally without providing them unrestricted network access therefore introducing greater privacy and control over devices. In addition, when using a MUD manager this enforcement process is automatic and reduces the effort needed to secure IoT devices especially in larger networks. However, for an end user it’s difficult to understand or view the current state of the system with MUD files alone.  Furthermore, as MUD policies are defined by the manufacturers, the network requirements of the device may not match the policies or rules in place for the network they are connected to. Currently, users have no control over the policies being applied and have no way to override them without technical and complex changes. This application solves these problems. As an expansion to osMUD, an open-source MUD manager, the application adds a user interface and user policy manager to give users more control over which MUD policies are being enforced and for which device on the network. By connecting to the database which osMUD updates, the user can see a live view of the system with a list of all the devices currently being tracked by osMUD and interact with the individual MUD files attached to them. The user interface provides the user the ability to easily remove any policies as required to create a custom user defined policy. These user policies are handled by the user policy manager and sent directly to osMUD to be enforced on the network automatically. The application runs alongside osMUD with little changes required making it easy to install into a new or already existing MUD enforced network. In addition, the ability for quick iterations and changes to MUD files makes using and interacting with MUD easier for users which lowers the barrier to entry to running a MUD enforced network.  This application is in an early-stage of development with new features, including automatically creating MUD files PCAPs and managing MUD file history per device, planned for the future.
+
+Authors
+-------
+1. Louis Hatton <lwh506@york.ac.uk> (University of York, UK)
+2. Poonam Yadav <poonam.yadav@york.ac.uk> (University of York, UK)
+
+
+Submission #30: Introducing Socio-technical Change in Large-Scale Systems: A Distributed
+Participatory Design Approach
+================================================================================================
+
+Abstract
+--------
+Platforms like Wikipedia have transformed how we perceive knowledge-sharing. However, implementing technical changes in systems for large communities poses a significant challenge, often met with resistance akin to the Luddite movement that opposed industrialisation in the 19th century. Navigating these complexities and enabling successful adoption in large-scale systems requires careful negotiation of socio-technical relations.
+Despite Wikipedia’s immense success, partially attributed to its asynchronous collaboration model, persistent criticism remains. Researchers argue that the bureaucratic rules and technical infrastructure supporting this model contribute to Wikipedia’s content bias. However, Wikimedia data dumps are crucial for AI engines, making it essential to address gaps that may lead to biased AI perspectives. Efforts to introduce alternative collaboration models have been ongoing but unsuccessful. Nevertheless, the recurring nature of these initiatives suggests a community preference for features like real-time collaborative editing.
+Drawing from my research, which benefits from an adaptive methodology for co-designing socio-technical solutions in geographically distributed communities, I demonstrate how participatory design sessions and community engagement facilitated the design of WikiSync, the first Wikipedia training tool that involves real-time collaborative editing of Wikipedia articles co-designed using a distributed approach that involves the Wikipedia community through several phases that vary in focus and scope of user participation. By consulting the broader Wikipedia community using online social ideation and voting tools, I evaluated the desirability and applicability of the solution.
+In my presentation, I introduce a new Ethnographically-informed Distributed Participatory Design (EDPD) Framework (initially covered in my PhD thesis [1]) and its underlying six principles tailored to the needs of small teams developing socio-technical systems for large communities. Supported by insights gained from designing WikiSync, this framework aims to enhance online design in complex social settings, involve the community in solution design, and secure stakeholder acceptance through diverse community representation in system construction. Moreover, I discuss new directions in utilising the ‘efficiency and Care’ framework introduced by Rossitto et al. (2021) [2] for bringing socio-technical change.
+My presentation aims to encourage the UK Systems Community, particularly those engaged in open knowledge projects, to explore innovation approaches that prioritise community needs. By focusing on community-led solutions, we can address pressing societal challenges like digital poverty in the UK [3], which is the primary focus of my current research. The presentation offers insights into building inclusive digital environments while addressing critical societal needs, emphasising the importance of responsible design and participatory methodologies in shaping the future of large-scale systems. The talk concludes with an appeal for the UK Systems Community expertise to pave digital research pathways that address issues within open knowledge using such inclusive approaches.
+
+[1] https://dl.acm.org/doi/10.1145/3479611
+[2] https://research-repository.st-andrews.ac.uk/handle/10023/28494
+[3] https://api.parliament.uk/s/8e2afba6
+
+Author
+------
+Abd Alsattar Ardati <aaa8@st-andrews.ac.uk> (University of St Andrews)
+
+
+Submission #31: On Systems Reproducibility
+==========================================
+
+Abstract
+--------
+Systems research depends on reproducible artefacts to verify experi-
+mental findings and enable follow-on research [1, 2]. While artefact avail-
+ability is not mandatory, it makes verification through artefact evaluation
+committees possible and papers are assigned artefact badges to signal the
+work’s commitment to replicability and reproducibility [1].
+
+Selecting benchmark parameters that explore the full space of system
+inputs and behaviours is crucial as limited parameters can obfuscate un-
+desirable results and be prohibitively expensive to evaluation teams. For
+example, a paper may select an arrival rate which maximizes observed
+throughput while avoiding complications seen at higher rates. A thorough
+benchmark test scenarios which a system would experience as well as ex-
+tremes [3]. The hardware a system is tested under can influence results,
+allowing for inefficient practices that would be obvious on a scaled down
+system to be mitigated by increased compute power. Authors can avoid
+demonstrating negative results by using large amounts of compute power,
+limiting the potential of reproduction to groups with similar resources.
+
+Even a well-defined artefact can appear to perform differently than
+how it would in practice. An unoptimised system may scale better than
+the same system optimised [4], or a system could fail to correctly measure
+benchmark accuracy metrics [5]. Authors rely on metrics collected from
+a benchmark to ensure validity of a test, for instance by looking at the
+difference between desired and observed measurement interval or load
+[6]. A benchmark can coordinate with the system being tested and avoid
+capturing metrics which would alert authors to an invalid test [7]. This
+”coordinated omission” would mean metrics collected from a test would
+appear valid and be reported on regardless of the fact that the system
+failed [8]. A clear example of coordinated omission is YSCB failing to
+capture latency spikes due to the data structure which captures latency
+blocking the load generator [5].
+
+To facilitate reproducibility, papers commonly adopt closed-loop where
+the generator and system are attached and operate on state changes in
+each component [9]. This allows for easier evaluation as the entire artefact and benchmark are available together, and are not impacted by net- work behaviours. Experimentally, we demonstrate that stream generators and stream processing pipelines (including popular Nexmark and YCSB benchmarks) are susceptible to a coordinated omission problem induced
+by backpressure mechanisms [10]. Backpressure occurs when a stream
+processing system receives data faster than it can be processed, causing
+operators to halt, and processing delays propagate through the pipeline to
+upstream operators. In the real world the entire pipeline would halt up to
+the ingest operator, causing new tuples entering the system to be dropped.
+
+Meanwhile, under a closed system backpressure causes a benchmark gen-
+erator to also halt, causing a coordinated halt between the benchmark
+and system and the collected metrics to show all tuples were ingested.
+This presentation will: (a) highlight best practices for systems bench-
+marking spanning ACM guidelines, JSys, and industry standard bench-
+marks by SPEC [6]; (b) demonstrate how undetected failures and coordi-
+nated omission can obfuscate benchmark results; (c) demonstrate exper-
+imentally that backpressure can induce a coordinated omission problem
+in stream benchmarking; (d) offer recommendations for better design and
+running of experiments. This presentation represents our ongoing work to
+solve challenges to reproducibility in systems. We hope to provide guid-
+ance to practitioners in the design of artifact evaluation checklists and
+performance benchmarks.
+
+[1] Noa Zilberman and Andrew W. Moore. “Thoughts about ar-
+tifact badging.” In: ACM SIGCOMM Computer Communica-
+tion Review 50. 2020.
+
+[2] Stefan Winter et al. “A retrospective study of one decade of
+artifact evaluations.” In: Proceedings of the 30th ACM Joint
+European Software Engineering Conference and Symposium on
+the Foundations of Software Engineering. 2022.
+
+[3] Stefan Bouckaert et al. “BONFIRE: benchmarking computers
+and computer networks”. In: EU FIRE Workshop. 2011.
+
+[4] Frank McSherry, Michael Isard, and Derek G. Murray. “Scal-
+ability! But at what COST?” In: 15th Workshop on Hot Topics
+in Operating Systems (HotOS XV). Kartause Ittingen, Switzer-
+land: USENIX Association, 2015. url: https://www.usenix.
+org/conference/hotos15/workshop-program/presentation/
+mcsherry.
+
+[5] Nitasan Wakart. 2015. url: https://psy-lob-saw.blogspot.
+com/2015/03/fixing-ycsb-coordinated-omission.html.
+
+[6] SPECpowerssj2008RunandReportingRules. https : / / www .
+spec.org/power/docs/SPECpower_ssj2008-Run_Reporting_
+Rules.html#2.1.
+
+[7] Gil. Tene. “How NOT to Measure Latency.” In: Strange Loop
+Conference. 2015.
+
+[8] Ivan Prisyazhynyy. 2021. url: https://www.scylladb.com/
+2021/04/22/on-coordinated-omission/.
+
+[9] Bianca Schroeder, Adam Wierman, and Mor Harchol-Balter.
+“Open Versus Closed: A Cautionary Tale”. In: USENIX 3rd
+Symposium on Networked Systems Design Implementation.
+2006.
+
+[10] Ufuk Celebi. 2015. url: https://www.ververica.com/blog/
+how-flink-handles-backpressure.
+
+Authors
+-------
+1. Iain Dixon <i.g.dixon1@newcastle.ac.uk> (Newcastle University)
+2. Matthew Forshaw <matthew.forshaw@newcaslte.ac.uk> (Newcastle University)
+3. Joe Matthews <joe.matthews@newcastle.ac.uk> (Newcastle University)
+
+
