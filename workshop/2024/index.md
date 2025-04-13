@@ -82,16 +82,17 @@ students and early career researchers.
 - **Unanimous 2PC: fast, simple, and fault-tolerant distributed transactions**,
   Chris Jensen (University of Cambridge), Antonios Katsarakis (Huawei Research),
   Heidi Howard (Azure Research, Microsoft), Richard Mortier (University of
-  Cambridge) [[abstract](abstracts/srcw24-abstract4.txt)]
+  Cambridge)  
+  [[abstract](abstracts/srcw24-abstract4.txt)]
   [[paper](papers/srcw24-paper4.pdf)]
-- **Safeguarding your Kafka data with encryption-at-rest**, Keith Wall
+- **Safeguarding your Kafka data with encryption-at-rest**, Keith Wall  
    [[abstract](abstracts/srcw24-abstract25.txt)]
    [[paper](papers/srcw24-paper25.pdf)]
-- **Why you should care about sheaves**, Simon Dobson (University of St Andrews)
+- **Why you should care about sheaves**, Simon Dobson (University of St Andrews)  
    [[abstract](abstracts/srcw24-abstract8.txt)]
    [[paper](papers/srcw24-paper8.pdf)]
 - **On Systems Reproducibility**, Iain Dixon (Newcastle University), Matthew
-  Forshaw (Newcastle University), Joe Matthews (Newcastle University)
+  Forshaw (Newcastle University), Joe Matthews (Newcastle University)  
    [[abstract](abstracts/srcw24-abstract31.txt)]
    [[paper](papers/srcw24-paper31.pdf)]
 
@@ -101,26 +102,26 @@ students and early career researchers.
 
 - **Achieving Balanced Lock Usage Fairness & Lock Utilization using
   Wuji-Locks**, Xueheng Wang (University of Edinburgh), Leping Li (University of
-  Edinburgh), Yuvraj Patel (University of Edinburgh)
+  Edinburgh), Yuvraj Patel (University of Edinburgh)  
    [[abstract](abstracts/srcw24-abstract3.txt)]
    [[paper](papers/srcw24-paper3.pdf)]
 - **Developing a Modern Kubernetes based Study Management Platform**, Hugo Hiden
-  (Newcastle University), Stephen Dowsland (Newcastle University)
+  (Newcastle University), Stephen Dowsland (Newcastle University)  
   [[abstract](abstracts/srcw24-abstract9.txt)]
   [[paper](papers/srcw24-paper9.pdf)]
 - **Enabling User Control in IoT Device Traffic Management through Enhanced
   Open-Source MUD Manager Interface**, Louis Hatton (University of York), Poonam
-  Yadav (University of York)
+  Yadav (University of York)  
   [[abstract](abstracts/srcw24-abstract28.txt)]
   [[paper](papers/srcw24-paper28.pdf)]
 - **New CARD: A Vertically Integrated Teaching Tool for Microarchitecture**,
   Mária Ďuračková (University of Edinburgh), Nigel Topham (University of
-  Edinburgh) 
+  Edinburgh)  
   [[abstract](abstracts/srcw24-abstract15.txt)]
   [[paper](papers/srcw24-paper15.pdf)]
 - **From Internet to Emulator: A Virtual Testbed for Internet Routing
   Protocols**, Joshua Levett (University of York), Poonam Yadav (University of
-  York), Vassilios Vassilakis (University of York)
+  York), Vassilios Vassilakis (University of York)  
   [[abstract](abstracts/srcw24-abstract12.txt)]
   [[paper](papers/srcw24-paper12.pdf)]
 
@@ -130,25 +131,25 @@ students and early career researchers.
 
 - **Producing Fast Full-system Emulators from Formal Specifications**, Ferdia
   McKeogh (University of St Andrews), Tom Spink (University of St Andrews), Al
-  Dearle (University of St Andrews) 
+  Dearle (University of St Andrews)  
   [[abstract](abstracts/srcw24-abstract6.txt)]
   [[paper](papers/srcw24-paper6.pdf)]
 - **Hardware just-in-time compilation**, Kimberley Stonehouse (University of
-  Edinburgh) 
+  Edinburgh)  
   [[abstract](abstracts/srcw24-abstract7.txt)]
   [[paper](papers/srcw24-paper7.pdf)]
 - **Weaver: Streamlining LLM Inference with Spatial Accelerators**, Congjie He
   (University of Edinburgh), Yeqi Huang (University of Edinburgh), Luo Mai
-  (University of Edinburgh) 
+  (University of Edinburgh)  
   [[abstract](abstracts/srcw24-abstract16.txt)]
   [[paper](papers/srcw24-paper16.pdf)]
 - **A collaborative approach to leverage overlapping-ISA heterogeneous multicore
-  architectures**, Jiaxun Yang (University of Edinburgh)
+  architectures**, Jiaxun Yang (University of Edinburgh)  
   [[abstract](abstracts/srcw24-abstract17.txt)]
   [[paper](papers/srcw24-paper17.pdf)]
 - **Introducing Page Table Garbage Collection For Faster and Better Memory
   Utilisation**, Karim Manaouil (University of Edinburgh), Antonio Barbalace
-  (University of Edinburgh) 
+  (University of Edinburgh)  
   [[abstract](abstracts/srcw24-abstract23.txt)]
   [[paper](papers/srcw24-paper23.pdf)]
 
@@ -157,27 +158,27 @@ students and early career researchers.
 **15:30--17:10** <u>Session 4: Containers</u> (chair Poonam Yadav)
 
 - **Themelios: a model-checked reimplementation of Kubernetes**, Andrew Jeffery
-  (University of Cambridge), Richard Mortier (University of Cambridge)
+  (University of Cambridge), Richard Mortier (University of Cambridge)  
   [[abstract](abstracts/srcw24-abstract2.txt)]
   [[paper](papers/srcw24-paper2.pdf)]
 - **Composing Microservices and Serverless for Load Resilience**, Dilina
   Dehigama (University of Edinburgh), Shyam Jesalpura (University of Edinburgh),
-  Boris Grot (University of Edinburgh) 
+  Boris Grot (University of Edinburgh)  
   [[abstract](abstracts/srcw24-abstract14.txt)]
   [[paper](papers/srcw24-paper14.pdf)]
 - **CoreKube: An Efficient, Autoscaling and Resilient Mobile Core System**,
   Andrew E. Ferguson (University of Edinburgh), Jon Larrea (University of
-  Edinburgh), Mahesh K. Marina (University of Edinburgh)
+  Edinburgh), Mahesh K. Marina (University of Edinburgh)  
   [[abstract](abstracts/srcw24-abstract18.txt)]
   [[paper](papers/srcw24-paper18.pdf)]
 - **Serverless Native Analytics Engine**, Shyam Jesalpura (University of
   Edinburgh), Shengda Zhu (University of Edinburgh), Boris Grot (University of
-  Edinburgh), Amir Shaikhha (University of Edinburgh)
+  Edinburgh), Amir Shaikhha (University of Edinburgh)  
   [[abstract](abstracts/srcw24-abstract19.txt)]
   [[paper](papers/srcw24-paper19.pdf)]
 - **Contention resilience in overcommitted serverless deployments**, Al Amjad
   Tawfiq Isstaif (University of Cambridge), Richard Mortier (University of
-  Cambridge) 
+  Cambridge)  
   [[abstract](abstracts/srcw24-abstract24.txt)]
   [[paper](papers/srcw24-paper24.pdf)]
 
@@ -193,7 +194,7 @@ students and early career researchers.
 **10:00--10:20** <u>Session 5: Security<u> (chair Tom Spink)
 
 - **Defence Against the Unknown: Preventing Side Channel Attacks You Don’t Know
-  Exist**, Gregor Haywood (University of St Andrews)
+  Exist**, Gregor Haywood (University of St Andrews)  
   [[abstract](abstracts/srcw24-abstract11.txt)]
   [[paper](papers/srcw24-paper11.pdf)]
 
@@ -203,18 +204,18 @@ students and early career researchers.
 
 - **Divert, not Throttle: Colocating Batched Jobs with Online Services in
   Datacenters**, Alan Nair (University of Edinburgh), Antonio Barbalace
-  (University of Edinburgh) 
+  (University of Edinburgh)  
   [[abstract](abstracts/srcw24-abstract22.txt)]
   [[paper](papers/srcw24-paper22.pdf)]
 - **MoE-Infinity: Activation – Aware Expert Offloading for Efficient MoE
   Serving**, Leyang Xue (University of Edinburgh), Yao Fu (University of
   Edinburgh), Zhan Lu (University of Edinburgh), Luo Mai (University of
-  Edinburgh), Mahesh K. Marina (University of Edinburgh)
+  Edinburgh), Mahesh K. Marina (University of Edinburgh)  
   [[abstract](abstracts/srcw24-abstract13.txt)]
   [[paper](papers/srcw24-paper13.pdf)]
 - **Introducing Socio-technical Change in Large-Scale Systems: A Distributed
   Participatory Design Approach**, Abd Alsattar Ardati (University of St
-  Andrews) 
+  Andrews)  
   [[abstract](abstracts/srcw24-abstract30.txt)]
   [[paper](papers/srcw24-paper30.pdf)]
 
@@ -222,12 +223,12 @@ students and early career researchers.
 
 - **InfiniTensor: A Tensor-Friendly, Efficient Parallel Programming Library for
   Accelerator-Centric Clusters**, Yeqi Huang (University of Edinburgh), Congjie
-  He (University of Edinburgh), Luo Mai (University of Edinburgh)
+  He (University of Edinburgh), Luo Mai (University of Edinburgh)  
   [[abstract](abstracts/srcw24-abstract20.txt)]
   [[paper](papers/srcw24-paper20.pdf)]
 - **RIPEn at home - Surveying internal domain names using RIPE Atlas**,
   Elizabeth Boswell (University of Glasgow), Colin S. Perkins (University of
-  Glasgow) 
+  Glasgow)  
   [[abstract](abstracts/srcw24-abstract10.txt)]
   [[paper](papers/srcw24-paper10.pdf)]
 
