@@ -28,7 +28,7 @@ We're interested in presentations that speak to:
 
 Past topics have included everything from system security and architecture, to
 consensus and engineering, to data visualisation, data centres and the Internet
-of Things. We aim to be broad and inclusive-- if it's a matter that has bearing
+of Things. We aim to be broad and inclusive -- if it's a matter that has bearing
 on how we design, build, operate and use large-scale computing systems, it's in
 scope.
 
