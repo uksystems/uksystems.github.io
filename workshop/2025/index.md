@@ -176,7 +176,7 @@ students and early career researchers.
 
 ----
 
-### Friday 17th April
+### Thursday 17th April
 
 **07:00--08:30** Breakfast (Restaurant 1744)
 
