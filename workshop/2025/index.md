@@ -105,7 +105,7 @@ students and early career researchers.
   [[abstract](abstracts/)] [[paper](papers/paper20.pdf)]
 - **Benchmarking Multi-LoRA Adapters on the vLLM TPU and GPU Backends Using
   Llama3.1 models**, S. Bhattacharjee, A. Tripathi, J. Huang, A. Lokhmotov  
-  [[abstract](abstracts/)] [[paper](papers/)]
+  [[abstract](abstracts/)] [[paper](papers/paper24.pdf)]
 - **KISS-V: An Optimized Inference Server for Text-to-Video Generation Models**,
   A. Tripathi  
   [[abstract](abstracts/)] [[paper](papers/paper26.pdf)]
