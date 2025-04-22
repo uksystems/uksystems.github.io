@@ -79,7 +79,7 @@ students and early career researchers.
 
 **09:00--09:10** Welcome & introductions (Prince Bishop Suite) *(Tom Spink)*
 
-**09:10--10:30** <u>Session 1: Networking</u> (chair TBC)
+**09:10--10:30** <u>Session 1: Networking</u>
 
 - **A Data-Plane-Only Approach to Accurate Persistent Flow Detection on
   Programmable Switches in High-Speed Networks**, W. Li, B. Bütün, T. Chu, M.
@@ -95,7 +95,7 @@ students and early career researchers.
 
 **10:30--11:00** Coffee break
 
-**11:00--12:15** <u>Session 2: Short Talks</u> (chair TBC)
+**11:00--12:15** <u>Session 2: Short Talks</u>
 
 - **Trusting Trustworthy AI: what’s the right framework?**, A. Martin  
   [[abstract](abstracts/)] [[paper](papers/paper10.pdf)]
@@ -116,7 +116,7 @@ students and early career researchers.
 
 **12:15--13:30** Lunch
 
-**13:30--15:10** <u>Session 3: Operating Systems</u> (chair TBC)
+**13:30--15:10** <u>Session 3: Operating Systems</u>
 
 - **Signal-based Container Monitoring for Improved Microservice Availability**,
   J. Roberts, B. Archibald, P. Trinder  
@@ -135,7 +135,7 @@ students and early career researchers.
 
 **15:10--15:30**  Coffee break
 
-**15:30--17:10** <u>Session 4: AI & Hardware</u> (chair TBC)
+**15:30--17:10** <u>Session 4: AI & Hardware</u>
 
 - **Smart Casual Verification of the Confidential Consortium Framework**, H.
   Howard, M. Kuppe, E. Ashton, A. Chamayou, N. Crooks  
@@ -154,7 +154,7 @@ students and early career researchers.
 
 **19:00--21:00** Dinner
 
-**21:00--22:00** Lightning Talks (chair )
+**21:00--22:00** Lightning Talks
 
 - Short (5 minute) talks on any relevant topic
 
@@ -166,7 +166,7 @@ students and early career researchers.
 
 **09:00--09:15** Welcome back
 
-**09:15--10:15** <u>Session 5: Short talks<u> (chair TBC)
+**09:15--10:15** <u>Session 5: Short talks<u>
 
 - **Using metadata to perform schema-based optimizations in schema-optional
   graph databases**, J. Whiteside  
@@ -181,7 +181,7 @@ students and early career researchers.
 
 **10:15--10:40** Coffee Break
 
-**10:40--12:00** <u>Session 6: Distributed Systems</u> (chair TBC)
+**10:40--12:00** <u>Session 6: Distributed Systems</u>
 
 - **Aurendil**, J. Clarkson  
   [[abstract](abstracts/)] [[paper](papers/paper17.pdf)]
