@@ -1,0 +1,12 @@
+Submission #26: KISS-V: An Optimized Inference Server for Text-to-Video Generation Models
+=========================================================================================
+
+Abstract
+--------
+Large Language Model inference has been extensively optimised through specialised servers such as vLLM and SGLang. However, despite their growing prominance, Video Generation Models lack similar dedicated infrastructure. These models typically employ a multi-stage pipeline where encoders transform text, image, or video inputs into latent representations, which are then processed by a Diffusion Transformer (DiT) backbone before being decoded into the final video output. This architecture creates a distinct and more complex inference profile that demands tailored optimization approaches. We present KISS-V, a high-performance inference server specifically designed for video generation models. By implementing novel techniques such as Context Parallelism alongside other specialized optimizations, KISS-V significantly accelerates inference for this emerging class of models, addressing a critical gap in the generative AI infrastructure landscape.
+
+Author
+------
+Akshat Tripathi <akshat@krai.ai> (Krai)
+
+

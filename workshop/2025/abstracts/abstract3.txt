@@ -1,0 +1,18 @@
+Submission #3: A Data-Plane-Only Approach to Accurate Persistent Flow Detection on Programmable
+Switches in High-Speed Networks
+================================================================================================
+
+Abstract
+--------
+In high-speed data center networks, persistent flows are repeatedly observed over extended periods, potentially signaling threats such as stealthy DDoS or botnet attacks. Monitoring every flow in production-grade hardware switches that feature limited memory, however, is challenging under typical high flow rates and data volumes. To tackle this, approximate data structures—i.e., sketches—are often employed in cutting-edge programmable switches. Yet many existing methods rely on per-time-window flag resets, which require frequent control-plane interventions that make them unsuitable for high-speed traffic. This paper introduces Pallas, a fully data-plane-implementable sketch for detecting persistent flows in high-speed networks with high accuracy.
+
+Authors
+-------
+1. Weihe Li <weihe.li@ed.ac.uk> (University of Edinburgh)
+2. Beyza Bütün <beyza.butun@imdea.org> (IMDEA Networks Institute and Universidad Carlos III de
+   Madrid)
+3. Tianyue Chu <tianyue.chu@imdea.org> (IMDEA Networks Institute)
+4. Marco Fiore <marco.fiore@imdea.org> (IMDEA Networks Institute)
+5. Paul Patras <paul.patras@ed.ac.uk> (The University of Edinburgh)
+
+

@@ -1,0 +1,21 @@
+Submission #8: Understanding how to implement sparse matrix operations efficiently
+==================================================================================
+
+Abstract
+--------
+Lots of modern software is built around linear algebra, for
+scientific computing, machine learning, AI, or realistic
+immersive graphics. But we are increasingly encountering /sparse/
+matrices which require completely different technology than the
+GPU acceleration that has been applied so successfully to dense
+matrices. In this talk we will explore the challenges involved
+in making efficient the inherently irregular calculations and
+storage involved in manipulating sparse matrices. This involves
+addressing several systems problems simultaneously in the
+relationships between programs, cores, caches, and memory.
+
+Author
+------
+Simon Dobson <simon.dobson@st-andrews.ac.uk> (University of St Andrews)
+
+

@@ -1,0 +1,17 @@
+Submission #30: Fast, Scalable Authentication in Datacenters
+============================================================
+
+Abstract
+--------
+The ongoing trend from monolithic to microservices in datacenter puts increasingly pressure on secure communication performance as the crypto operations are relatively costly, partly due to the need for mutual authentication between services or gateways, or due to the need for post-quantum cryptography.  Although the cryptographic dataplanes, such as application data encryption and decryption, can be easily offloaded to accelerator devices, secure session initiation, including key exchange and authentication, involves a lot of complex operations that are hard to offload to those devices.
+
+Key exchange overheads are crucial in modern systems, because the lifetime of a single compute instance is getting shorter and shorter due to the trend of serverless architecture, which (cold- or warm-) starts a VM, container or unikernel every function execution. Startup time of those instances has been optimized, but even if those are fully achieved, authentication overheads remain or start to be highlighted.
+
+We propose a new key exchange protocol to meet aforementioned requirements, exploiting unique opportunities seen in datacenters, including centralized certificate management and short-lived hash-based signatures. We demonstrate our approach using custom mTLS protocol and implementation integrated with PicoTLS library.
+
+Authors
+-------
+1. Xinshu Ma <x.ma@ed.ac.uk> (University of Edinburgh)
+2. Michio Honda <michio.honda@ed.ac.uk> (University of Edinburgh)
+
+

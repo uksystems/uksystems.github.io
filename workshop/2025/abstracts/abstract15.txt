@@ -1,0 +1,49 @@
+Submission #15: Isolating data structures in the Linux Kernel for stronger performance isolation
+guarantees
+================================================================================================
+
+Abstract
+--------
+Shared environments such as datacenters account for the largest growth and value in computing as they provide
+highly efficient enterprise computing power, reducing costs and CO2 emissions. However, datacenters have an
+Achilles’ heel. While we want to idealize shared environments as being perfectly isolated, in reality, applications
+and services run atop concurrent shared infrastructure, where multiple tenants share physical hardware. As tenants
+with varied requirements run concurrently, strong performance isolation must be guaranteed to prevent one tenant’s
+workload harming another tenant’s performance, breaking higher-level goals defined in service-level agreements.
+Despite multiple solutions controlling the usage of the four main resources – CPU, disk, memory, and network [2,
+4, 7, 12, 5, 11], guaranteeing strong performance isolation is hard. Several reports demonstrate performance
+interference [6, 3, 1, 10]. Recently, it has been shown how unfair usage of synchronization primitives can lead
+to fairness [9] and security issues [8], degrading performance. By considering synchronization primitives as
+resources, one can improve isolation guarantees by providing lock usage fairness. However, we hypothesize there
+are other aspects within a system to consider which will strengthen isolation. For this purpose, we propose looking
+to shared data structures within operating systems.
+Concurrent data structures are used to implement various applications such as key-value stores, hypervisors,
+and operating systems. Given their concurrent nature, multiple processes interact with these data structures. In
+a shared environment such as the operating system, these processes may or may not belong to the same tenants.
+Moreover, each tenant may have performance requirements that need to be guaranteed by the operating system.
+Therefore, it is imperative to ensure strong performance isolation in these environments.
+Consider a linked list within an operating system which supports a functionality that tenants may access via
+syscalls. Consider two tenants making accesses, where the first inserts millions of kernel objects while the second
+only inserts a handful. The second tenant, while accessing its entries, may have to traverse the entries of the
+other tenant, wasting time unnecessarily through no fault of their own, degrading performance. As such, it makes
+sense to isolate the list so one tenant’s actions do not impact the performance of another, thereby strengthening
+performance isolation.
+Based on the above, we analyze various data structures, such as the inode cache and futex table, within the
+Linux kernel. Recent work [8] has targeted these structures to create performance interference and denial-of-
+service attacks. We aim to isolate the cost of other users’ work from each other while still sharing data structures.
+However, there exists a conundrum where isolation is antithetical to sharing.
+We present a strategy to reconcile sharing with isolation concerning Linux kernel data structures. In general, we
+create per-user substructures within shared structures, letting users experience predictable performance affected
+only by their workload, not others. In the futex table, a two-level hash isolates users into private buckets within
+the shared table, eliminating interference. For the inode cache, per-user lists paired with Bloom filters minimize
+global state checks while preventing collisions. Early results in futex testing show promising results in eliminating
+attack-induced latency under synthetic workloads.
+
+Authors
+-------
+1. Ross Cannon <s2209263@ed.ac.uk> (Student, University of Edinburgh)
+2. Eliot Wearden <s2186557@ed.ac.uk> (Student, University of Edinburgh)
+3. Yuvraj Patel <ypatel@ed.ac.uk> (Lecturer/Researcher, University of Edinburgh)
+4. Ross Cannon <rosscannon2003@sky.com> (Personal email)
+
+

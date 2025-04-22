@@ -1,0 +1,78 @@
+Submission #28: Remote TCP Connection Offload with XO
+=====================================================
+
+Abstract
+--------
+TCP has been widely used in web applications, disaggregated
+storage systems, and distributed data processing frameworks
+running in a private or public cloud. Operating systems have
+added a number of enhancements in their network stack,
+such as zero copy and I/O batching, and NIC ven-
+dors have implemented many offloading capabilities, such
+as segmentation offload and TLS offload.
+
+Individual TCP servers are usually part of a cluster that
+scales-out the service beyond the capacity that a single host
+can offer. Those systems scale-out processing load to repli-
+cated servers or storage capacity to sharded servers that
+maintain different subset of the storage data. Scale-out ser-
+vices are usually built transparent to the client; the clients do
+not notice which exact server host is serving their requests.
+In either case, to distribute the request load to multiple
+servers, operators employ load balancers (LBs). Layer 4 load
+balancers (L4LBs) are lightweight because they distribute the
+traffic in a transport-level connection granularity and thus
+only need packet-level operations. However,
+since the connection, which can last long, is permanently
+handled by a chosen server, the system that is load-balanced
+solely by L4LBs cause load imbalance over time.
+
+Layer 7 load balancers (L7LBs) proxy the client TCP con-
+nections (and usually TLS sessions) typically in the applica-
+tion layer and relays data between the server- and client-side
+communication sections (Figure 1 middle). L7LBs can apply
+more complex server selection policy than L4LBs, because
+they can use the application-level request content. Further,
+they can select another server during the lifetime of the client
+connection without the client to notice, because the client
+connections stay at the L7LB. Dynamic server selection is
+used, for example, when the chosen server does not have
+a requested storage data or becomes overwhelmed. How-
+ever, relaying the data stresses the L7LB’s CPU, memory and
+network bandwidth resources.
+
+We propose Remote TCP Connection Offload
+(XO), a set of concept and techniques that enables a host
+to offload a TCP connection and application-level processing
+to another host for flexible, dynamic cluster resource utiliza-
+tion. XO achieves the best aspects of L4LB
+and L7LB. Like L4LB, ingress traffic goes to the offload tar-
+get machine with a lightweight packet-level processing and
+egress traffic can be sent in a direct server return (DSR) man-
+ner, bypassing the load balancer or the host that has accepted
+the connection. Like L7LB, XO enables request-granularity
+server selection.
+
+XO is applicable to a wide range of scale-out systems,
+because it supports both replicated and sharded backends,
+as well as load re-balancing. We thus applied XO to both
+types of real applications. For the former, we use nginx, a
+popular web server that is also used as L7LB, demonstrating
+its lightweight, dynamic load balancing. For the latter, we use
+Ceph, a widely-used object storage store that scales out the
+storage capacity with sharded storage devices, enabling its
+storage gateway to offload the client connection processing
+to a storage device for better CPU and network resource
+utilization.
+
+We applied XO to two real-world applications, Ceph and nginx, improving
+throughput by up to 130 % and 300 %, respectively.
+
+Authors
+-------
+1. Shuo Li* <s.li@ed.ac.uk> (University of Edinburgh)
+2. Steven Chien* <steven.chien@ed.ac.uk> (University of Edinburgh)
+3. Tianyi Gao <tianyi.gao@ed.ac.uk> (University of Edinburgh)
+4. Michio Honda <michio.honda@ed.ac.uk> (University of Edinburgh)
+
+

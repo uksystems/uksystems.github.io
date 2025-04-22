@@ -1,0 +1,30 @@
+Submission #29: The Case for OS-Level Website Fingerprinting Protection
+=======================================================================
+
+Abstract
+--------
+We argue the need for generic OS-level
+protection against Website Fingerprinting Attacks. We believe the OS kernel is the
+right place to implement such a protection framework because of two reasons. First, the OS is where the major WF
+attack surfaces, such as packet size and timing, are ultimately
+created. In addition to packet scheduling described earlier,
+the TCP implementation makes a decision about how the
+application-level bytestream is segmented into the packets
+through the generic segmentation offload interface at the
+lower layer. Second, the OS kernel has visibility and control
+of the traffic sent or received by all the transport protocol
+implementations running in the host, whereas individual
+ones do not have that. This could create opportunities of
+making the host traffic more robust against WF attacks by
+making the obfuscation decision based on other co-existing
+traffic.
+
+Our early results show that, based on the k-FP model, the state-of-the-art WFA algorithm, just  adding as little delay as 0.25 ms to the base RTT of 0.20 ms has a significant impact on the accuracy of the attack, indicating the feasibility of OS-level traffic manipulation to prevent WFAs.
+
+Authors
+-------
+1. Lisa Lavrentieva <e.lavrentieva@sms.ed.ac.uk> (University of Edinburgh)
+2. Marc Juarez <marc.juarez@ed.ac.uk> (University of Edinburgh)
+3. Michio Honda <michio.honda@ed.ac.uk> (University of Edinburgh)
+
+

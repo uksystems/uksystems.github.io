@@ -1,0 +1,19 @@
+Submission #21: Role and Performance Evaluation of an Order Protocol in Building Replicated
+Databases
+================================================================================================
+
+Abstract
+--------
+Theory of distributed computing has long established that (i) total ordering of
+messages or \textit{Atomic Broadcast} and solving \textit{Consensus} are 
+reducible to each other under crash failures; (ii) the two phase commit (2PC) is only a simplified instance of consensus; and (iii) maximum throughput is achieved when message ordering is done over a logical, unidirectional ring network. Leveraging these findings together for the first time to our knowledge, we address three principal challenges in building crash-resilient databases: concurrency control for 1-copy serialisability,  2PC implementation, and high throughput expected of modern day database systems. At the core of our approach is a ring-based total order protocol that we had designed and implemented. Database replicas use it to reach consensus on conflicting transactions that should be aborted to ensure serialisability and to atomically commit surviving transactions. We will present the architecture for managing database replication and then our protocol performance when replication degree is two and three, tolerating at most one replica crash. While 2-fold replication requires perfect crash detection, three-fold can do with weak detectors. Performance evaluation will focus on response times for replicas to reach
+consensus on transactions to be aborted.
+
+Authors
+-------
+1. Ye Liu <y.liu197@newcastle.ac.uk>
+2. Yingming Wang <y.wang303@newcastle.ac.uk>
+3. Paul Ezhilchelvan <paul.ezhilchelvan@newcastle.ac.uk>
+4. Jim Webber <Jim.Webber@neo4j.com>
+
+

@@ -1,0 +1,17 @@
+Submission #4: Designing Transport-Level Encryption for Datacenter Networks
+===========================================================================
+
+Abstract
+--------
+Cloud applications need network data encryption to isolate from other tenants and protect their data from potential eavesdroppers in the network infrastructure. This paper presents SDT, a protocol design for emerging datacenter transport protocols, such as NDP and Homa, to integrate data encryption. SDT enables an new design point of transport- level encryption that supports a existing NIC offloading designed for TLS over TCP, new protocol number other than TCP and UDP, and message-based abstraction that enables various in-network compute and host stack load balancing.
+
+Authors
+-------
+1. Tianyi Gao <tianyi.gao@ed.ac.uk> (University of Edinburgh)
+2. Xinshu Ma <x.ma@ed.ac.uk> (University of Edinburgh)
+3. Suhas Narreddy <s.narreddy@sms.ed.ac.uk> (University of Edinburgh)
+4. Eugenio Luo <e.luo-1@sms.ed.ac.uk> (University of Edinburgh)
+5. Steven Chien <steven.chien@ed.ac.uk> (University of Edinburgh)
+6. Michio Honda <michio.honda@ed.ac.uk> (University of Edinburgh)
+
+

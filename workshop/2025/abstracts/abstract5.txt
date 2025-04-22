@@ -1,0 +1,18 @@
+Submission #5: TrueJIT – Learning and Prediction of Compilation Sequences in a Centralized JIT
+Compiler
+================================================================================================
+
+Abstract
+--------
+In recent years, we have observed the development of centralized JIT compilers serving many compiler-less LVM clients at once. While centralized JIT compilation reduces CPU and memory overhead due to global code caching and code reuse, it introduces additional latency between LVM clients and the central JIT compilation server. In this paper, we investigate opportunities for hiding this latency. We explore how sequences of JIT compilation requests can be learned by the centralized JIT compiler and predicted. We train an LSTM network with JIT compilation requests and, during deployment, use this to proactively compile and deliver native code to the LVM clients in a true just-in-time fashion, i.e., with minimal latency for the LVM clients.
+
+We have implemented our novel scheme in a distributed WebAssembly environment and evaluated it against several benchmark suites, including real-world applications from various application domains. We show that learning JIT compilation sequences is feasible and that predictive speculation is effective in hiding JIT compilation latency. We demonstrate that centralized JIT compilation assisted by code caching, predictive compilation, and code delivery reduces JIT compilation latency by, on average, 1–2 orders of magnitude for complex and timing-critical workloads.
+
+Authors
+-------
+1. Amir Khordadi <amir.khordadi@ed.ac.uk> (University of Edinburgh)
+2. Kimberley Stonehouse <kim.stonehouse@ed.ac.uk> (University of Edinburgh)
+3. Björn Franke <bfranke@inf.ed.ac.uk> (University of Edinburgh)
+4. Tom Spink <tcs6@st-andrews.ac.uk> (University of St Andrews)
+
+
