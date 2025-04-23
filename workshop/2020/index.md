@@ -28,7 +28,6 @@ Workshop as a virtual seminar series. Please see program below.**
 - "**AutoAI and Machine Learning Systems Design**", Neil Lawrence (University of
   Cambridge)  
   [[abstract](abstracts/uksystems2020-abstract39.txt)]
-  [[pdf](pdfs/uksystems2020-paper39.pdf)]
   [[slides](slides/presso39.url)]
 - "**Pricing Python Parallelism : Guided JIT compilation for Heterogeneous
   Architectures**", Dejice Jacob (University of Glasgow)  
@@ -41,17 +40,14 @@ Workshop as a virtual seminar series. Please see program below.**
 - "**Towards In-Switch Reinforcement Learning**", Kyle Simpson (University of
   Glasgow)  
   [[abstract](abstracts/uksystems2020-abstract9.txt)]
-  [[pdf](pdfs/uksystems2020-paper9.pdf)]
 - "**Liberating Consensus: benchmarking consensus systems**", Chris Jensen
   (University of Cambridge), Daniel Saaw (University of Cambridge), Heidi Howard
   (University of Cambridge), Richard Mortier (University of Cambridge)  
   [[abstract](abstracts/uksystems2020-abstract30.txt)]
-  [[pdf](pdfs/uksystems2020-paper30.pdf)]
   [[slides](slides/presso30.pdf)]
 - "**The role of Reactive and Event-Driven Applications in Microservice
   Architectures**", Clement Escoffier (Red Hat)  
   [[abstract](abstracts/uksystems2020-abstract4.txt)]
-  [[pdf](pdfs/uksystems2020-paper4.pdf)]
   [[slides](slides/presso4.pdf)]
 
 ### 3rd December 2020, 10:30-12:00
@@ -65,11 +61,9 @@ Workshop as a virtual seminar series. Please see program below.**
   buildings**", Vadim Safronov (University of Cambridge), Ian Lewis (University
   of Cambridge), Richard Mortier (University of Cambridge)  
   [[abstract](abstracts/uksystems2020-abstract16.txt)]
-  [[pdf](pdfs/uksystems2020-paper16.pdf)]
 - "**PASTE: Network-Storage Stack Co-Design for Persistent Memory**", Michio
   Honda (University of Edinburgh)  
   [[abstract](abstracts/uksystems2020-abstract27.txt)]
-  [[pdf](pdfs/uksystems2020-paper27.pdf)]
 
 ### 9th December 2020, 14:00-15:30
 
@@ -86,12 +80,10 @@ Workshop as a virtual seminar series. Please see program below.**
   Research), Miguel Castro (Microsoft Research), Olga Vrousgou (Microsoft
   Research), Sylvan Clebsch (Microsoft Research)  
   [[abstract](abstracts/uksystems2020-abstract17.txt)]
-  [[pdf](pdfs/uksystems2020-paper17.pdf)]
   [[slides](slides/presso17.pdf)]
 - "**Parsing Protocol Standards**", Stephen McQuistin (University of Glasgow),
   Vivian Band (University of Glasgow), Colin Perkins (University of Glasgow)  
   [[abstract](abstracts/uksystems2020-abstract3.txt)]
-  [[pdf](pdfs/uksystems2020-paper3.pdf)]
 - "**The Efficiency Death-March: The Unintended Consequences of Large-scale
   Systems Research upon Climate Change**", Peter Garraghan (Lancaster
   University)  
@@ -111,7 +103,6 @@ Workshop as a virtual seminar series. Please see program below.**
   Andrews), Alan Dearle (University of St Andrews), Jon Lewis (University of St
   Andrews), Ward Jaradat (University of St Andrews)  
   [[abstract](abstracts/uksystems2020-abstract40.txt)]
-  [[pdf](pdfs/uksystems2020-paper40.pdf)]
   [[slides](slides/presso40.pdf)]
 - "**What am I waiting for? Energy and Performance Optimization on big.LITTLE
   Architectures: A Memory-latency Aware Approach**", Willy Wolff (Lancaster
