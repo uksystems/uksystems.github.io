@@ -3,7 +3,7 @@ title: Tenth Annual UK System Research Challenges Workshop 2026
 layout: default
 ---
 
-# Tenth Annual UK System Research Challenges Workshop, April 15 -- April 17, 2026
+# Tenth Annual UK System Research Challenges Workshop, April 21 -- April 23, 2026
 
 ## Call for Presentations & Participation
 
@@ -67,14 +67,14 @@ boards will be available from Tuesday night for you to set-up.
 ---------
 
 - **Abstract submission deadline:** 15th March 2026
-- **Acceptance notification and presentation programme:** 24th March 2025
-- **Registration deadline:** 9th April 2025
-- **Workshop dates:** arrival evening 15th April, closing with lunch 17th April
+- **Acceptance notification and presentation programme:** 24th March 2026
+- **Registration deadline:** 10th April 2026
+- **Workshop dates:** arrival evening 21st April, closing with lunch 23rd April 2026
 
 ## Programme
 ----
 
-### Tuesday 15th April
+### Tuesday 21st April
 
 TBA
 
@@ -82,7 +82,7 @@ TBA
 
 ----
 
-### Wednesday 16th April
+### Wednesday 22nd April
 
 TBA
 
@@ -92,7 +92,7 @@ TBA
 
 ----
 
-### Thursday 17th April
+### Thursday 23rd April
 
 TBA
 
