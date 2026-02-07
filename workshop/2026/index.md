@@ -3,7 +3,7 @@ title: Tenth Annual UK System Research Challenges Workshop 2026
 layout: default
 ---
 
-# Tenth Annual UK System Research Challenges Workshop, April 21 -- April 23, 2025
+# Tenth Annual UK System Research Challenges Workshop, April 15 -- April 17, 2026
 
 ## Call for Presentations & Participation
 
