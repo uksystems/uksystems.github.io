@@ -16,6 +16,8 @@ idea or presenting finished results that others might want to use).
 
 Submission site: [https://syswork26.hotcrp.com/](https://syswork26.hotcrp.com/)
 
+[Link to registration and payment portal](https://webstore.ncl.ac.uk/conferences-and-events/faculty-of-science-agriculture-engineering/national-innovation-centre-for-data/tenth-uk-system-research-challenges-workshop)
+
 This is the tenth iteration of a workshop bringing together systems researchers
 from across the UK and beyond, to discuss pressing topics affecting the design
 and implementation of large-scale systems in a friendly and inclusive setting.
@@ -110,6 +112,8 @@ within the Systems community. We recognise the need for individualised support
 to address barriers to participation. To discuss how we can support you (e.g.
 through bursaries or reimbursement of reasonable expenses) please contact
 [Angela Craggs](mailto:angela.craggs@newcastle.ac.uk).
+
+[Link to registration and payment portal](https://webstore.ncl.ac.uk/conferences-and-events/faculty-of-science-agriculture-engineering/national-innovation-centre-for-data/tenth-uk-system-research-challenges-workshop)
 
 ## Organising Committee
 
