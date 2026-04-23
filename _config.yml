@@ -20,7 +20,7 @@ kramdown:
     bold_every: 5
 
 ## my configuration
-exclude: [Makefile, README.md]
+exclude: [Makefile, Justfile, README.md]
 include: [.well-known]
 permalink: pretty
 
