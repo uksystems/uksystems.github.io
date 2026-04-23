@@ -2,7 +2,7 @@ _default:
     @just --list
 
 port := "8080"
-docker := "docker run -ti -v $(pwd -P):/cwd -w /cwd ${DOCKER_FLAGS:-}"
+docker := "docker run -ti -u $(id -u):$(id -g) -v $(pwd -P):/cwd -w /cwd ${DOCKER_FLAGS:-}"
 jekyll := docker + " -p " + port + ":" + port + " mor1/jekyll"
 
 # build site
