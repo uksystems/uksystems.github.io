@@ -96,44 +96,63 @@ boards will be available from Tuesday night for you to set-up.
 
 **09:00--09:10** Welcome & Introductions (Prince Bishop Suite)
 
-**09:10--09:50** <u>Keynote</u>: Mark Little (Redhat)
+**09:10--09:50** <u>Keynote</u>: Mark Little (Redhat) [[slides](slides/keynote.pdf)]
 
 **10:00--10:40** Session 1: OS
 
-- **A Linux CPU scheduler for interactive multi-threaded workloads**, Al Amjad Tawfiq Isstaif (University of Cambridge)
-- **Just-In-Time Malware Detection**, Gregor Haywood (Abertay University)
+- **A Linux CPU scheduler for interactive multi-threaded workloads**, Al Amjad Tawfiq Isstaif (University of Cambridge)  
+  [[abstract](abstracts/syswork26-paper20.pdf)]
+
+- **Just-In-Time Malware Detection**, Gregor Haywood (Abertay University)  
+  [[abstract](abstracts/syswork26-paper21.pdf)] [[slides](slides/slides21.pdf)]
+
 
 **10:40--11:10** Coffee Break
 
 **11:10--12:10** <u>Session 2: Short Talks #1</u>
 
-- **Aurendil: Accelerating Graph Pattern Matching with Physical Optimizations**, Guang Yang (Neo4j)
-- **Benchmarking and Neural Network-Based Surrogate Model for Hybrid Online-Offline Evolution of Service Function Chain Embedding**, Theviyanthan Krishnamohan (University of Glasgow)
-- **Diverse and Representative Spanning Graphs**, Vlad Gonzalez-Zelaya, Iain Dixon, Daniel Archambault (Newcastle University); Julián Salas (Universitat Autònoma de Barcelona)
-- **Engineering a TinyML system for use off-grid**, Simon Dobson (University of St Andrews)
+- **Aurendil: Accelerating Graph Pattern Matching with Physical Optimizations**, Anson Yang (Neo4j)  
+  [[abstract](abstracts/syswork26-paper15.pdf)] [[slides](slides/slides15.pdf)]
+- **Benchmarking and Neural Network-Based Surrogate Model for Hybrid Online-Offline Evolution of Service Function Chain Embedding**, Theviyanthan Krishnamohan (University of Glasgow)  
+  [[abstract](abstracts/syswork26-paper2.pdf)] [[slides](slides/slides2.pdf)]
+- **Diverse and Representative Spanning Graphs**, Vlad Gonzalez-Zelaya, Iain Dixon, Daniel Archambault (Newcastle University); Julián Salas (Universitat Autònoma de Barcelona)  
+  [[abstract](abstracts/syswork26-paper13.pdf)] [[slides](slides/slides13.pdf)]
+- **Engineering a TinyML system for use off-grid**, Simon Dobson (University of St Andrews)  
+  [[abstract](abstracts/syswork26-paper11.pdf)] [[slides](slides/slides11.pdf)]
+
 
 **12:10--13:30** Lunch (Restaurant 1744)
 
 **13:30--15:10** <u>Session 3: Embedded Systems, AI, and Architecture</u>
 
-- **Security-per-Watt: Making Zero Trust Work When You Have Three Watts and Intermittent Comms**, Jonathan Shelby (Oxford University)
-- **Privacy-Preserving and Scalable Occupant Tracking in Indoor Environments**, Mohammad Yaman Rawas Kalaji, Richard Mortier (University of Cambridge)
-- **Reveal: Hardware-Centric Detection of Silent Inefficiencies in Machine Learning Systems**, Ziji Chen (University of Oxford); Steven Chien (University of St Andrews); Peng Qian, Noa Zilberman (University of Oxford)
-- **Memory-Stacked GPU Architecture for LLM Inference Serving**, Zeyu Xu, Boris Grot (University of Edinburgh)
-- **Icewind: Automatic, Hardware-Accelerated Emulation of Formal Instruction Set Architecture Descriptions**, Ferdia McKeogh, Tom Spink (University of St Andrews)
+- **Security-per-Watt: Making Zero Trust Work When You Have Three Watts and Intermittent Comms**, Jonathan Shelby (Oxford University)  
+  [[abstract](abstracts/syswork26-paper14.pdf)] [[slides](slides/slides14.pdf)]
+- **Privacy-Preserving and Scalable Occupant Tracking in Indoor Environments**, Mohammad Yaman Rawas Kalaji, Richard Mortier (University of Cambridge)  
+  [[abstract](abstracts/syswork26-paper17.pdf)] [[slides](slides/slides17.pdf)]
+- **Reveal: Hardware-Centric Detection of Silent Inefficiencies in Machine Learning Systems**, Ziji Chen (University of Oxford); Steven Chien (University of St Andrews); Peng Qian, Noa Zilberman (University of Oxford)  
+  [[abstract](abstracts/syswork26-paper18.pdf)]
+- **Memory-Stacked GPU Architecture for LLM Inference Serving**, Zeyu Xu, Boris Grot (University of Edinburgh)  
+  [[abstract](abstracts/syswork26-paper8.pdf)] [[slides](slides/slides8.pdf)]
+- **Icewind: Automatic, Hardware-Accelerated Emulation of Formal Instruction Set Architecture Descriptions**, Ferdia McKeogh, Tom Spink (University of St Andrews)  
+  [[abstract](abstracts/syswork26-paper5.pdf)] [[slides](slides/slides5.pdf)]
 
 **15:10--15:30** Coffee Break
 
 **15:30--17:20** <u>Session 4: AI and Databases</u>
 
-- **SparseLoom: Multi-DNN Inference of Sparse Models on Edge SoCs**, Jiawei Luo, Di Wu, Simon Dobson, Blesson Varghese (University of StAndrews)
-- **Efficient Request Scheduler for LLM Inference**, Chen Chen (Nottingham Trent University); Lei jiao (University of Oregon);Richard Mortier (University of Cambridge)
-- **Carbon Efficient Dynamic Allocation and Routing for Agentic LLM Inference**, Amit More, Anwar Tarique, Poonam Yadav (University of York)
+- **SparseLoom: Multi-DNN Inference of Sparse Models on Edge SoCs**, Jiawei Luo, Di Wu, Simon Dobson, Blesson Varghese (University of StAndrews)  
+  [[abstract](abstracts/syswork26-paper3.pdf)] [[slides](slides/slides3.pdf)]
+- **Efficient Request Scheduler for LLM Inference**, Chen Chen (Nottingham Trent University); Lei jiao (University of Oregon);Richard Mortier (University of Cambridge)  
+  [[abstract](abstracts/syswork26-paper4.pdf)] [[slides](slides/slides4.pdf)]
+- **Carbon Efficient Dynamic Allocation and Routing for Agentic LLM Inference**, Amit More, Anwar Tarique, Poonam Yadav (University of York)  
+  [[abstract](abstracts/syswork26-paper6.pdf)] [[slides](slides/slides6.pdf)]
 
 **16:30--16:40** Comfort Break
 
-- **RIOT: A New Leaderless Consensus Protocol for Scalable Distributed Graph Databases**, Jim Webber
-- **Aurendil: Rethinking the Graph Database Engine**, James Clarkson (Neo4j)
+- **RIOT: A New Leaderless Consensus Protocol for Scalable Distributed Graph Databases**, Jim Webber  
+  [[abstract](abstracts/syswork26-paper1.pdf)] [[slides](slides/slides1.pdf)]
+- **Aurendil: Rethinking the Graph Database Engine**, James Clarkson (Neo4j)  
+  [[abstract](abstracts/syswork26-paper19.pdf)]
 
 **17:20--18:30** Poster Session
 
@@ -152,19 +171,27 @@ boards will be available from Tuesday night for you to set-up.
 
 **09:30--10:30** <u>Session 5: Short Talks #2</u>
 
-- **Machine Learning Approaches for Forecasting Ammonia Concentrations and Performance Outcomes in Wastewater Treatment Processes**, Abduljaber Abdulqader (Newcastle University)
-- **Challenges and Choices in building a Replicated, High-Throughput, Distributed ACID Transactions Management System**, Paul Ezhilchelvan, Yingming Wang (Newcastle University); Jim Webber (Neo4j, London, UK)
-- **Spandana: Reconciling Strict SLOs with Low Cost under Fine-Grained Load Fluctuations**, Dilina Dehigama, Shyam Jesalpura, Boris Grot (University of Edinburgh)
-- **HABITAT--Hardware-Accelerated Binary Translator**, Sing Hin To (University of St Andrews)
+- **Machine Learning Approaches for Forecasting Ammonia Concentrations and Performance Outcomes in Wastewater Treatment Processes**, Abduljaber Abdulqader (Newcastle University)  
+  [[abstract](abstracts/syswork26-paper25.pdf)] [[slides](slides/slides25.pdf)]
+- **Challenges and Choices in building a Replicated, High-Throughput, Distributed ACID Transactions Management System**, Paul Ezhilchelvan, Yingming Wang (Newcastle University); Jim Webber (Neo4j, London, UK)  
+  [[abstract](abstracts/syswork26-paper24.pdf)] [[slides](slides/slides24.pdf)]
+- **Spandana: Reconciling Strict SLOs with Low Cost under Fine-Grained Load Fluctuations**, Dilina Dehigama, Shyam Jesalpura, Boris Grot (University of Edinburgh)  
+  [[abstract](abstracts/syswork26-paper7.pdf)] [[slides](slides/slides7.pdf)]
+- **HABITAT--Hardware-Accelerated Binary Translator**, Sing Hin To (University of St Andrews)  
+  [[abstract](abstracts/syswork26-paper16.pdf)] [[slides](slides/slides16.pdf)]
 
 **10:30--11:00** Coffee Break (Prince Bishop Suite foyer)
 
 **11:00--12:20** <u>Session 6: Verification and Benchmarking</u>
 
-- **Lightweight specification and checking of systems code**, Ben Simner, Kayvan Memarian (University of Cambridge)
-- **Designing Interruptible Protocols in Distributed Systems**, Leonid Nosovitskiy, Adam Barwell (University of St Andrews)
-- **ParaLog: Transparent Acceleration of Scientific Applications**, Steven W. D. Chien (University of St Andrews)
-- **Constructing Backpressure Resistant Closed-Loop Stream Benchmarks**, Iain Dixon, Matthew Forshaw, Joe Matthews (Newcastle University)
+- **Lightweight specification and checking of systems code**, Ben Simner, Kayvan Memarian (University of Cambridge)  
+  [[abstract](abstracts/syswork26-paper22.pdf)] [[slides](slides/slides22.pdf)]
+- **Designing Interruptible Protocols in Distributed Systems**, Leonid Nosovitskiy, Adam Barwell (University of St Andrews)  
+  [[abstract](abstracts/syswork26-paper12.pdf)] [[slides](slides/slides12.pdf)]
+- **ParaLog: Transparent Acceleration of Scientific Applications**, Steven W. D. Chien (University of St Andrews)  
+  [[abstract](abstracts/syswork26-paper10.pdf)]
+- **Constructing Backpressure Resistant Closed-Loop Stream Benchmarks**, Iain Dixon, Matthew Forshaw, Joe Matthews (Newcastle University)  
+  [[abstract](abstracts/syswork26-paper23.pdf)]
 
 **12:20--12:30** Wrap-up and closing comments
 
